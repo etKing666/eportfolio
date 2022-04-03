@@ -160,9 +160,52 @@
 								- Two important approaches to the robotics: (1) Robots keep a detailed record of its environment and acts accordingly. (2) Robots react to the ,immediate objects and actions in their surroundings (w.g. ‘reactive robots’). <br />
 								- In the past, technology was slow enough for humans to digest. However, in today’s world, it develops at a much faster rate that it creates a lot of ethical questions and issues. Perhaps, today’s life is overdependent on the machines?<br /></p>					
 								<p><center>--------</center> </p>
+								<h2>Unit 4: Computing Infrastructure and Network</h2>
+								<h3>My reflections about the unit</h3>
+								<p>As the name suggests, the focal point of the Unit 4 was the networks and network components. The core book represents all the information in a well-structured manner which starts from the fundamentals (e.g. the classifications of networks, topologies, protocols, network elements used to combine networks) to more complex topics (w.g. DNS lookup, internet addressing. Understanding the concept of the layered approach to internet software and client side/server side activities was the most important part of the unit for me. One deficit of the core book, in my opinion, is that DNS lookup process is not discussed throughly. If we had a diagram of how the DNS lookup is carried out (DNS Resolver root server, domain name server, etc.), it would help a lot. I had to make my own research to understand the subject better.</p>
+								<p>The additional reading material was particularly interesting. The article about the “Connected Vehicles” proved very useful for me to see the real-life application of the topics discussed in this unit. The TED talk delivered by Avi Rubin was very interesting as it shows how the simple things are in fact small computers and therefore can be hacked in various ways.</p>
+								<p>We also had a seminar (Seminar #2) this week, in which we discussed the concept of emerging technologies and the challenges they pose. </p>
+								<p>--------</p>
+                						<h3>Outcome of research activities: </h3>
+								<p><i>1. Open a website on a browser then investigate various functionality that are associated with the browser to get a webpage loaded.</i></p>
+                						<p>I did this activity in two steps to beter reflect the effect of the DNS cache: First, I tried to access a website which I use frequently (e.g. www.cumhuriyet.com.tr  - a newspaper I read regularly) and a website which I never visited before. I used Google Chrome browser for this investigation.</p>
+								<p>When I typed in the URL of the website www.cumhuriyet.com.tr to the browser’s address line, it loads pretty quickly. That is because this is a website I visit frequently and I already have the DNS lookup information from my previous lookups (possibly from the first lookup) in the DNS cache on my machine. Therefore, my DNS lookup doesn’t need to be forwarded to the DNS resolver and then to the root server, TLS server and DNS server. Moreover, it is also important to note that, there is a padlock icon to the left side of the URL on the address line, meaning the “connection is secure”. This is because even though I did not explicitly typed https://www.cumhuriyet.com.tr,  the browser used HTTPS protocol (the secure version of HTML protocol) because the domain was preconfigured to use HTTPS. Finally, when I looked up for the IP address of the www.cumhuriyet.com.tr domain URL (via https://www.whatismyip.com/dns-lookup/), I found out that the IP addresses of the URL are 104.26.15.176, 172.67.69.185 and 104.26.14.176.</p>
+								<p>In the second part of my investigation, I typed in www.gratis.com - a website that I never visited. This time, it took slightly more time (because we are talking about milliseconds after all) until the domain name is resolved. Even though we can’t see anything on the browser UI, from what I learnt in this unit, I know that when I typed in the URL of the website, DNS lookup process is started. It went through the DNS Resolver to Root DNS server, then to the TLD Server (for .com) and finally, to the name server of gratis.com and then, the IP address of the domain name is sent to the machine through DNS Resolver. Then, the machine contacts the server using the IP address t received from the name server to fetch the data stored in the server and display it on the browser to the user. Likewise, when I looked up for it, I found that the IP addresses for gratis.com domain name are 23.34.82.137 and 23.34.82.149. Hopefully, next time (if) I visit the website, it will lake less time because the DNS lookup result (e.g. the IP address the domain name refers to) is saved in the cache.<br /></p>
+								<p><i>2. Attempt to create a simple website using html by visiting the Introduction to HTML Codio module.</i></p>
+                						<p>As per the activity instructions, I hace created a simple website on Codio IDE. My website specs are:</p>
+								<p>- It has a home page and two inner pages (Biography and Works of Dvorak). <br />
+								- It has a simple main navigation menu.<br />
+								- It has a link to an external page where one can listen to the MIDI of his compositions.<br />
+								- Other than that, I did not use any background color, image or complex design elements as the main focus of this activity was to getting familiar with Codio IDE. <br /></p>
+								<p>You can see my website live here: https://etking666.github.io/simplewebsite/ </p>
+								<p>--------</p>
+								<h3>Key takeaways: </h3>
+                						<p>- Types of networks: <b>PAN, LAN, MAN and WAN.</b><br />
+								- The distinction between the topologies (e.g. bus or star) is whether the devices can communicate with each other directly (bus) or via an intermediary device (star).<br />
+								- Protocols is a set of rules on how an activity is conducted.<br />
+								- MAC protocols (ethernet): <b>CSMA/CD</b> (Carrier Sense, Multiple Access with Collusion Detection), <b>CSMA/CA</b>  (Carrier Sense, Multiple Access with Collusion Avoidance)<br />
+								- <b>Internet</b> (with uppercase I) refers to a specific world wide internet, while <b>internet</b> (with lowercase i) refers to a network of networks which includes incompatible networks, where original networks retain their autonomy. <br />
+								- Unlike repeaters, bridges and switches; <b>routers</b> provide links between the networks while allowing each network to retain their own characteristics.<br />
+								- Each machine in a network has two addresses: Local address and internet address.<br />
+								- Methods of interprocess communication: <b>client/server</b> model and <b>P2P</b> model. <br />
+								- Types of distributed systems: <b>Cluster computing, grid computing, cloud computing</b>.<br />
+								- <b>Last mile problem</b>: The issues arising from modern infrastructure (e.g. fiberoptic lines) been connected to analog linkages to provide connectivity to households, hence losing speed. <br />
+								- <b>DNS lookup process:</b><br />
+								<img src="/images/dnslookup.png" alt="DNS Lookup Process"><br />
+								Figure 1: DNS lookup Process (Javatpoint, N.D.).<br />
+								- Internet Multimedia Streaming Techniques: N-unicast, Multicast, On-demand Streaming, Content Delivery Networks, Anycast.<br /> 
+								- <b>XML<b/> (eXtensible Markup Language): A stadardized style for designing notation systems for representing data as text files.<br /> 
+								- 4 layers of the internet software. <b>(1) Application Layer, (2) Transport Layer), (3) Network Layer, (4) Link Layer</b>.<br />
+								- The <b>port numbers</b> determine which unit within the application layer should receive the message. Port numbers are determined by the transportation layer.<br />  
+								- "The application layer deals with messages from the application’s point of view. The transport layer converts these messages into segments that are compatible with the Internet and reassembles messages that are received before delivering them to the appropriate application. The network layer deals with directing the segments through the Internet. The link layer handles the actual transmission of segments from one machine to another" (Brookshear & Brylow, 2019: 234). <br />
+								- Key concepts about autonomous cars: <b>Internet of Vehicles (IoV), Intelligent Transportation Systems (ITS), Vehicle-to-Sensor (V2S), Vehicle-to-Vehicle (V2V), Vehicle-to-Internet (V2I), Vehicle-to-Road Infrastructure (V2R)</b>.<br />
+								</p>
+								<p>--------</p>
 								<h3>References:</h3>
 								<p>British Computer Society (2021) Code of Conduct for BCS Members. Available from: https://www.bcs.org/media/2211/bcs-code-of-conduct.pdf [Accessed 12 March 2022]<br />
 								Brookshear, J. G., Brylow, D.  (2019) <i>Computer Science: An Overview, Global Edition.</i> New York: Pearson.  Available via the Vitalsource Bookshelf. [Accessed 18 March 2022].<br />
+								Javatpoint (N.D.), DNS Lookup. Available from: https://www.javatpoint.com/dns-lookup [Accessed: 3 April 2022].
+								Lu, N., Cheng N., Zhang, N., Shen, X., and Mark, J. W. (2014) Connected Vehicles: Solutions and Challenges. <i>IEEE Internet of Things Journal</i>, 1(4): 289-299. DOI: 10.1109/JIOT.2014.2327587.<br />
 								Taivalsaari, A., Mikkonen, T., Pautasso, C., & Systä, K. (2021) Full Stack Is Not What It Used to Be. International Conference on Web Engineering: 363-371.<br /></p>
 							</section>
 
