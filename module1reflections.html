@@ -200,7 +200,7 @@
 								- "The application layer deals with messages from the application’s point of view. The transport layer converts these messages into segments that are compatible with the Internet and reassembles messages that are received before delivering them to the appropriate application. The network layer deals with directing the segments through the Internet. The link layer handles the actual transmission of segments from one machine to another" (Brookshear & Brylow, 2019: 234). <br />
 								- Key concepts about autonomous cars: <b>Internet of Vehicles (IoV), Intelligent Transportation Systems (ITS), Vehicle-to-Sensor (V2S), Vehicle-to-Vehicle (V2V), Vehicle-to-Internet (V2I), Vehicle-to-Road Infrastructure (V2R)</b>.<br />
 								</p>
-								Computing as a Profession - Responsibilities and Challenges<<p>--------</p>
+								<p>--------</p>
 								<h2>Unit 5: Software as a Tool - Its Functionality and Development Methodologies</h2>
 								<h3>My reflections about the unit</h3>
 								<p>Unit 5 focuses on the principles of software engineering and software development. Reading about the software life cycle and the different approaches to the software development was very interesting. Apparently, the development methodology is constantly evolving and the programmers always come up with more efficient ways. Especially, modern methodologies like <a href="https://www.scrum.org">SCRUM</a> helps development teams to reshape themselves in line with the requirements of modern development environment (e.g. clients, developers, tools, etc.)</p>
@@ -223,8 +223,38 @@
 								- <b>Black box testing</b>: Software tester doesn’t know the software’s interior structure. For example: alpha testing, beta testing, boundary value analysis.<br />
 								- Software documentation: (1) User documentation, (2) System documentation, (3) Technical documentation.<br />
 								- GOMS: Goals, operators, methods, and selection rules.<br /></p>
-								<p><br /></p>
-								<p><br /></p>
+								<p>--------</p>
+								<h2>Unit 6: System Software – Operating Systems</h2>
+								<h3>My reflections about the unit</h3>
+								<p>The operating systems are the fundamental software that controls and coordinates the computer hardware’s activities as per the instructions given by the user. It is situated between the user and the hardware, making it easier for the users to access the functionality the hardware of the computer offers. Unit 6 gives detailed information about the intricacies of operating systems. </p>
+								<p>This unit was particularly important for me because it helpmed me to clarify a number of concepts I have heard and used a lot without knowing the exact meaning of them, such as the distinction between a process and a program, the difference between time-sharing and multitasking, kernel, shell, virtual memory, etc. </p>
+								<p>Among the formative activities, we had the introductory phython exercises on Codio. Even though I am quite knowledgeable about the basic concepts such as loops or conditions, the exercises proved useful to freshen some details like notation (e.g. The difference between ythe notation of phython and C). </p>
+								<p>--------</p>
+                						<h3>Outcome of research activities: </h3>
+								<p><i>OS Investigation.</i></p>
+                						<p>I am using a MacBook running on MacOS Monterey, version 12.3.1. When I click on the “System Preferences”, I can see that the OS offers user management tools (passwords, Users & Groups, etc.), I/O device control tools (Bluetooth, Keyboard, Trackpad, Mouse, Displays, Printers and Scanners), System Settings (Language & Region, Desktop & Screen Saver, Date and Time, etc.), Backup and maintenance tools (Time Machine, Startup Disk) and Network tools. </p>
+								<p>As per the instructions given for the research activity, I have created a new folder, stored a new file to the newly created folder, I renamed the folder and finally, renamed the file. When I click on “Get info”, I can see the total size of the folder, the file path, when it was created and modified, when it was last opened as well as the additional properties like “shared folder” or “locked”. I can see the same information for the file as well as the file extension, the app to open the file and the preview of the file.</p>
+								<p>--------</p>
+								<h3>Key takeaways: </h3>
+								<p>- A CPU never processes multiple tasks at the same time. Rather, it creates the illusion of multitasking by turning its attention back and forth between the processes in the queue in turn in miliseconds. <br />
+								- <b>Time-sharing</b> is dividing the CPU time between many users. On the other hand, <b>multitasking</b> is dividing the CPU time between the applications of the same user.<br />
+								- <b>Utility software</b> allows users to easily customize some features of the operating system (e.g. this way, users are able to choose which app to use when playing videos). That’s why they are not directly included in the operating system. <br />
+								- <b>Shell</b> is the type of older user interface which communicates with users via a text-based interface. <b>GUI</b> (graphical user interface) is a modern type of interface which offer users a graphical means of manipulating the files and using the programs.<br />
+								- Important components of an operating system: User Interface, Window Manager, Kernel, File Manager, Device Drivers, Memory Manager, Scheduler, Dispatcher. <br />
+								- Thanks to the <b>device drivers</b>, the design of the software units within the operating system can be independent of the unique characteristics of particular devices. <br />
+								- <b>Virtual memory</b> is the procedure in which the memory manager uses an additional space in the mass storage to store the data which exceeds the size of the main memory, thereby creating an illusion of having more memory than the machine really has. This data is divided into uniformly sized units called <b>pages</b>.<br />
+								- CPU finds the initial program to start the booting process in a special place called <b>read-only memory (ROM)</b>. The contents stored here can only be read but cannot be altered.<br />
+								- The software in the ROM (FlashROM) which cannot be easily altered as the programs in the mass storage and which helps to carry out fundamental input/output activities is called <b>firmware</b>.<br />
+								- <b>Process</b> is a program that is being executed. The current status of a process at a given time is called <b>process state</b>. <br />
+								- The <b>scheduler</b> maintains a record of the processes present in the computer system. The scheduler keeps the record of processes in the <b>process table</b>.<br />
+								- The <b>dispatcher</b> is responsible for overseeing the execution of the scheduled processes. Dispatcher allocates a <b>time slice</b> to processes for execution. Dispatcher sends an <b>interrupt</b> to indicate the end of the time slice.<br />
+								- Whenever CPU receives an interrupt, it activates <b>interrupt handler</b> - a part of the dispatcher.<br />
+								- <b>Spooling</b> is the technique of holding data for output at a later but more convenient time.<br />
+								- For security reasons, CPUs have two privilege levels: <b>Privileged mode</b> and <b>nonprivileged mode</b>. When first turned on, the CPU is in privileged mode. An attempt to execute a privileged instruction when the CPU is in nonprivileged mode causes an interrupt.<br />
+								- <b>Power-On Self Test (POST)</b> is the procedure carried out by BIOS chip to make sure all the hardware is working properly.<br />
+								- <b>Master Boot Record (MBR)</b> is a small sector at the very beginning of the primary hard disk, which contains a list of all partitions on the computer.<br />
+								- <b>Bootstrap Loader</b> follows basic instructions for starting up the rest of the computer.	<br />
+								- <b>A system call</b> is the interface between a process and the operating system. It is a way in which a program requests a service from the kernel.<br />
 								<p>--------</p>
 								<h3>References:</h3>
 								<p>British Computer Society (2021) Code of Conduct for BCS Members. Available from: https://www.bcs.org/media/2211/bcs-code-of-conduct.pdf [Accessed 12 March 2022]<br />
