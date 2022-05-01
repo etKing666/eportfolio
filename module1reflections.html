@@ -279,7 +279,38 @@
 								<p>- <b>User-defined data types</b> are a group of primitive data types put together under one common name.<br /></p>
 								<p>- <b>Abstract data type</b> is a data type defined by user which contains the data and functions.<br /></p>>
 								<p>--------</p>
-
+								<h2>Unit 8: An Introduction to Algorithms and Basic Programming Concepts</h2>
+								<h3>My reflections about the unit</h3>
+								<p>Algorithms are one of the most powerful tools in the arsenal of a programmer. As such, algorithm representation, iterative and recursive structures are important concepts in order to make the best use of the algorithms. Reading about these concepts and at the same time working on the Codio exercises helped a lot to sharpen my skills. I would especially like to highlight <a href="https://discrete.gr/complexity/" target="_self">the useful article about the algorithm complexity</a> in which Big O notation is explained in simple terms. Bir O notation is one of the most difficult topics to understand, especially for those who have no solid mathematical background, yet it is a very important concept when it comes to the algorithm efficiency.</p>
+								<p>Even though the algorithm complexity is something we are trying to avoid when designing algorithms and applications, at the same time, it is something cryptographers take advantage of in order to design different cryptography systems which are not impossible to break, but are inefficient (i.e. takes a lot of tiem to break so that the information is no longer valuable when it is broken) to do so.</p>
+								<p>I believe that understanding of efficiency and complexity of algorithms will help me a lot when designing algorithms.</p>
+								<p>--------</p>
+                						<h3>Outcome of research activities: </h3>
+								<p><i><b>Data sort using cards</b>. Suppose you are sorting a set of cards. The right hand holds several cards which are sequentially sorted by numbers arranged from right to left, say for example, five cards with 10, 6, 5, 3, 2 arranged from right to left. Your left hand is picking up the top card from a pile of card deck. Now you insert the card that you have picked from the pile of deck into the right position within the right-hand cards, in a sorted order from right to left.</i></p>
+                						<p>In this case, since I have a sorted array, I’d perform a binary search (since this is the most effective search algorithm in this case) first and then insert the card to the proper place. Let’s say I drew “9”. For easier demonstration, I will rearrange the cards in my right hand as 2, 3, 5, 6, 10 from left to right.</p>
+								<p>1. The middle point of the array is 5. Since 9 is bigger than 5, I’d go to the right child.<br />
+								2. The right child is 10 (since we have an odd number of cards, it could have been 6 as well). Since 9 is smaller than 10, I’d go to left child.<br />
+								3. The left child of 10 is 6. Since 9 is bigger than 6, I’d go to the right child.<br />
+								4. 6 doesn’t have a right child, so 9 should go there.</p>
+								<p>As a result, 9 should go to the immediate right of 6 and immediate left of 10 in the right hand.<br /></p>
+								<p>--------</p>
+								<h3>Key takeaways: </h3>
+								<p>- Since a program is a formal representation of an algorithm, process (which was defined the activity of executing a program before) is also the activity of executing an algorithm. <br />
+								- <b>Pseudocode</b> is a system in which ideas are expressed informally while developing an algorithm.<br />
+								- Sequencing, selection and iteration are building blocks of algorithms.<br />
+								- <b>Stepwise refinement</b> is a technique in which problem is broken down into several subproblems.<br />
+								- Sequential search, binary search and insertion sort are examples of <b>iterative structures</b>.<br />
+								- Binary search is an example of <b>recursive structures</b>. <br />
+								- <b>Base case</b> (a.k.a. degenerative case) is there termination condition of a recursive function. Without a proper base case, a recursive function may run forever.<br />
+								- <b>Church-Turing tests</b> help us to determine if a function is computable or not, showing us the capabilities and limitations of computers.<br />
+								- <b>Time complexity</b> estimates the complexity of a problem in terms of time spent to solve it.<br />
+								- <b>Space complexity</b> estimates the complexity of a problem in terms of space requirements.<br />
+								- An algorithm which involves creative decisions is called <b>nondeterministic algorithm</b>. When repeated under the same conditions, nondeterministic algorithms might produce different results, while <b>deterministic algorithms</b> always provide the same results under same conditions. <br />
+								- <b>Public-key encryption systems</b> rely on two different keys: <b>public keys</b> which are used for encryption and <b>private keys</b> which are used for decryption. <br />
+								- When comparing algorithms, usually, worst-case scenario is considered.<br />
+								- <b>Asymptotic behaviour</b> is a technique to filter out all the factors and keeping the largest growing term to come up with an assumption about the complexity of an algorithm. <br />
+								- <b>Big-O notation</b> estimates the upper boundary (upper bound) of the complexity, e.g. an estimate of the worst case scenario (any other result wouldn’t be worse than the Big-O). Θ gives the actual complexity of an algorithm (tight bound).<br /></p>
+								<p>--------</p>
 								<h3>References:</h3>
 								<p>British Computer Society (2021) Code of Conduct for BCS Members. Available from: https://www.bcs.org/media/2211/bcs-code-of-conduct.pdf [Accessed 12 March 2022]<br />
 								Brookshear, J. G., Brylow, D.  (2019) <i>Computer Science: An Overview, Global Edition.</i> New York: Pearson.  Available via the Vitalsource Bookshelf. [Accessed 18 March 2022].<br />
