@@ -56,7 +56,7 @@
 								<p>This unit focuses on the concept of object orientation and python. The syntax, initialization of objects and how to access the object variables were the main topics covered. The discussion about the philosophical aspect of object oriented approach (Joque, 2016) was particularly interesting. Other topics of interest were the overview of Unified Modeling Language (UML) and the importance of software reusability.</p>
 								<p>One of the most important points for me this week was to choose an IDE to work on. I used to work on VS Code and AWS Cloud9, but I was looking for a simpler tool which would help me to code in an easier and faster manner. Thanks to the recommendations by Reitz & Schlusser (2016) I had a chance to have a look at the different options and decided to use PyCharm for now. It seems like it is more lightweight compared to VS Code and offers templates for frameworks like Flask or Django. </p> 
 								<p><center>--------</center> </p>
-                						<h3>Forum discussion: </h3>
+								<h3>Forum discussion: </h3>
 								<p><i>Refer to the article by Padhy et al. (2018), specifically Table 1, where the authors present a list of factors which they consider influence the reusability of a piece of object-oriented software. In this collaborative discussion, you are required to prioritise this list, presenting your argument for the priorities assigned.</i></p>
                 						<p>Software reuse is a fundamental factor to make progress in the field of software engineering and design robust software, and to benefit from the research and progress that the software engineers and developers have made until today. Regarding the reusable properties listed by N. Padhy et al. (2018), from my point of view, the order of priority is as follows:<br />
 								<ol>
@@ -94,7 +94,6 @@
 								<p>This unit’s Codio activities included important concepts like class, functions and methods. I also wrote a small Python program which comprises of basic employee functions. As part of my independent research about protected variables, I found out that in Python, the concept of “protected variables” is only a convention. In fact, it is possible to access the protected variables from outside the class. However, when programmers see the protected variable notation (e.g. _variable), they take it as a warning from the developer to not to access it from outside the class.</p>
 								<p>The last but not the least, you can see the pen portrait for a user of a driverless car and a use case diagram that depicts how the user interacts with the car in the <a href="artefacts.html">Artefacts</a> section.</p>
 								<p><center>--------</center> </p>
-								<p><center>--------</center> </p>
 								<h3>Key takeaways:</h3>
 								<p>- <b>Pure functions</b>: A pure function does not modify any of the objects passed to it as arguments and it has no effect, like displaying a value or getting user input, other than returning a value. <br />
 									- <b>Modifiers</b>: Modifiers are functions that modify the objects they get as parameters. In that case, the changes are visible to the caller.<br />
@@ -102,12 +101,60 @@
 									- Requirements that should always be true in a code are called <b>invariants</b><br />
 									- The values of <b>class variables</b> are the same in all objects/instances. However, the values of <b>instance variables</b> (e.g. __init__()) may change in every object/instance depending on the parameters passed.</p>
 								<p><center>--------</center> </p>
+								<h2>Unit 3: UML</h2>
+								<p>The main theme of the Unit 3 was the different views of UML, and its shortcomings. As we can clearly see, even though it is an indispensable tool in the arsenal of a developer, it is still far from perfect. The most striking finding was that the freedom it provides (e.g. lack of formal semantics) is also its biggest weakness. There are numerous proposed solutions to overcome such difficulties, but the biggest concern here is that UML may lose its flexibility as part of the efforts to introduce strict rules to be followed.</p>
+								<p>As someone new to UML, this discussion proved very useful to me. In the future, I will certainly consider these shortcomings when using UML, especially when working with other developers who may have different perceptions of UML.</p>
+								<p><center>--------</center> </p>
+								<h3>Forum discussion (Summary post): </h3>
+								<p>It has been a fruitful discussion in the forum. To summarize, I prioritized the reusable properties listed by N. Padhy et al. (2018) and ranked algorithms used in the program (AP) first followed by models in the project (MP), design patterns (DP) and modules in the program (MIP).</p>
+								<p>The feedback I received from my peers were very useful and interesting. As some of them pointed out, I might have attached too little importance to the Requirement Analysis but after much thinking and careful examination of the feedback and posts of my peers, I still think that algorithms and models make a greater impact in terms of software reusability.</p>
+								<p>To clarify my point of view, I would like to underline two important points:</p>
+								<p>1. My prioritized list in my initial list is not meant to be in sequential order. As Zukiswa pointed out, I agree that the Requirement Analysis should precede the other steps so that we can find out what the requirements of the projects are. However, since we were expected to put the reusable properties in the order of priority, I opted to put them in the order of importance (i.e. the impact they make on the software design). Therefore, the ones that save the developers more time or effort rank first.</p>
+								<p>2. The Python libraries/modules/packages are arguably most practical example of my point of view on the extent of usability and the impact reusing algorithms and pieces of code make. For instance, let’s take a closer look at math (2022) module which includes handy functions like factorial, perm and trigonometric functions. Without this module, one would have to write each function from scratch. Likewise, the famous Python package Tensorflow (2022) allows developers to reuse the community-created models. This way, it helps to do a lot of things with minimal effort. </p>
+								<p>In a nutshell, I think algorithms and models should be ranked at the top of the list when it comes to software reusability because of the reasons I have explained above. </p>
+								<p><b>Note:</b> The references are incorporated into the reference list in the end of the page.</p>
+								<p><center>--------</center> </p>
+								<h3>e-Portfolio Activities: </h3>
+								<p><i>Discuss which UML models are most applicable at different stages of the Software Development Life Cycle.</i></p>
+								<p>As far as I see, there is no commonly agreed structure of the Software Development Life Cycle (SDLC) and it is typically divided into 5 to 8 steps. I will use the 6-step SDLC to demonstrate which UML models and diagrams should be used throughout the process.</p>
+								<p><b>Stage 1: Planning and Requirement Analysis</b><br />
+									Model management view<br />
+									Use case diagram<br /></p>
+								<p><b>Stage 2: Defining Requirements</b><br />
+									Use case diagram<br />
+									Collaboration diagram<br /></p>
+								<p><b>Stage 3: Designing the Product Architecture</b><br />
+									Class diagram<br />
+									State machine diagram<br />
+									Collaboration diagram</p>
+								<p><b>Stage 4: Building or Developing the Product</b><br />
+									Sequence diagram<br />
+									Class diagram <br /></p>
+								<p><b>Stage 5: Testing the Product</b><br />
+									Use case diagram<br />
+									Class diagram<br />
+									Activity diagram <br /></p>
+								<p><b>Stage 6: Deployment in the Market and Maintenance</b><br />
+									Deployment diagram<br />
+									Model management view<br /></p>
+								<p><i>Making reference to ‘The Unified Modeling Language Reference Manual Second Edition’, use the State Machine Diagram in Figure 3-7 to design a similar model for a washing machine.</i></p>
+								<p style="text-align:center;"><img src="../images/m2u3_washingmachine.png" alt="State machine diagram for a washing machine"><br /></p>
+								<p style="text-align:center;">Figure 1: State machine diagram for a washing machine.<br /></p>
+								<p><center>--------</center> </p>
+								<h3>Key takeaways:</h3>
+								<p>- A <b>UML view</b> - is a subset of UML modeling constructs.<br />
+									- The views are broken down into three areas: <b>structural classification, dynamic behavior, and model management.</b><br />
+									- Lack of a formal UML semantics and the freedom it provides lead to different interpretation of UML by practitioners. <br />
+									- Since the specifications of a design are scattered over multiple views, they can easily go unnoticed. <br /></p>
+								<p><center>--------</center> </p>
 								<h3>References:</h3>
 								<p>Di Silvestro, F. & Nadir, H. (2021) The Power of ePortfolio Development to Foster Reflective and Deeper Learning in an Online Graduate Adult Education Program, Adult Learning 32(4): 154–164. <br />
 								Joque, J., 2016. The Invention of the Object: Object Orientation and the Philosophical Development of Programming Languages. Philosophy & Technology, 29(4), pp. 335-356.<br />
 								Kang, W. B. F. &. K., 2005. Software Reuse Research: Status and Future. IEEE TRANSACTIONS ON SOFTWARE ENGINEERING, 31(7), pp. 529-536.<br />
-								Padhy, D. N. &. S. S. &. S. R., 2018. State-of-the-Art Object-Oriented Metrics and Its Reusability: A Decade Review. In: V. B. S. D. Suresh Chandra Satapathy, ed. Smart Computing and Informatics. s.l.:Springer Singapore, pp. 431-441.<br /> 
-								Reitz, K. & Schlusser, T. (2016) The Hitchhiker’s Guide to Python. 1st ed. Sebastopol: O'Reilly Media.<br /></p>
+								Padhy, D. N. &. S. S. &. S. R., 2018. State-of-the-Art Object-Oriented Metrics and Its Reusability: A Decade Review. In: V. B. S. D. Suresh Chandra Satapathy, ed. Smart Computing and Informatics. s.l.:Springer Singapore, pp. 431-441.<br />
+									Python.org, 2022. Python 3.10.5 Documentation. Available from: https://docs.python.org/3/library/math.html [Accessed 1 July 2022].<br />
+								Reitz, K. & Schlusser, T. (2016) The Hitchhiker’s Guide to Python. 1st ed. Sebastopol: O'Reilly Media.<br />
+									TensorFlow, 2022. TensorFlow. Available from: https://www.tensorflow.org [Accessed 2 July 2022].<br /></p>
 							</section>
 
 					</div>
