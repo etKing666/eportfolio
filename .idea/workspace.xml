@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fec54561-fbde-4177-bdbe-cfbad78fe4c2" name="Changes" comment="Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module2/reflections.html" beforeDir="false" afterPath="$PROJECT_DIR$/module2/reflections.html" afterDir="false" />
+    <list default="true" id="fec54561-fbde-4177-bdbe-cfbad78fe4c2" name="Changes" comment="Unit 6 update.">
+      <change beforePath="$PROJECT_DIR$/module2/artefacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/module2/artefacts.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
       <updated>1656012483318</updated>
       <workItem from="1656012489509" duration="495000" />
       <workItem from="1658668736797" duration="336000" />
-      <workItem from="1658669082957" duration="1269000" />
+      <workItem from="1658669082957" duration="1655000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1658669203843</created>
@@ -52,7 +51,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658669203843</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Unit 6 update.">
+      <created>1658670709862</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658670709862</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,6 +77,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+    <MESSAGE value="Unit 6 update." />
+    <option name="LAST_COMMIT_MESSAGE" value="Unit 6 update." />
   </component>
 </project>
