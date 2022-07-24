@@ -172,15 +172,65 @@
 									- A <b>decorator</b> is a function that takes another function and extends the behavior of this function without explicitly modifying it (Hjelle, 2018).<br />
 									- <b>Pair programming</b> is the practice where two people write code together on one machine. Usually, one of them (preferably the more experienced one) assumes the “navigator” role and focuses on the strategy and double-checking the code that’s being written and the other one (less experienced one) assumes the “driver” role and writes the code, focusing on the tactical side. These two switch roles regularly  (Böckeler & Siessegger, 2020).<br /></p>
 								<p><center>--------</center> </p>
+								<h2>Unit 6: Abstract Methods and Interfaces</h2>
+								<h3>My reflections about the unit:</h3>
+								<p>The main theme of the Unit 6 was the interfaces and abstract classes (more specifically, abstract methods). From my point of view, this is one of the most confusing aspects of object-oriented programming (OOP), because one understands the importance of interfaces only after he/she grasps the foundations of object oriented design and the concept of software reuse. Obviously, interfaces play an important role to streamline the design process, by standardizing the subclasses that will be created in the program and avoiding creation of subclasses and objects arbitrarily. </p>
+								<p>After spending considerable time in reading, researching and coding, I developed a fairly good understanding of how abstract base classes work. Now, I am aware of how the abc module is used while creating abstract base classes and how the decorators are used when defining abstract methods. As a practice, I wrote <a href="https://github.com/etKing666/MSc_Module2/blob/master/abstraction.py">a simple Python program</a> in which I defined an abstract class with three abstract methods that allows a user to perform basic banking operations (e.g. check balance, deposit and withdraw) via a text-based interface. </p>
+								<p>Apart from that, this week’s Codio module about Encapsulation proved very useful for me in order to gain an understanding of the concept of getters, setters and using property() function as well as the @property and @gettername.setter decorators. </p>
+								<p>The last but not the least, using design patterns, without a doubt, is a great practice. As shown by Gamma et al. (2009) there are common patterns that can be used as a starting point when designing a new system. This practice helps to avoid risking having to redesign the software and save time (do not rediscover what has already been discovered). </p>
+								<p><center>--------</center> </p>
+								<h3>Seminar preparation questions: </h3>
+								<p><i>1. Discuss the metrics used to assess the features of an object oriented program.</i></p>
+								<p>Dubey & Rana (2010) succinctly summarizes the metrics used when assessing the features of an object-oriented program as follows:</p>
+								<ul>
+									<li><b>Weighted methods per Class (WMC)</b>: The number of methods defined or within a class. It is an indication of the complexity of a class.</li>
+									<li><b>Response sets for Class (RFC)</b>: The number of methods defined within a class hierarchy that is executed in response to a message. Higher numbers indicate to a more error-prone and a less usable system.</li>
+									<li><b>Lack Of Cohesion in Methods (LCOM)</b>: Cohesion is an indication of the extent the operations in a class are related with each other. Therefore, lower LCOM is desired.</li>
+									<li><b>Coupling Between Object Classes (CBO)</b>: It is a measure of coupling between two objects. For instance, if an object uses the methods of the other, these two objects are considered “coupled”. Therefore, a lower CBO is desired.</li>
+									<li><b>Depth of Inheritance Tree of a class (DIT)</b>: DIT is the distance between the root (highest superclass) and the final node (lowest child class) of the  class hierarchy. Since having a deeper class hierarchy leads to a more complex and an error-prone system, lower DIT is desired.</li>
+									<li><b>Number of Children of a class (NOC)</b>: NOC is the number of immediate child classes of a class. The higher the number, the more difficult it is to detect errors. </li>
+								</ul>
+								<p><i>2. Develop a Python program which has three abstract methods and one subclass which allows a user to perform banking operations.</i></p>
+								<p>I developed a program which allows user to perform three basic banking operations (i.e., check balance, deposit and withdraw) via a text-based interface. You can check it out <a href="https://github.com/etKing666/MSc_Module2/blob/master/abstraction.py">here</a>.</p>
+								<p><i>3. Read the article by Knox et al. (2018) and answer the following questions:</i></p>
+								<p><i>a. What is Component-based modelling?</i></p>
+								<p>Component-based modeling is a methodology which relies on using “pluggable model components”. In terms of software reuse, if the components that would be used in the new project already exists from the past projects, they can be readily used. If the required components do not exist, they can be created and can be used later in the future projects as well.</p>
+								<p><i>b. Upon what do component-based modelling frameworks depend?</i></p>
+								<p>Component-based modelling relies on a somewhat standardized structure upon which components can be easily integrated into the system. Therefore, designers can easily integrate the already existing components into the system and also create components which can easily be used in the future.</p>
+								<p><i>c. Within the context of the work presented in this paper, what is Pynsim?</i></p>
+								<p><a href="https://github.com/UMWRG/pynsim">Pynism</a> is a modelling framework for networked resource simulators. It supports agent-based modelling and allows the integration of different models into the simulation.</p>
+								<p><i>d. How does Pynsim achieve its goal when using object-oriented Python programming?</i></p>
+								<p>In the paper, the components that would be used in the system (i.e. Network, Node, Link, Institution, Engines and Simulator) are designed as classes in accordance with the Pynsim framework. Pynism already provides abstract classes which could be inherited and extended according the specifics of the project. This is the most important feature of Pynism which facilitated the design process.</p>
+								<p style="text-align:center;"><img src="../images/pynism_UML.png" alt="UML diagram of Generic Multi-Agent Water Model"><br /></p>
+								<p style="text-align:center;">Figure 2: UML diagram depicting how base classes of Pynism are extended to make up a generic model (Knox et al., 2018).<br /></p>
+								<p><center>--------</center> </p>
+								<h3>Key takeaways:</h3>
+								<ul>
+									<li>An object’s <b>class</b> and <b>type</b> are two different things. Class refers to the object’s implementation, whereas type refers to its interface.</li>
+									<li>Most programming languages do not make the distinction between interface and implementation inheritance, but people make the distinction in practice.</li>
+									<li>Using interfaces reduces the implementation dependencies between subsystems. <b>“Program to an interface, not an implementation.”</b> (Gamma et al., 2009) </li>
+									<li>Two common techniques for reusing functionality in OOP: <b>class inheritance</b> and <b>object composition</b>.</li>
+									<li>A <b>toolkit</b> is a set of related and reusable classes designed to provide useful, general-purpose functionality.</li>
+									<li>A <b>framework</b> defines the overall architecture of the application. It predefines the design parameters for the designer who should focus on the implementation of the specific features of the application. For instance, <a href="https://flask.palletsprojects.com/">Flask</a> framework offers a framework for web applications.</li>
+									<li><b>Encapsulation</b> is the practice of grouping the related data and methods together and restricting access to them.</li>
+									<li>Python doesn’t have “public” or “private” keywords and it relies on the conventions to restrict access to private attributes and methods. </li>
+									<li>Single underscore (_) means that the attribute or method is considered private.</li>
+									<li><b>Name mangling</b> is the process of mangling the private attribute and method names with the class name. For instance, Python automatically changes the __privatemethod method name to _Classname__privatemethod. It helps to avoid name collisions and it gives the appearance of private attributes/methods because they cannot be called bye their names directly. </li>
+									<li><b>Getters</b> return a private attribute and <b>setters</b> update a private attribute. </li>
+								</ul>
+								<p><center>--------</center> </p>
 								<h3>References:</h3>
 								<p>Böckeler, B. & Siessegger, N. (2020) On Pair Programming. Available from: https://martinfowler.com/articles/on-pair-programming.html [Accessed 15 July 2022].<br />
 									Di Silvestro, F. & Nadir, H. (2021) The Power of ePortfolio Development to Foster Reflective and Deeper Learning in an Online Graduate Adult Education Program, Adult Learning 32(4): 154–164. <br />
+									Dubey, S. K. & Rana, A. (2010) Assessment of Usability Metrics for Object-Oriented Software System. ACM SIGSOFT Software Engineering Notes 35(6).<br />
+									Gamma, E., Helm, H., Johnson, R. & Vlissides, J. (2009) Design Patterns: Elements of Reusable Object-Oriented Software. Massachusetts: Addison-Wesley.<br />
 									Hjelle, G. A. (2018) Primer on Python Decorators. Available from: https://realpython.com/primer-on-python-decorators/ [Accessed 15 July 2022].<br />
 									Joque, J., 2016. The Invention of the Object: Object Orientation and the Philosophical Development of Programming Languages. Philosophy & Technology, 29(4), pp. 335-356.<br />
-								Kang, W. B. F. &. K., 2005. Software Reuse Research: Status and Future. IEEE TRANSACTIONS ON SOFTWARE ENGINEERING, 31(7), pp. 529-536.<br />
-								Padhy, D. N. &. S. S. &. S. R., 2018. State-of-the-Art Object-Oriented Metrics and Its Reusability: A Decade Review. In: V. B. S. D. Suresh Chandra Satapathy, ed. Smart Computing and Informatics. s.l.:Springer Singapore, pp. 431-441.<br />
+									Kang, W. B. F. &. K., 2005. Software Reuse Research: Status and Future. IEEE TRANSACTIONS ON SOFTWARE ENGINEERING, 31(7), pp. 529-536.<br />
+									Knox, S., Meier, P., Yoon, J. & Harou, J. J. (2018) A python framework for multi-agent simulation of networked resource systems. Environmental Modelling & Software 103: 16-28.<br />
+									Padhy, D. N. &. S. S. &. S. R., 2018. State-of-the-Art Object-Oriented Metrics and Its Reusability: A Decade Review. In: V. B. S. D. Suresh Chandra Satapathy, ed. Smart Computing and Informatics. s.l.:Springer Singapore, pp. 431-441.<br />
 									Python.org, 2022. Python 3.10.5 Documentation. Available from: https://docs.python.org/3/library/math.html [Accessed 1 July 2022].<br />
-								Reitz, K. & Schlusser, T. (2016) The Hitchhiker’s Guide to Python. 1st ed. Sebastopol: O'Reilly Media.<br />
+									Reitz, K. & Schlusser, T. (2016) The Hitchhiker’s Guide to Python. 1st ed. Sebastopol: O'Reilly Media.<br />
 									TensorFlow, 2022. TensorFlow. Available from: https://www.tensorflow.org [Accessed 2 July 2022].<br /></p>
 							</section>
 
