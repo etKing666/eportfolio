@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fec54561-fbde-4177-bdbe-cfbad78fe4c2" name="Changes" comment="Unit 6 update.">
+    <list default="true" id="fec54561-fbde-4177-bdbe-cfbad78fe4c2" name="Changes" comment="Module 2, Unit 5 update.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module2/reflections.html" beforeDir="false" afterPath="$PROJECT_DIR$/module2/reflections.html" afterDir="false" />
     </list>
@@ -20,7 +20,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2AzVcm9VYieCtzqv3XiThXJnFS2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
