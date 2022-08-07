@@ -245,15 +245,45 @@
 									<li>Common data search algorithms are: <b>Linear search, random search, binary search and hash-based search</b>.</li>
 								</ul>
 								<p><center>--------</center></p>
+								<h2>Unit 8: Data Structures and Data Search in Practice</h2>
+								<h3>My reflections about the unit:</h3>
+								<p>This week, we had an opportunity to focus on the Python data structures one more time, particularly the sets and set operations like union, intersection and difference. Sets come in handy for such cases like membership testing and I incorporate it to my programming practices a lot. However, until now, I did not use the set operations that much. Equipped with this new information about the set operations, no doubt I will make use of them in the future.</p>
+								<p>In this week’s Code module, I went through the Recursion and Polymorphism modules. Recursion always requires deep thinking and things might get complicated quickly if not implemented correctly. Here, the rule of thumb is to start with the base case. On the other hand, the exercises in the Polymorphism module covered all types of polymorphism and it was a useful practice.</p>
+								<p>Test frameworks was another important topic covered. Apart from Python’s built-in test library, some test frameworks like Pytest and nose stand out. It is always important to remember that checking the compliance with the docstrings and coding conventions are as important as checking for logic or syntax errors. </p>
+								<p><center>--------</center> </p>
+								<h3>Forum discussion: </h3>
+								<p><i>Making reference to the article by Fortino et al. (2015), consider the strengths and weaknesses of designing a metamodel to support object-oriented design of the IoT. Design a smart model equivalent to that presented in Figure 6 which would instead support operation of a driverless car.</i></p>
+								<p>Since object-oriented programming aims to simulate the real-world objects in programming practices, it is a perfect match for the Internet of Things (IoT) in which real-world objects communicate with each other via a network and users interact with them. For this reason, modeling and particularly metamodels play an important role in the design and implementation of the systems.<br />
+								<p>From my point of view, the most important strength of the metamodel approach (Fortino et al., 2015) is that it helps to identify the way smart object interacts with devices/services. It also urges developers to focus on the design aspects and agree upon them before the implementation and development process begins. Finally, such metamodels provide a blueprint for the systems that would be developed in the future, enhancing reusability of the models.</p>
+								<p>When it comes to the weaknesses, I think metamodel approach also suffers from the same weaknesses of Unified Modeling Language (UML) (Lange, et al., 2006). For instance, lack of “formal semantics” is an important difficulty. Moreover, following the metamodel approach is time-consuming and thus, it may be challenging to follow this model especially in time-sensitive projects. Because of this, it might also prove difficult to persuade project owners and the developers to devote time to the design process. </p>
+								<p>I came up with this smart model for a driverless car:</p>
+								<p style="text-align:center;"><img src="../images/m2u3_metamodel.png" alt="Smart model for a driverless car"><br /></p>
+								<p style="text-align:center;">Figure 3: Smart model for a driverless car.<br /></p>
+								<p>As expected from the metamodel approach it is a high-level model which excludes implementation details.</p>
+								<p><b>Note:</b> The references are incorporated into the reference list in the end of the page.</p>
+								<p><center>--------</center></p>
+								<h3>Key takeaways:</h3>
+								<ul>
+									<li>Python provides a built-in test library for unit tests called <b>“unitest”</b>. It provides a TestCase class. When designing a test, a subclass of TestCase would be created and methods for testing should be written. Method names should start with the name “test”. There is no limit on the number for test methods that can be written in a test case. </li>
+									<li><b>Pytest</b> and <b>nose</b> are two important test frameworks other than the standard library.</li>
+									<li>Each <b>recursive function</b> has two parts: the <b>recursive case</b> (where the function calls itself with a different parameter) and the <b>base case</b> (where the function stops calling itself and returns a value). </li>
+									<li><b><u>Best practice</u></b>: Always start with the base case when creating a recursive function!</li>
+									<li>Modifying global variables is considered bad practice. Instead, a self-contained function that take arguments and return a value could be written.</li>
+									<li><b>PEP 8</b> provides Python coding conventions.</li>
+									<li><b>PEP 257</b> describes the Python doctoring conventions.</li>
+								</ul>
+								<p><center>--------</center></p>
 								<h3>References:</h3>
 								<p>Böckeler, B. & Siessegger, N. (2020) On Pair Programming. Available from: https://martinfowler.com/articles/on-pair-programming.html [Accessed 15 July 2022].<br />
 									Di Silvestro, F. & Nadir, H. (2021) The Power of ePortfolio Development to Foster Reflective and Deeper Learning in an Online Graduate Adult Education Program, Adult Learning 32(4): 154–164. <br />
 									Dubey, S. K. & Rana, A. (2010) Assessment of Usability Metrics for Object-Oriented Software System. ACM SIGSOFT Software Engineering Notes 35(6).<br />
+									Fortino, G., Guerrieri, A., Russo, W. & Savaglio, C. (2015) Towards a Development Methodology for Smart Object-Oriented IoT Systems: A Metamodel Approach. 2015 IEEE International Conference on Systems, Man, and Cybernetics. 1297-1302.<br />
 									Gamma, E., Helm, H., Johnson, R. & Vlissides, J. (2009) Design Patterns: Elements of Reusable Object-Oriented Software. Massachusetts: Addison-Wesley.<br />
 									Hjelle, G. A. (2018) Primer on Python Decorators. Available from: https://realpython.com/primer-on-python-decorators/ [Accessed 15 July 2022].<br />
 									Joque, J., 2016. The Invention of the Object: Object Orientation and the Philosophical Development of Programming Languages. Philosophy & Technology, 29(4), pp. 335-356.<br />
 									Kang, W. B. F. &. K., 2005. Software Reuse Research: Status and Future. IEEE TRANSACTIONS ON SOFTWARE ENGINEERING, 31(7), pp. 529-536.<br />
 									Knox, S., Meier, P., Yoon, J. & Harou, J. J. (2018) A python framework for multi-agent simulation of networked resource systems. Environmental Modelling & Software 103: 16-28.<br />
+									Lange, C. F. J., Chaudron, M. R. V. & Muskens, J. (2006) In practice: UML software architecture and design description. IEEE Software 23(2): 40-46.<br />
 									Padhy, D. N. &. S. S. &. S. R., 2018. State-of-the-Art Object-Oriented Metrics and Its Reusability: A Decade Review. In: V. B. S. D. Suresh Chandra Satapathy, ed. Smart Computing and Informatics. s.l.:Springer Singapore, pp. 431-441.<br />
 									Python.org, 2022. Python 3.10.5 Documentation. Available from: https://docs.python.org/3/library/math.html [Accessed 1 July 2022].<br />
 									Reitz, K. & Schlusser, T. (2016) The Hitchhiker’s Guide to Python. 1st ed. Sebastopol: O'Reilly Media.<br />
