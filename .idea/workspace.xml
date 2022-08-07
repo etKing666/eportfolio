@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fec54561-fbde-4177-bdbe-cfbad78fe4c2" name="Changes" comment="Module 2, Unit 5 update.">
-      <change afterPath="$PROJECT_DIR$/images/m2u8_metamodel.png" afterDir="false" />
+    <list default="true" id="fec54561-fbde-4177-bdbe-cfbad78fe4c2" name="Changes" comment="Unit 8 update.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module2/artefacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/module2/artefacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module2/reflections.html" beforeDir="false" afterPath="$PROJECT_DIR$/module2/reflections.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +51,7 @@
       <workItem from="1656012489509" duration="495000" />
       <workItem from="1658668736797" duration="336000" />
       <workItem from="1658669082957" duration="3555000" />
+      <workItem from="1659871860873" duration="561000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1658669203843</created>
@@ -103,7 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658672322680</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Unit 6 update.">
+      <created>1659871123692</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659871123692</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Unit 6 update.">
+      <created>1659871139346</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659871139346</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +135,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />
+    <MESSAGE value="Unit 8 update." />
     <MESSAGE value="Unit 6 update." />
     <option name="LAST_COMMIT_MESSAGE" value="Unit 6 update." />
   </component>
