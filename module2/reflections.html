@@ -292,6 +292,34 @@
 									<li><b>Reliability</b> is the proximation of correctness of a software.</li>
 									<li><b>Robustness</b> is the quality to fail without creating another problem (such as data corruption etc.).</li>
 								</ul>
+								<p><center>--------</center> </p>
+								<h2>Unit 10: Testing Code in Practice</h2>
+								<h3>My reflections about the unit:</h3>
+								<p>While it is often overlooked, testing is one of the most important components of the development process. Even though, under current market conditions, there is always a pressure to release the product as soon as possible, devoting necessary time to testing always pays off in the long run, as it helps to deliver a more robust software. </p>
+								<p>One of the biggest shortfalls of traditional testing approaches is that they keep the developers out of the testing process. On the other hand, in modern approaches like “Continuous Delivery”, developers play an active role in the development of testing methodology and in the test itself.</p>
+								<p><center>--------</center> </p>
+								<h3>Seminar preparation questions: </h3>
+								<p><i><b>1. Run the following code using pylint and identify the errors.</b></i></p>
+								<p style="text-align:center;"><img src="../images/m2u10.png"><br /></p>
+								<p>I installed pylons on Pycharm and ran it on this piece of code. The output was as follows:</p>
+								<p>       invalid syntax (<unknown>, line 1) (1:18) [syntax-error]</p>
+								<p>So, it detected the missing colon “:” in the function declaration successfully.</p>
+								<p><center>--------</center> </p>
+								<h3>Key takeaways:</h3>
+								<ul>
+									<li><b><u>Best practice</u></b>: It is much more important to keep the consistency and conform with the existing conventions than blindly following the style guides. “A foolish consistency is the hobgoblin of little minds.”</li>
+									<li><b>PEP 8</b> is a style guide which covers naming conventions, code layout, etc.</li>
+									<li>Compliance with PEP 8 can be automatically checked by running the command line program pep8.</li>
+									<li><b>PEP 20</b> is the Zen of Python, a collection of 19 inspiring Python aphorisms.</li>
+									<li>When there are two or three arguments in the function definition, it is advisable to use positional arguments. When there are more, keyword arguments should be used in order to make the function signature easier to read and remember.</li>
+									<li>It is advisable to return values from a function from as few (preferably only one) places as possible.</li>
+									<li>Levels of software testing are: <b>(1) Unit testing, (2) Integration tests, (3) Functional (end-to-end) tests and (4) Exploratory tests</b>.</li>
+									<li><b>Unit testing</b> focuses on a single unit of code and checks for input/output correctness with simulated input.</li>
+									<li><b>Integration tests</b> focus on more than one units.</li>
+									<li><b>Functional tests</b> simulates a full user-experience. During the tests, all functions of the tool are used just like a real user in real world.</li>
+									<li><b>Exploratory testing</b> is the testing methodology in which testers are assigned some tasks and they try to complete these tasks using the software.</li>
+									<li>Software Quality approaches: (1) Defect management and (2) Quality attributes.</li>
+								</ul>
 								<h3>References:</h3>
 								<p>Böckeler, B. & Siessegger, N. (2020) On Pair Programming. Available from: https://martinfowler.com/articles/on-pair-programming.html [Accessed 15 July 2022].<br />
 									Di Silvestro, F. & Nadir, H. (2021) The Power of ePortfolio Development to Foster Reflective and Deeper Learning in an Online Graduate Adult Education Program, Adult Learning 32(4): 154–164. <br />
