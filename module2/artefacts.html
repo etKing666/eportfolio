@@ -128,6 +128,13 @@
 								<p>In this little piece of code, I included two assert statements: The first assert statement checks the type of str1 to make sure that it is of type “str” and the second one checks the value of str2 to make sure that it is ‘World!’. Since both of them are True, program runs without raising AssertionError.</p>
 								<p>See the code from <a href=https://github.com/etKing666/MSc_Module2/blob/master/assert_ex.py">here</a>.</p>
 								<p><center>--------</center> </p>
+								<h2>Assignment 2: System Implementation (Unit 11):</h2>
+								<h3>Overview: </h3>
+								<p><b>Instructions:</b> You are now required to implement the code designed to support the operation of a driverless car as described in Unit 7. This should be representative of the use case diagram, activity diagram, class diagram, sequence diagram, and state transition diagram defined in your design document.</br>
+								<p>I developed the driverless car following the <a href="../files/System%20Design%20v1.0.pdf">design document</a> I prepared in Unit 7. Throughout the program, I have employed OOP methodology. Most notably, I started by designing abstract base classes, then designed classes and finally the objects. Since the system consists of many components which interacts with each other, I passed the information by encapsulating into objects (for instance, when an obstacle is detected, an obstacle object is created in the runtime and it is passed to control unit of the car for processing). </p>
+								<p>Apart from the classes, attributes and methods laid out in the design document, I made four changes: (1) I added a timestamp for the car log. (2) I deleted the list_signs() method from TMA_DB because given the current structure, it is not needed (e.g. there is no direct benefit for user to list the signs in the database). (3) Added change direction and (4) change lanes methods. </p>
+								<p>Here is the source <a href="https://github.com/etKing666/self_driving_car/">code</a>.</p>
+								<p><center>--------</center> </p>
 							</section>
 
 					</div>
