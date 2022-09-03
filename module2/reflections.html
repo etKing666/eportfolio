@@ -300,7 +300,7 @@
 								<p><center>--------</center> </p>
 								<h3>Seminar preparation questions: </h3>
 								<p><i><b>1. Run the following code using pylint and identify the errors.</b></i></p>
-								<p style="text-align:center;"><img src="../images/m2u10.png"><br /></p>
+								<p style="text-align:center;"><img src="../images/m2u10.png" width="500"><br /></p>
 								<p>I installed pylons on Pycharm and ran it on this piece of code. The output was as follows:</p>
 								<p>       invalid syntax (<unknown>, line 1) (1:18) [syntax-error]</p>
 								<p>So, it detected the missing colon “:” in the function declaration successfully.</p>
@@ -320,12 +320,41 @@
 									<li><b>Exploratory testing</b> is the testing methodology in which testers are assigned some tasks and they try to complete these tasks using the software.</li>
 									<li>Software Quality approaches: (1) Defect management and (2) Quality attributes.</li>
 								</ul>
+								<p><center>--------</center> </p>
+								<h2>Unit 11: Pointers, References & Memory, and Design Patterns</h2>
+								<h3>My reflections about the unit:</h3>
+								<p>From my point of view, the <a href="https://realpython.com/pointers-in-python/">article</a> about pointers and Python was the most interesting reading this week. Since Python has a different system which involves names getting bound to the objects (which contain the value, type and reference count), pointers do not really exist. On the other hand, C variables store the memory locations of the values. This is arguably one of the biggest differences between the two languages. </p>
+								<p>This week’s seminar continued to elaborate on the types of testing. It is especially important to make a distinction between the validation and the verification in order to design a robust product that delivers the desired functionality. Since we already learnt about the standard Python built-in test library and automated testing tools, it can be said that all that is left when it comes to testing is to get my feet wet with it!</p>
+								<p>This week, we read an interesting paper (Guo, 2021) about developing a software (i.e, Python Tutor) within academia. The paper has a lot of interesting suggestions that can be applied to personal projects or projects with sparse funding, such as: “Just make it work”, “Keep it simple”, “Reject most user suggestions” (not as bad as it sounds), “Be stateless”, “Sharing, not hosting”, “Minimize dependencies”, “Use old technologies”. Even though the author explicitly makes suggestions for the software development efforts in academia, I believe he also suggests a road map for personal/small projects, or at least for the early stages of a potentially sizable project.</p>
+								<p><center>--------</center> </p>
+								<h3>Key takeaways:</h3>
+								<ul>
+									<li><b>Validation</b> is about ensuring that the software meets the original specification defined in the requirements analysis phase. (Are we building the right product?)</li>
+									<li><b>Verification</b> is about making sure that the software does what the user wants to do with it. (Are we building the product right?)</li>
+									<li>Types of testing: (1) <b>Validation testing</b>, (2) <b>Defect testing</b>.</li>
+									<li><b>Test case</b> is a set of values or conditions that a tester will use to determine if the piece of software functions properly.</li>
+									<li><b>Regression testing</b> is the kind of testing aimed at uncovering any new bugs as a result of changes to the existing code base.</li>
+									<li>Every Python object contains at least three pieces of data: (1) <b>Reference count</b>, (2) <b>Type</b>, (3) <b>Value</b>.</li>
+									<li>Python doesn’t have pointers like C does. Because whereas in C variables store the memory address of the value it points to, in Python objects are passed to functions by reference.</li>
+									<li>In Python, when you create a variable, a python object is created with given data (type, value and the reference count), and the name is assigned (bound) to this object.</li>
+									<li>The Python objects that has a reference count of 0 are cleaned up by the <b>garbage collector</b>.</li>
+									<li><b>id()</b> can be used to identify the memory address of an object.</li>
+									<li>A design pattern has 4 fundamental elements: (1) <b>Pattern name</b>, (2) <b>Associated problem</b>, (3) <b>Solution</b>, (4) <b>Consequences</b>.</li>
+									<li>Design patterns are broken down into three categories: (1) <b>Creational design patterns</b>, (2) <b>Structural design patterns</b>, (3) <b>Behavioral design patterns</b>.</li>
+									<li><b>Creational design patterns</b> focus on the creation of objects.</li>
+									<li><b>Structural design patterns’</b> main focus is on the relationship between the entities.</li>
+									<li><b>Behavioral design patterns</b> support the communication between the objects.</li>
+									<li>Open-closed principle: <b>The code should be open for extension, but closed for modification</b>.</li>
+								</ul>
+								<p><center>--------</center> </p>
 								<h3>References:</h3>
 								<p>Böckeler, B. & Siessegger, N. (2020) On Pair Programming. Available from: https://martinfowler.com/articles/on-pair-programming.html [Accessed 15 July 2022].<br />
 									Di Silvestro, F. & Nadir, H. (2021) The Power of ePortfolio Development to Foster Reflective and Deeper Learning in an Online Graduate Adult Education Program, Adult Learning 32(4): 154–164. <br />
 									Dubey, S. K. & Rana, A. (2010) Assessment of Usability Metrics for Object-Oriented Software System. ACM SIGSOFT Software Engineering Notes 35(6).<br />
 									Fortino, G., Guerrieri, A., Russo, W. & Savaglio, C. (2015) Towards a Development Methodology for Smart Object-Oriented IoT Systems: A Metamodel Approach. 2015 IEEE International Conference on Systems, Man, and Cybernetics. 1297-1302.<br />
 									Gamma, E., Helm, H., Johnson, R. & Vlissides, J. (2009) Design Patterns: Elements of Reusable Object-Oriented Software. Massachusetts: Addison-Wesley.<br />
+									Guo, P. (2021) Ten Million Users and Ten Years Later: Python Tutor’s Design Guidelines for Building Scalable and Sustainable Research Software in Academia, UIST '21: The 34th Annual ACM Symposium on User Interface Software and Technology. 10-14 October 2021.
+									New York: Association for Computing Machinery. 1235–1251.<br />
 									Hjelle, G. A. (2018) Primer on Python Decorators. Available from: https://realpython.com/primer-on-python-decorators/ [Accessed 15 July 2022].<br />
 									Joque, J., 2016. The Invention of the Object: Object Orientation and the Philosophical Development of Programming Languages. Philosophy & Technology, 29(4), pp. 335-356.<br />
 									Kang, W. B. F. &. K., 2005. Software Reuse Research: Status and Future. IEEE TRANSACTIONS ON SOFTWARE ENGINEERING, 31(7), pp. 529-536.<br />
