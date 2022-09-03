@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Unit 10 update" />
+    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Unit 10 update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/artefacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/module2/artefacts.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +55,8 @@
       <workItem from="1659871860873" duration="561000" />
       <workItem from="1660455133058" duration="1152000" />
       <workItem from="1661363383506" duration="1623000" />
+      <workItem from="1661367183842" duration="1026000" />
+      <workItem from="1662208172300" duration="336000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1658669203843</created>
@@ -137,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661364975469</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Unit 10 update">
+      <created>1661367213566</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1661367213566</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
