@@ -66,13 +66,13 @@
 									<p>Even though I got a glimpse of the benefits automated testing tools can bring, I did not have the opportunity to use them adequately. Nevertheless, in the future, I intend to use automated testing along with the manual testing methods that I already apply so that I can test my code thoroughly and fine tune it as necessary.</p>
 									<p>The design patterns play an important role in the software reusability. These are time-tested, efficient time-savers that developers can benefit from. In my assignments and personal coding practices so far, I did not implement any of them. However, I am planning to do some coding practices specifically to use some of the design patterns suggested by the Gamma et al. (1994) to develop a better understanding of selecting and implementing the patterns and once I feel comfortable, I will try incorporating some of the design patterns into my bigger projects and future assignments.</p>
 									<p><b>References:</b></p>
-									<p>Åkerblom, B. & Wrigstad T. (2015) Measuring polymorphism in python programs. ACM SIGPLAN Notices. 51(2): 114-128. DOI: https://doi.org/10.1145/2816707.2816717</p>
-									<p>Arbuckle, D. (2010) Python Testing – Beginner’s Guide. 1st ed. Birmingham: Packt Publishing.</p>
-									<p>Gamma, E.; Helm, R.; Johnson, R. & Vlissides, J. M. (1994) Design Patterns: Elements of Reusable Object-Oriented Software. Massachusetts: Addison-Wesley Professional.</p>
-									<p>Kneuper, R. (2017) Sixty Years of Software Development Life Cycle Models. IEEE annals of the history of computing. 39(3): 41–54.  DOI: https://doi.org/10.1353/ahc.2017.0022</p>
-									<p>Milojkovic, N., Ghafari, M., & Nierstrasz, O. (2017) It’s Duck (Typing) Season. 2017 IEEE/ACM 25th International Conference On Program Comprehension (ICPC). 312–315. DOI: https://doi.org/10.1109/ICPC.2017.10</p>
+									<p>Åkerblom, B. & Wrigstad T. (2015) Measuring polymorphism in python programs. <i>ACM SIGPLAN Notices</i> 51(2): 114-128. DOI: https://doi.org/10.1145/2816707.2816717</p>
+									<p>Arbuckle, D. (2010) <i>Python Testing – Beginner’s Guide</i>. 1st ed. Birmingham: Packt Publishing.</p>
+									<p>Gamma, E.; Helm, R.; Johnson, R. & Vlissides, J. M. (1994) <i>Design Patterns: Elements of Reusable Object-Oriented Software</i>. Massachusetts: Addison-Wesley Professional.</p>
+									<p>Kneuper, R. (2017) Sixty Years of Software Development Life Cycle Models. <i>IEEE annals of the history of computing<i> 39(3): 41–54. DOI: https://doi.org/10.1353/ahc.2017.0022</p>
+									<p>Milojkovic, N., Ghafari, M., & Nierstrasz, O. (2017) It’s Duck (Typing) Season. <i>2017 IEEE/ACM 25th International Conference On Program Comprehension (ICPC)</i> 312–315. DOI: https://doi.org/10.1109/ICPC.2017.10</p>
 									<p>Pylint (N.D.) Pylint. Available from: https://pypi.org/project/pylint/ [Accessed 3 September 2022</p>
-									<p>Rumbaugh J. Jacobson I. & Booch G. (2006) The Unified Modeling Language Reference Manual. 2nd ed. Upper Saddle River: Addison-Wesley.</p>
+									<p>Rumbaugh J. Jacobson I. & Booch G. (2006) <i>The Unified Modeling Language Reference Manual</i>. 2nd ed. Upper Saddle River: Addison-Wesley.</p>
 								</section>
 								<br />
 								<h2>Unit 1: An Introduction to Python Programming and the Object Oriented Programming Paradigm</h2>
@@ -371,23 +371,63 @@
 									<li>Open-closed principle: <b>The code should be open for extension, but closed for modification</b>.</li>
 								</ul>
 								<p><center>--------</center> </p>
+								<h2>Unit 12: Working with Design Patterns to Structure Code</h2>
+								<h3>My reflections about the unit:</h3>
+								<p>In the final unit of the module, I had the opportunity to deep dive into some of the design patterns, especially the Singleton, Decorator, State, Strategy and Observer. I found the argument of Phillips (2018) particularly interesting: while the 23 patterns proposed by the Gand of Four certainly applies for Python, Python usually has an inherently different (and usually easier) way to do the same thing as it can be seen easily in the Decorator pattern. </p>
+								<p>As pointed out by Kampffmeyer & Zschaler (2007), selecting a design pattern  may be an overwhelming task for an inexperienced programmer. That’s why, I think some helper applications may prove useful when the patterns are introduced to a novice programmer. The way ahead for me is to try implementing design patterns in small programs, starting from the basic patterns and gradually moving to more complex ones. </p>
+								<p><center>--------</center> </p>
+								<h3>Seminar preparation questions: </h3>
+								<p><i><b>1. Define the test cases for the following system development: Oracle. (n.d.) <a href="https://www.oracle.com/uk/industries/hospitality/cruise/">Cruise Ship Management and Cruise Software</a>.</b></i></p>
+								<p>I installed pylons on Pycharm and ran it on this piece of code. The output was as follows:</p>
+								<p>The test cases for the Cruise Ship Management and Cruise Software would be:</p>
+								<ul>
+									<li>Embarking/onboarding passengers</li>
+									<li>Debarking passengers</li>
+									<li>Passenger booking a table for dinner</li>
+									<li>Adding/deleting/modifying system users</li>
+									<li>Getting a report on current status of ship</li>
+									<li>Keeping track of the inventory of ship’s supermarket</li>
+									<li>Selling extra excursions to passengers</li>
+									<li>Query the passenger list</li>
+								</ul>
+								<p>These test cases may be implemented as unit tests, since each of them test one component individually, based on the input provided.</p>
+								<p><i><b>2. Which design patterns do you consider to be compatible with others, and why?</b></i></p>
+								<p>Abstract factory and factory patterns are compatible with each other. While factory method only produces one type of object, abstract factory can be seen as a factory of factories.</p>
+								<p>From my point of view, State and Strategy design patterns seem to be compatible with each other, but not in the sense that they could work together, but in the sense of similarity. In the Strategy pattern, multiple alternative solutions are defined and the client code takes the appropriate path in the runtime. However, in the State pattern,  the object changes its behaviour when its state changes. So, the programmer can decide one of these behavioral design patterns according to his/her intention.</p>
+								<p>Finally, according to the research done by Zhang & Budgen (2012), Composite and Visitor patterns complement each other.</p>
+								<p><i><b>3. Read Zhang & Budgen (2012). Which design patterns are used most commonly, and why?</b></i></p>
+								<p>Composite, Observer and Visitor patterns are the most used design patterns. According to the study, the survey participants indicated that no issues and negative effects arise from using Composite. As for the Observer, it was indicated by participants that generally it makes the code more flexible and understandable for expert programmers, and the use of Observer leads to faster modifications when supported by documentation. Finally, according to the participants, when supported by proper pattern documentation, Observer leads to fewer errors and faster modifications. </p>
+								<p><center>--------</center> </p>
+								<h3>Key takeaways:</h3>
+								<ul>
+									<li>The design patterns were originally created with C++ and Smalltalk in mind. While they apply for Python (and other object-oriented languages) as well, Python sometimes offer. More elegant way of doing things. For instance, decorator pattern works fine in Python, but Python also offer @decorator syntax.</li>
+									<li>In the <b>Observer</b> pattern, there are observers and a core object. Whenever an attribute of the core object is updated, the observers are notified about the change.</li>
+									<li>The <b>Strategy</b> pattern allows the client code to select the most appropriate solution to the same problem in runtime. Python's first-class functions helps to implement the strategy pattern in an easier way.</li>
+									<li>The <b>Singleton</b> pattern is used to allow only one instance of an object.</li>
+									<li>The <b>Template</b> pattern aims to reduce the duplicate code. The common steps for all solutions are implemented in a base class, and distinct steps are overridden in subclasses.</li>
+									<li>The <b>State</b> pattern allows an object to change its behavior when its state changes.</li>
+									<li>The <b>Factory</b> pattern aims to create one type of object only. On the other hand, <b>Abstract Factory</b> pattern can be seen as “the factory of factories”.</li>
+								</ul>
+								<p><center>--------</center> </p>
 								<h3>References:</h3>
 								<p>Böckeler, B. & Siessegger, N. (2020) On Pair Programming. Available from: https://martinfowler.com/articles/on-pair-programming.html [Accessed 15 July 2022].<br />
-									Di Silvestro, F. & Nadir, H. (2021) The Power of ePortfolio Development to Foster Reflective and Deeper Learning in an Online Graduate Adult Education Program, Adult Learning 32(4): 154–164. <br />
-									Dubey, S. K. & Rana, A. (2010) Assessment of Usability Metrics for Object-Oriented Software System. ACM SIGSOFT Software Engineering Notes 35(6).<br />
-									Fortino, G., Guerrieri, A., Russo, W. & Savaglio, C. (2015) Towards a Development Methodology for Smart Object-Oriented IoT Systems: A Metamodel Approach. 2015 IEEE International Conference on Systems, Man, and Cybernetics. 1297-1302.<br />
-									Gamma, E., Helm, H., Johnson, R. & Vlissides, J. (2009) Design Patterns: Elements of Reusable Object-Oriented Software. Massachusetts: Addison-Wesley.<br />
-									Guo, P. (2021) Ten Million Users and Ten Years Later: Python Tutor’s Design Guidelines for Building Scalable and Sustainable Research Software in Academia, UIST '21: The 34th Annual ACM Symposium on User Interface Software and Technology. 10-14 October 2021.
-									New York: Association for Computing Machinery. 1235–1251.<br />
+									Di Silvestro, F. & Nadir, H. (2021) The Power of ePortfolio Development to Foster Reflective and Deeper Learning in an Online Graduate Adult Education Program. <i>Adult Learning</i> 32(4): 154–164. <br />
+									Dubey, S. K. & Rana, A. (2010) Assessment of Usability Metrics for Object-Oriented Software System. <i>ACM SIGSOFT Software Engineering Notes</i> 35(6).<br />
+									Fortino, G., Guerrieri, A., Russo, W. & Savaglio, C. (2015) Towards a Development Methodology for Smart Object-Oriented IoT Systems: A Metamodel Approach. <i>2015 IEEE International Conference on Systems, Man, and Cybernetics</i> 1297-1302.<br />
+									Frakes, W.B. & Kang, K (2005) Software Reuse Research: Status and Future. <i>IEEE Transactions on Software Engineering</i> 31(7): 529-536.<br />
+									Gamma, E., Helm, H., Johnson, R. & Vlissides, J. (2009) <i>Design Patterns: Elements of Reusable Object-Oriented Software</i>. Massachusetts: Addison-Wesley.<br />
+									Guo, P. (2021) Ten Million Users and Ten Years Later: Python Tutor’s Design Guidelines for Building Scalable and Sustainable Research Software in Academia. <i>UIST '21: The 34th Annual ACM Symposium on User Interface Software and Technology 10-14 October 2021<i>. New York: Association for Computing Machinery. 1235–1251.<br />
 									Hjelle, G. A. (2018) Primer on Python Decorators. Available from: https://realpython.com/primer-on-python-decorators/ [Accessed 15 July 2022].<br />
-									Joque, J., 2016. The Invention of the Object: Object Orientation and the Philosophical Development of Programming Languages. Philosophy & Technology, 29(4), pp. 335-356.<br />
-									Kang, W. B. F. &. K., 2005. Software Reuse Research: Status and Future. IEEE TRANSACTIONS ON SOFTWARE ENGINEERING, 31(7), pp. 529-536.<br />
-									Knox, S., Meier, P., Yoon, J. & Harou, J. J. (2018) A python framework for multi-agent simulation of networked resource systems. Environmental Modelling & Software 103: 16-28.<br />
-									Lange, C. F. J., Chaudron, M. R. V. & Muskens, J. (2006) In practice: UML software architecture and design description. IEEE Software 23(2): 40-46.<br />
-									Padhy, D. N. &. S. S. &. S. R., 2018. State-of-the-Art Object-Oriented Metrics and Its Reusability: A Decade Review. In: V. B. S. D. Suresh Chandra Satapathy, ed. Smart Computing and Informatics. s.l.:Springer Singapore, pp. 431-441.<br />
+									Joque, J. (2016) The Invention of the Object: Object Orientation and the Philosophical Development of Programming Languages. <i>Philosophy & Technology<i> 29(4): 335-356.<br />
+									Kampffmeyer, H. & Zschaler, S. (2007) Finding the Pattern You Need: The Design Pattern Intent Ontology. <i>Model Driven Engineering Languages and Systems</i> 4735: 221-225.<br />
+									Knox, S., Meier, P., Yoon, J. & Harou, J. J. (2018) A python framework for multi-agent simulation of networked resource systems. <i>Environmental Modelling & Software</i> 103(1): 16-28.<br />
+									Lange, C. F. J., Chaudron, M. R. V. & Muskens, J. (2006) In practice: UML software architecture and design description. <i>IEEE Software</i> 23(2): 40-46.<br />
+									Padhy, N., Satapathy, S. & Singh R.P. (2018) State-of-the-Art Object-Oriented Metrics and Its Reusability: A Decade Review. <i>Smart Computing and Informatics</i> 431-441.<br />
+									Philips, D. (2018) <i>Python 3 Object-Oriented programming</i>. 3rd ed. Birmingham: Packt Publishing.<br />
 									Python.org, 2022. Python 3.10.5 Documentation. Available from: https://docs.python.org/3/library/math.html [Accessed 1 July 2022].<br />
-									Reitz, K. & Schlusser, T. (2016) The Hitchhiker’s Guide to Python. 1st ed. Sebastopol: O'Reilly Media.<br />
-									TensorFlow, 2022. TensorFlow. Available from: https://www.tensorflow.org [Accessed 2 July 2022].<br /></p>
+									Reitz, K. & Schlusser, T. (2016) <i>The Hitchhiker’s Guide to Python</i>. 1st ed. Sebastopol: O'Reilly Media.<br />
+									TensorFlow, 2022. TensorFlow. Available from: https://www.tensorflow.org [Accessed 2 July 2022].<br />
+									Zhang, C. & Budgen, D. (2012) What Do We Know about the Effectiveness of Software Design Patterns? <i>IEEE Transactions on Software Engineering</i> 38(5): 1213-1231.<br /></p>
 							</section>
 
 					</div>
