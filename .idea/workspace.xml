@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Unit 12 update.&#10;Summary post added.&#10;Reflective peace revised.">
-      <change afterPath="$PROJECT_DIR$/module2/images/m2u4_employee.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module2/artefacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/module2/artefacts.html" afterDir="false" />
-    </list>
+    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="An artefact added." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +56,7 @@
       <workItem from="1661880043850" duration="2795000" />
       <workItem from="1662101131056" duration="767000" />
       <workItem from="1662197428032" duration="1930000" />
-      <workItem from="1662320311751" duration="6973000" />
+      <workItem from="1662320311751" duration="7358000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1658669203843</created>
@@ -251,7 +247,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662376033479</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="An artefact added.">
+      <created>1662381837897</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1662381837897</updated>
+    </task>
+    <task id="LOCAL-00029" summary="An artefact added.">
+      <created>1662382007485</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1662382007485</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +289,7 @@
     <MESSAGE value="Unit 11 update" />
     <MESSAGE value="Unit 12 update.&#10;References are corrected." />
     <MESSAGE value="Unit 12 update.&#10;Summary post added.&#10;Reflective peace revised." />
-    <option name="LAST_COMMIT_MESSAGE" value="Unit 12 update.&#10;Summary post added.&#10;Reflective peace revised." />
+    <MESSAGE value="An artefact added." />
+    <option name="LAST_COMMIT_MESSAGE" value="An artefact added." />
   </component>
 </project>
