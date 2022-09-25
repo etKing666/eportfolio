@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Error corrected in the reflective piece." />
+    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 3 update">
+      <change afterPath="$PROJECT_DIR$/module3/artefacts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module3/images/M3U1_Flowchart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module3/images/M3U1_Flowchart2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module3/reflections.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module2/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,16 +34,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/etkingetir/PhpstormProjects/eportfolio",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module3/images" />
       <recent name="$PROJECT_DIR$/module2/images" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/files" />
@@ -296,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662410237351</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Module 3 update">
+      <created>1664091164924</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1664091164924</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,12 +343,13 @@
     <MESSAGE value="Unit 9 update (artefacts)" />
     <MESSAGE value="Unit 9 update" />
     <MESSAGE value="Unit 10 update" />
-    <MESSAGE value="Unit 11 update" />
     <MESSAGE value="Unit 12 update.&#10;References are corrected." />
     <MESSAGE value="Unit 12 update.&#10;Summary post added.&#10;Reflective peace revised." />
     <MESSAGE value="An artefact added." />
     <MESSAGE value="Module 2 start date is updated." />
     <MESSAGE value="Error corrected in the reflective piece." />
-    <option name="LAST_COMMIT_MESSAGE" value="Error corrected in the reflective piece." />
+    <MESSAGE value="Unit 11 update" />
+    <MESSAGE value="Module 3 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module 3 update" />
   </component>
 </project>
