@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 3 update">
-      <change afterPath="$PROJECT_DIR$/module3/artefacts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/images/M3U1_Flowchart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/images/M3U1_Flowchart2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/reflections.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module2/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 3 update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -318,7 +308,35 @@
       <option name="project" value="LOCAL" />
       <updated>1664091164924</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Module 3 update">
+      <created>1664093323010</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1664093323010</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Module 3 update">
+      <created>1664093439310</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1664093439310</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Module 3 update">
+      <created>1664093520581</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1664093520581</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Module 3 update">
+      <created>1664093695088</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1664093695088</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
