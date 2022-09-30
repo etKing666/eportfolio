@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 3 Unit 1 update." />
+    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 3 Unit 1 update.">
+      <change afterPath="$PROJECT_DIR$/module3/images/m3u2_scrum_phases.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2/artefacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/module2/artefacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/artefacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/module3/artefacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/reflections.html" beforeDir="false" afterPath="$PROJECT_DIR$/module3/reflections.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +69,8 @@
       <workItem from="1662101131056" duration="767000" />
       <workItem from="1662197428032" duration="1930000" />
       <workItem from="1662320311751" duration="9252000" />
-      <workItem from="1664259841243" duration="4101000" />
+      <workItem from="1664259841243" duration="5216000" />
+      <workItem from="1664514863661" duration="1555000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1658669203843</created>
@@ -351,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664310145554</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Module 3 Unit 1 update.">
+      <created>1664313020889</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1664313020889</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

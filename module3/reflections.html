@@ -28,7 +28,7 @@
 							<li><a href="../index.html">My Portfolio</a></li>
 							<li><a href="index.html">Module Home</a></li>
 							<li class="active"><a href="reflections.html">Reflections</a></li>
-							<li><a href="#">Artefacts</a></li>
+							<li><a href="artefacts.html">Artefacts</a></li>
 							<li><a href="../whoami.html">Who am I?</a></li>
 							<li><a href="../contactme.html">Contact me</a></li>
 						</ul>
@@ -55,7 +55,7 @@
 							<h3>My reflections about the unit:</h3>
 							<p>The comparison of the Waterfall approach and agile methodologies with security focus was the central theme this unit. These two approaches have very a very different take on security, documentation and development pace. While agile methodologies, especially Scrum seem to be overlooking security, researches have been trying to bridge the gap with a number of proposals like S-Scrum (Mougouei, et al., 2013) or Secure Scrum (Pohl & Hof, 2015). Since Scrum is a very popular software development framework, the discussion about its approach to security is very relevant to the module and in general, to the state of software development today.</p>
 							<p>When it comes to the. Waterfall approach, I found ideas put forward by Royce (1970) quite interesting. In his essay in which he describes how he came up with the Waterfall model and benefits and downsides of it, he insists on the importance of extensive documentation and the need to use the software for a substantial period of time before marketing it (i.e. always market the second version of the software). I believe that even though at the time of writing the developers would have had this luxury to spend as much time as they like, these ideas are no longer applicable in today’s  pressing market conditions where there is always a pressure to reduce the time-to-market. So, in general terms, even though it can be suggested that the big projects are suitable for Waterfall model and the smaller ones are for Agile methodologies (Casteren, 2017), I think Agile methodologies are more relevant and suitable to today’s market conditions.</p>
-							<p>Since this unit involves two team projects (design and implementation), we had our first group meeting on Sunday. We agreed on a team contract, set up a GitHub repository and a project management tool. Since in today’s world where remote working is all the rage, I believe it will be an exciting experience to be a part of a remote development team.</p>
+							<p>Since this unit involves two team projects (design and implementation), we had our first group meeting on Sunday. We agreed on a team contract, set up a GitHub repository and a project management tool (Trello). Since in today’s world where remote working is all the rage, I believe it will be an exciting experience to be a part of a remote development team.</p>
 							<p><center>--------</center> </p>
 							<h3>Forum discussion: </h3>
 							<p><i>Select one of the coding weaknesses which have been identified by OWASP and create a flowchart of the steps which may have led to the weakness occurring. </i></p>
@@ -63,8 +63,10 @@
 							<p>Hence, the mitigation to identification and authentication failures needs a two-pillar approach: The technical pillar encompasses robust password policies and additional security checks (e.g. 2FA) that would enforce user compliance. On the other hand, in the user pillar, the users must be aware of the security risks associated with the weak passwords or the potentials vulnerabilities associated with storing credentials or other sensitive information. </p>
 							<p>In the flowchart (activity diagram) below, a brute force attack is depicted. As we can see, no additional methods like 2FA is in place and the attacker is allowed to try entering the correct credentials for infinite times (i.e. no restriction on number of attempts). The system prompts for credentials and rejects the incorrect ones, but the attacker keeps trying until he/she comes up with the correct one, potentially starting from the common weak passwords (e.g. ‘Password’, ‘12345’, etc.) and making his way towards passwords containing potential personal data (e.g. name, surname, birthdate, etc.). As mentioned above, if the user sets a complex password that is hard to guess and/or there is a 2FA authentication method in place, attacker’s job might get significantly harder.</p>
 							<p style="text-align:center;"><img src="images/M3U1_Flowchart.png" alt="Brute force to gain unauthorized access" width="699" height="195"><br /></p>
+							<p style="text-align:center;">Figure 1: Activity diagram for brute force to gain unauthorized access.<br /></p>
 							<p>On the other hand, the attacker may try to follow the “Forgot password” route, as depicted in the activity diagram below:</p>
 							<p style="text-align:center;"><img src="images/M3U1_Flowchart2.png" alt="Attempt to gain unauthorized access by answering a security question" width="695" height="238"><br /></p>
+							<p style="text-align:center;">Figure 2: Activity diagram for an attempt to gain unauthorized access by answering a security question.<br /></p>
 							<p>In this case, having weak recovery questions that are easy to guess (such as “Your birthday” or “Favorite team”) and not the absence of secondary recovery methods (e.g. mobile phone) makes it easy to reset the password of the victim by the attacker.</p>
 							<p><center>--------</center> </p>
 							<h3>Key takeaways:</h3>
@@ -84,13 +86,69 @@
 								<li>Some UML diagrams are more relevant in different stages of SDLC. For example, use case diagrams are used in the earlier stages, class diagrams are used in software structure design and finally, sequence diagrams are used during information and data phase.</li>
 							</ul>
 							<p><center>--------</center> </p>
+							<h2>Unit 2: Introduction to Secure Software Development</h2>
+							<h3>My reflections about the unit:</h3>
+							<p>This week, the main discussion point was the types of threats towards the cyber security. We continued the collaborative discussion about the OWASP’s Top 10 security threats and there is a consensus that the carelessness of people is the biggest security threat we are facing nowadays. A considerable amount of people seem to be totally oblivious about the importance of setting a proper password, keeping their credentials safe and following basic rules of security. As part of the seminar preparations, I wrote a blog post about how people should be managed to avoid insider attacks, you can read my blog post below.</p>
+							<p>The agile methodologies allow developers to develop software in a faster and more efficient manner, however, these methods are lacking Security Engineering (SE) processes developed specifically for agile methodologies. Many companies are still using the SE processes that are developed for Waterfall model and it hampers them to fully take advantage of the power of agile methodologies (Sharma & Bawa, 2022). However, it is possible to select some SE processes and activities that are suitable for agile methodologies and there is a need to develop native agile SE processes. </p>
+							<p>Finally in this week’s seminar, we discussed the points above in an interactive manner.</p>
+							<p><center>--------</center> </p>
+							<h3>Seminar preparation questions: </h3>
+							<p><i><b>1. Some say that people are the biggest risk of cyber security. Select five terms from ISO/IEC Standard 27000 Section 3 Terms and Definitions and write a 300-word blog post on how people can be managed to overcome cyber security attacks from the inside.</b></i></p>
+							<p>I selected 6 terms from ISO/IEC Standard 27000 Section 3 and wrote a 300-word blog post. You can read the blog post on the <a href="artefacts.html">Artefacts</a> page.</p>
+							<p><i><b>2. Create a 2-column multi-line table. In the left-hand column, include the software development stages of the Scrum agile life cycle approach to project management. In the right-hand column, describe the processes which you recommend are applied at each stage to ensure that secure software is produced at the end of the development.</b></i></p>
+							<p style="text-align:center;"><img src="images/m3u2_scrum_phases.jpeg" alt="Scrum phases" width="666" height="400"><br /></p>
+							<p style="text-align:center;">Figure 3: Scrum phases (Hygger, 2020)<br /></p>
+							<table>
+								<tr>
+									<th><b>Phase</b></th>
+									<th><b>Activity</b></th>
+								</tr>
+								<tr>
+									<td>Planning</td>
+									<td>Initial education<br />Role Matrix<br />Agree on definitions<br />Security requirements</td>
+								</tr>
+								<tr>
+									<td>Implementation</td>
+									<td>Secure design principles<br />Coding rules</td>
+								</tr>
+								<tr>
+									<td>Review</td>
+									<td>Penetration testing<br />Dynamic analysis<br />Requirements inspection</td>
+								</tr>
+								<tr>
+									<td>Retrospect</td>
+									<td>N/A</td>
+								</tr>
+								<tr>
+									<td>Deployment</td>
+									<td>N/A</td>
+								</tr>
+								<tr>
+									<td>Daily Scrum</td>
+									<td>Security Awareness Minute</td>
+								</tr>
+							</table>
+							<p>Referring to the work of Sharma & Bana (2022) I came up with the table above. I couldn’t think of any security activity for the phases Retrospect and Deployment. And for Daily Scrum, I thought that having an activity like “Security Awareness Minute” which would include sharing a little story or a catch phrase to raise awareness of the team towards security would be highly relevant. It is important to keep the duration of the Daily Scrum in a 15-minute window, a minute (maybe even less) that would be devoted to security in an engaging way will be well-spent. </p>
+							<p><center>--------</center> </p>
+							<h3>Key takeaways:</h3>
+							<ul>
+								<li>There are no existing Security Engineering processes specifically developed for agile methodologies and companies have to rely on the SE processes developed for the waterfall model.</li>
+								<li>If heavy security activities are incorporated into agile methodologies, <u>the agility may be lost</u>.</li>
+								<li>Sometimes the exploit code is shared publicly by the person(s) who find the problem and it increases the risk for the users of the program.</li>
+								<li>When installing the patches, it is important to consider the <u>implications of applying the patch</u> (e.g. downtime, effected components, etc.).</li>
+								<li>Only the right amount of details should be given in the patch description, otherwise the tracker can use this information (esp. information about the vulnerabilities and potential attack vectors) to create an exploit.</li>
+							</ul>
+							<p><center>--------</center> </p>
 							<h3>References:</h3>
 							<p>
 								Casteren, W. V. (2017) The waterfall model and the agile methodologies: a comparison by project characteristics-short.<br />
+								Hygger (2020) What is Scrum Process Lifecycle? Available from: https://hygger.io/blog/what-is-scrum-lifecycle/ [Accessed 30 September 2022].<br />
 								III, (N.D.) Facts + Statistics: Identity theft and cybercrime. Available from: https://www.iii.org/fact-statistic/facts-statistics-identity-theft-and-cybercrime [Accessed 25 September 2022].<br />
+								ISO (2018) ISO/IEC 27000:2018(en) Information technology — Security techniques — Information security management systems — Overview and vocabulary. Available from: https://www.iso.org/obp/ui/#iso:std:iso-iec:27000:ed-5:v1:en [Accessed 30 September 2022].<br />
 								OWASP (2021). OWASP Top 10 - 2021. Available from: https://owasp.org/Top10/ [Accessed 25 September 2022].<br />
 								Pohl, C. & Hof, H.-J. (2015) 'Secure Scrum: Development of Secure Software with Scrum', <i>The Ninth International Conference on Emerging Security Information, Systems and Technologies – SECURWARE 2015.</i> Venice, Italy, 23-28 August.<br />
 								Royce, W. W. (1970) Managing the Development of Large Software Systems. <i>Proceedings, IEEE WESCON</i>, 1-9.<br />
+								Sharma, A. & Bana, R. K. (2022) Identification and integration of security activities for secure agile development. <i>International Journal of Information Technology</i> 14(2): 1117-1130.<br />
 								Mougouei, D., Sani, F. M. & Almasi, M. M. (2013) S-Scrum: a Secure Methodology for Agile Development of Web Service. <i>World of Computer Science and Information Technology Journal (WCSIT)</i> 3(1): 15-19.<br />
 							</p>
 						</section>
