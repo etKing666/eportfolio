@@ -174,14 +174,14 @@
 							<p>Buffer overflow in C: Only a memory space for 8 characters were allocated in the memory for the user input with “char buf[8]”. So, when user enters an input with more than 8 characters, we get “core dumped” error. </p>
 							<p>Buffer overflow in Python: When I run the file, I get “IndexError: list assignment index out of range”. This predictable, because the range function tries to reach the 11th, 12th, 13th and 14th index position which doesn’t really exist. When I installed the pylint and run it on the file, I got a couple of syntax errors, but it doesn’t tell how to fix the error. I fixed the error myself by changing “for i in range (0,11):” to “for i in range (0,10):” </p>
 							<p><b>2. Producer-consumer mechanism:</b></p>
-							<p><i>How is the queue data structure used to achieve the purpose of the code?   </i></p>
-							<p>The queue data structure is used as a buffer in which the producer appends the data it produces and the consumer gets the data it requires.</p>
-							<p><i>What is the purpose of q.put(I)? </i></p>
-							<p>The purpose of this method is to append the product produced by the producer to the buffer (i.e. the queue).</p>
-							<p><i>What is achieved by q.get()?</i></p>
-							<p>The purpose of this method is to allow the consumer to get the product it requires from the buffer (i.e. the queue).</p>
-							<p><i>What functionality is provided by q.join()?</i></p>
-							<p>join() method prevents the program from exiting until it receives a task_done signal from the consumer.</p>
+							<p><i>How is the queue data structure used to achieve the purpose of the code?</i><br />
+							The queue data structure is used as a buffer in which the producer appends the data it produces and the consumer gets the data it requires.</p>
+							<p><i>What is the purpose of q.put(I)? </i><br />
+							The purpose of this method is to append the product produced by the producer to the buffer (i.e. the queue).</p>
+							<p><i>What is achieved by q.get()?</i><br />
+							The purpose of this method is to allow the consumer to get the product it requires from the buffer (i.e. the queue).</p>
+							<p><i>What functionality is provided by q.join()?</i><br />
+							join() method prevents the program from exiting until it receives a task_done signal from the consumer.</p>
 							<p><center>--------</center> </p>
 							<h3>Key takeaways:</h3>
 							<ul>
