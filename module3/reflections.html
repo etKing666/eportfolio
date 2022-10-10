@@ -145,15 +145,83 @@
 								<li>Only the right amount of details should be given in the patch description, otherwise the tracker can use this information (esp. information about the vulnerabilities and potential attack vectors) to create an exploit.</li>
 							</ul>
 							<p><center>--------</center> </p>
+							<h2>Unit 3: Programming Languages: History, Concepts & Design</h2>
+							<h3>My reflections about the unit:</h3>
+							<p>While we learnt a lot about the Design Patterns and did a lot of reading including the Gang of Four book in the previous module, this week’s reading about the implementation of design patterns in Python was particularly interesting and useful. Since I intend to incorporate some relevant design patters to my coding projects in the future, it helped me a lot to have a clear picture of how it is supposed to be done. Moreover, I am surprised to see that, however unintentionally, I already applied some of the design patterns in my assignment in the previous module. For instance, while designing a software to support a driverless car, I used the Façade pattern to provide a common interface to manage different components (i.e. different classes).</p>
+							<p>From my point of view, it is useless and far-fetched to try to classify programming languages based on the basic categories like “imperative”, “functional”, “logical” and “object-oriented” because sometimes the difference between these groups are so subtle and in the modern world of programming, this classification doesn’t make much sense anymore. Instead, a classification based on the use cases and the structures/data types may be more significant. </p>
+							<p>This week we had two code activities. One of them demonstrated the difference between C and Python in terms of the memory management. The other one was about the producer-consumer mechanism.</p>
+							<p><center>--------</center> </p>
+							<h3>Notes from the team meeting:</h3>
+							<p>In our third team meeting, the main discussion point was the use case diagram. Mustafa presented his draft use case diagrams. He had three diagrams for each of the actors. However, I thought that it could be better if we had only one diagram with all the actors, use cases and include and extend associations so that an outsider can have an idea about the use cases of the system at a glance. We had a brief discussion about it and agreed on combining them into one use case diagram. We also decided to start working on the class diagram as the next step by writing possible classes of the system to the shared document. Finally, we briefly discussed the team discussion questions.</p>
+							<p><center>--------</center> </p>
+							<h3>Team activity: Discussion </h3>
+							<p><i><b>1. What factors determine whether a programming language is secure or not?</b></i></p>
+							<p>According to Cifuentes & Bierman (2019), the three important vulnerabilities related to programming languages are buffer errors, injection errors and information leak errors. As they demonstrated in their work, no programming language is immune to all three of these errors and hence, it is not possible to talk about a “secure language”.</p>
+							<p><i><b>2. Could Python be classed as a secure language? Justify your answer.</b></i></p>
+							<p>Even though Python has some mechanisms to manage memory in a more elegant way than some other languages like C, it is still prone to many vulnerabilities like overflow errors or injection attacks (especially in the case of web frameworks). Hence, it is not possible to consider Python as a secure language. However, as demonstrated by (Pillai, 2017), there are some strategies that can be followed in order to write secure code with Python.</p>
+							<p><i><b>3. Python would be a better language to create operating systems than C. Discuss.</b></i></p>
+							<p>Being a high-level language, Python is easier to code and its extensive library support makes it an outstanding language that could be used for a variety of purposes. However, because it is an interpreted language, it is slower. On the other hand, C is a compiled language and it is not only faster but it offers more flexibility. The way it manages the memory is more fitting to create an operating system. Therefore, C is a better language to create an operating system.</p>
+							<p><center>--------</center> </p>
+							<h3>Forum discussion: Summary post</h3>
+							<p>In recent years numerous technologies and standards have been introduced to enhance the identification and authentication processes. As a result, as pointed out by Gianluca in his initial post, Identification and Authentication Failures moves down from the second position to seventh position in OWASP Top 10 2021 (OWASP, 2021). </p>
+							<p>However, I still think that it is one of the most important vulnerability categories because of two reasons:</p>
+							<p>1. Firstly, it is one of the easiest type of vulnerabilities to be exploited. Attackers can access to victims’ account and/or sensitive data by brute force or dictionary attack -a more specific type of brute force attack- as Dr. Peoples suggested in her reply. </p>
+							<p>2. It is relatively easy to mitigate the risk. Simply by setting up a complex password compliant to widely accepted standards such as NIST 800-63B (NIST, 2017) or enabling multi-factor authentication, majority of the attacks can be prevented. However, at the same time, it is one of the hardest vulnerability types to be avoided because it requires that the wider public is educated about safe practices about account security. For example, to paraphrase Gianluca’s witty reply to my initial post, setting up an MFA method may be troublesome and may degrade user experience drastically, causing most people to avoid it.  The last but not the least, the stat shared by Olalekan in his reply to my initial post is very striking: according to NCSC (2019), 23.2 million victims worldwide relied on “123456” and 3.6 million others on word “password” to secure their accounts.</p>
+							<p>Finally, from my point of view, this category cannot be thought without Broken Access Control which ranks first in the 2021 edition of OWASP Top 10. It is evident that these two vulnerabilities feed each other and when these two categories are considered together, it is clear that they pose the greatest risk to cyber security.</p>
+							<p><center>--------</center> </p>
+							<h3>Codio activities:</h3>
+							<p><b>1. Buffer overflow in C and Python:</b></p>
+							<p>Buffer overflow in C: Only a memory space for 8 characters were allocated in the memory for the user input with “char buf[8]”. So, when user enters an input with more than 8 characters, we get “core dumped” error. </p>
+							<p>Buffer overflow in Python: When I run the file, I get “IndexError: list assignment index out of range”. This predictable, because the range function tries to reach the 11th, 12th, 13th and 14th index position which doesn’t really exist. When I installed the pylint and run it on the file, I got a couple of syntax errors, but it doesn’t tell how to fix the error. I fixed the error myself by changing “for i in range (0,11):” to “for i in range (0,10):” </p>
+							<p><b>2. Producer-consumer mechanism:</b></p>
+							<p><i>How is the queue data structure used to achieve the purpose of the code?   </i></p>
+							<p>The queue data structure is used as a buffer in which the producer appends the data it produces and the consumer gets the data it requires.</p>
+							<p><i>What is the purpose of q.put(I)? </i></p>
+							<p>The purpose of this method is to append the product produced by the producer to the buffer (i.e. the queue).</p>
+							<p><i>What is achieved by q.get()?</i></p>
+							<p>The purpose of this method is to allow the consumer to get the product it requires from the buffer (i.e. the queue).</p>
+							<p><i>What functionality is provided by q.join()?</i></p>
+							<p>join() method prevents the program from exiting until it receives a task_done signal from the consumer.</p>
+							<p><center>--------</center> </p>
+							<h3>Key takeaways:</h3>
+							<ul>
+								<li><b>PowerShell</b> is an automation platform which consists of a command-line shell, a configuration management framework and a scripting language. It is cross-platform: it runs on Windows, MacOS and Linux (Aiello et al, 2020).</li>
+								<li><b>Modifiability</b> refers to the the ease to make changes to the software and the flexibility of the system to accommodate these changes.</li>
+								<li><b>Spaghetti Code</b> is a piece of code that is lacking a clear structure and a control flow.</li>
+								<li><b>Big ball of mud</b> is a system which lacks a clear structure and consists of several pieces of spaghetti code.</li>
+								<li><b>Copy-Paste Programming</b> is when the same piece of code is used for several times which leads to code-bloat.</li>
+								<li><b>Ego Programming</b> is the programming practice in which a programmer prefers to follow his style instead of the conventions.</li>
+								<li><b>Late binding</b> is the practice of binding values to parameters as late as possible.</li>
+								<li>Types of code smell at the class level: <b>God Object, Constant Class, Refused Bequest, Freeloader, Feature Envy</b>.</li>
+								<li>Types of code smell at method/function level: <b>Long Method, Parameter Creep, Cyclomatic Complexity, Overly Long/Short Identifiers</b>.</li>
+								<li><b>Cyclomatic Complexity</b> is the measure of the linearly independent paths in the source code. In Python, CC can be measured easily by using mccabe package.</li>
+								<li>Steps to refactor the code: <b>(1) Fix complex code first (reduce CC), (2) Do an analysis of the code (run complexity checkers), (3) Fix code smells, (4) Run checkers for code smells, (5) Fix smaller errors like code style or convention errors, (6) Perform a final check</b>.</li>
+								<li>When using <b>shallow copy</b>, objects are copied by reference and shared among all instances. On the other hand, when using <b>deep copy</b>, all objects are copied and owned by instances.</li>
+								<li>The programs written with high-level languages are converted into machine-readable code in two ways, via a <b>compiler</b> or an <b>interpreter</b>.</li>
+								<li>Compiler takes the source code and generates a target code in a machine-readable language in three sets: <b>Analysis, Optimization and Generation</b>.</li>
+								<li>The target language may be machine native code or an intermediate language like Java byte code or MSIL/CIL. A code in intermediate language can be run on a virtual machine.</li>
+								<li><b>Interpreters</b> convert the source code block by block and turn it into a tokenized form only. Later on, this tokenized programs are executed by the engine or the program that is specific to the platform and part of the interpreter. </li>
+								<li><b>Compiled programs</b> run faster but they are slower to debug. On the other hand, interpreted programs are easier to debug but slower to run.</li>
+								<li>There four core paradigms of programming: <b>Imperative, Functional, Logical and Object-Oriented</b>.</li>
+								<li><b>eval()</b> command can lead to vulnerabilities as it can grant an attacker access to the app or whole operating system.</li>
+								<li>Python prevents buffer overflow by automatic out-of-bounds checking and not allowing direct access to the memory.</li>
+								<li>Principles of a secure system according to Saltzer & Schroeder (1975): <b>Least Privilege (grand least privilege to the user to accomplish the task), Open Design (do not hide the internals or operations of a system), Fail-Safe Defaults (assume that the credentials are wrong until validated), Separation of Privilege (segregate users into different levels according to the level of trust), The Least Common Mechanism (ensure that the mechanisms used to access resources are not shared</b>.</li>
+							</ul>
+							<p><center>--------</center> </p>
 							<h3>References:</h3>
 							<p>
+								Aiello, J., Wheeler, S. & Koon, S. (2020) What Is Powershell? Available from: https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7 [Accessed 6 December 2020].<br />
 								Casteren, W. V. (2017) The waterfall model and the agile methodologies: a comparison by project characteristics-short.<br />
 								Hygger (2020) What is Scrum Process Lifecycle? Available from: https://hygger.io/blog/what-is-scrum-lifecycle/ [Accessed 30 September 2022].<br />
 								III, (N.D.) Facts + Statistics: Identity theft and cybercrime. Available from: https://www.iii.org/fact-statistic/facts-statistics-identity-theft-and-cybercrime [Accessed 25 September 2022].<br />
 								ISO (2018) ISO/IEC 27000:2018(en) Information technology — Security techniques — Information security management systems — Overview and vocabulary. Available from: https://www.iso.org/obp/ui/#iso:std:iso-iec:27000:ed-5:v1:en [Accessed 30 September 2022].<br />
+								NCSC (2019) Most Hacked Passwords revealed as UK Cyber survey exposes gaps in online security. Available from: https://www.ncsc.gov.uk/news/most-hacked-passwords-revealed-as-uk-cyber-survey-exposes-gaps-in-online-security [Accessed 04 October 2022].<br />
+								NIST (2017) Digital Identity Guidelines: Authentication and Lifecycle Management. DOI: https://doi.org/10.6028/NIST.SP.800-63b <br />
 								OWASP (2021). OWASP Top 10 - 2021. Available from: https://owasp.org/Top10/ [Accessed 25 September 2022].<br />
+								Pillai, A. B. (2017) <i>Software Architecture with Python.</i> Birmingham: Packt Publishing Ltd.<br />
 								Pohl, C. & Hof, H.-J. (2015) 'Secure Scrum: Development of Secure Software with Scrum', <i>The Ninth International Conference on Emerging Security Information, Systems and Technologies – SECURWARE 2015.</i> Venice, Italy, 23-28 August.<br />
 								Royce, W. W. (1970) Managing the Development of Large Software Systems. <i>Proceedings, IEEE WESCON</i>, 1-9.<br />
+								Saltzer, J. H., Schroeder, M. D. (1975) The protection of information in computer systems <i>Proceedings of the IEEE</i> 63(9): 1278-1308.<br />
 								Sharma, A. & Bana, R. K. (2022) Identification and integration of security activities for secure agile development. <i>International Journal of Information Technology</i> 14(2): 1117-1130.<br />
 								Mougouei, D., Sani, F. M. & Almasi, M. M. (2013) S-Scrum: a Secure Methodology for Agile Development of Web Service. <i>World of Computer Science and Information Technology Journal (WCSIT)</i> 3(1): 15-19.<br />
 							</p>

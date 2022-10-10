@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 3 Unit 2 update.">
+    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 3 Unit 2 update. Added team meeting notes.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/reflections.html" beforeDir="false" afterPath="$PROJECT_DIR$/module3/reflections.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +67,8 @@
       <workItem from="1662320311751" duration="9252000" />
       <workItem from="1664259841243" duration="5216000" />
       <workItem from="1664514863661" duration="3820000" />
+      <workItem from="1665244717608" duration="297000" />
+      <workItem from="1665430027366" duration="1849000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1658669203843</created>
@@ -383,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664526552025</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Module 3 Unit 2 update. Added team meeting notes.">
+      <created>1665244834881</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1665244834881</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,6 +427,7 @@
     <MESSAGE value="Made adjustments on the Figure 3." />
     <MESSAGE value="Module 3 Unit 1 update." />
     <MESSAGE value="Module 3 Unit 2 update." />
-    <option name="LAST_COMMIT_MESSAGE" value="Module 3 Unit 2 update." />
+    <MESSAGE value="Module 3 Unit 2 update. Added team meeting notes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Module 3 Unit 2 update. Added team meeting notes." />
   </component>
 </project>
