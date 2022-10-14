@@ -208,6 +208,38 @@
 								<li>Principles of a secure system according to Saltzer & Schroeder (1975): <b>Least Privilege (grand least privilege to the user to accomplish the task), Open Design (do not hide the internals or operations of a system), Fail-Safe Defaults (assume that the credentials are wrong until validated), Separation of Privilege (segregate users into different levels according to the level of trust), The Least Common Mechanism (ensure that the mechanisms used to access resources are not shared</b>.</li>
 							</ul>
 							<p><center>--------</center> </p>
+							<h2>Unit 4: Exploring Programming Language Concepts</h2>
+							<h3>My reflections about the unit:</h3>
+							<p>This week we had the opportunity to explore two important concepts: regex and recursion. I think regex will especially useful for me in the future to validate use input or search for certain patterns in a text. There is also a specific type of regex which causes the system to hang for a long time called “ evil regex”. By using evil regex, attackers can conduct ReDoS attacks so, from a security perspective, it is especially important to use proper regex in order to avoid such vulnerabilities. As part of the seminar preparations, I wrote <a href="https://github.com/etKing666/MSc_Module3/blob/main/postcodes.py">a simple code</a> to check UK post codes for validity using regex. </p>
+							<p>Recursion is a subject which I am having difficulty to implement in my coding practices, so I am planning to spend more time to grasp the essence of it. Towers of Hanoi is a perfect example of recursion, however, I am yet to figure out a recurring pattern in the problem to put it to Python code.</p>
+							<p>Finally, in this week’s seminar we had the opportunity to talk about these two important subjects and I also had the opportunity to briefly present my post code checker to my classmates.</p>
+							<p><center>--------</center> </p>
+							<h3>Portfolio Component:</h3>
+							<p><i>1. What is ReDOS and what part do ‘Evil Regex’ play? </i><br />
+								ReDoS is a specific type of DoS attack in which the attacker exploits the vulnerability in the regex used in the code and inputs an evil regex (I.e. a type of regex that takes a lot of time to process via algorithms used) which causes the system to hang for a long time. </p>
+							<p><i>2. What are the common problems associated with the use of regex? How can these be mitigated?</i><br />
+								Larson & Kirk (2018) lists common regular expression bugs as follows:<br />
+								<ul>
+									<li>Bad range</li>
+									<li>Incorrect use of anchor</li>
+									<li>Incorrect use of character set</li>
+									<li>Delimiter mismatch</li>
+									<li>Incorrect negation</li>
+									<li>Incorrect use of wildcards</li>
+									<li>Wrong repeat</li>
+								</ul>
+							From my own experience, I see the incorrect use of wildcards as one of the biggest problems associated with regex because it is easy to commit (i.e. people tend to take the shortcuts without thinking deeply about what unwanted characters are included when using wildcards directly) but on the other hand, with certain level of awareness, it is fairly easy to avoid as well. In my opinion, wildcards should be used sparingly.<br />
+							I think such errors can be mitigated by using various regex checker tools and raising awareness of the programmers towards possible mistakes related to regex and their consequences.</p>
+							<p><i>3. How and why could regex be used as part of a security solution?</i><br />
+								Regex is a very powerful tool to validate user input which includes sensitive data like username and password. For example, by using regex, using username in the password can easily be restricted. However, in order to avoid potential attacks carried out using evil regex, the programmer should be very careful to avoid vulnerabilities in the regex.</p>
+							<p><center>--------</center> </p>
+							<h3>Key takeaways:</h3>
+							<ul><b>Regular expressions</b> (regex) are a sequence of characters used to check if a character pattern exists in a text or not.</ul>
+							<ul>Regular expressions are supported by Python via the <b>re library</b>.</ul>
+							<ul>Typical regex errors (which may lead to evil regex attack) include: over-reliance to wildcard (using wildcard instead of exploring possibilities), bad range, bad anchor usage, delimiter mismatch, wrong repeat, incorrect use of characters.</ul>
+							<ul>A regex pattern which causes the system to get stuck (i.e. it takes a long time to process the regex) is called <b>evil regex</b>.</ul>
+							<ul><b>Regular Expression Denial of Service (ReDoS)</b> is a type of Denial of Service attack in which the attacker inputs a regex that causes the system to hang for a long time.</ul>
+							<p><center>--------</center> </p>
 							<h3>References:</h3>
 							<p>
 								Aiello, J., Wheeler, S. & Koon, S. (2020) What Is Powershell? Available from: https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7 [Accessed 6 December 2020].<br />
@@ -215,6 +247,7 @@
 								Hygger (2020) What is Scrum Process Lifecycle? Available from: https://hygger.io/blog/what-is-scrum-lifecycle/ [Accessed 30 September 2022].<br />
 								III, (N.D.) Facts + Statistics: Identity theft and cybercrime. Available from: https://www.iii.org/fact-statistic/facts-statistics-identity-theft-and-cybercrime [Accessed 25 September 2022].<br />
 								ISO (2018) ISO/IEC 27000:2018(en) Information technology — Security techniques — Information security management systems — Overview and vocabulary. Available from: https://www.iso.org/obp/ui/#iso:std:iso-iec:27000:ed-5:v1:en [Accessed 30 September 2022].<br />
+								Larson, E. & Kirk, A. (2018) Generating Evil Test Strings for Regular Expressions. <i>2016 IEEE International Conference on Software Testing, Verification and Validation (ICST)</i> 309-319. DOI: 10.1109/ICST.2016.29.<br />
 								NCSC (2019) Most Hacked Passwords revealed as UK Cyber survey exposes gaps in online security. Available from: https://www.ncsc.gov.uk/news/most-hacked-passwords-revealed-as-uk-cyber-survey-exposes-gaps-in-online-security [Accessed 04 October 2022].<br />
 								NIST (2017) Digital Identity Guidelines: Authentication and Lifecycle Management. DOI: https://doi.org/10.6028/NIST.SP.800-63b <br />
 								OWASP (2021). OWASP Top 10 - 2021. Available from: https://owasp.org/Top10/ [Accessed 25 September 2022].<br />
