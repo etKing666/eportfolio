@@ -245,6 +245,42 @@
 								<li><b>Regular Expression Denial of Service (ReDoS)</b> is a type of Denial of Service attack in which the attacker inputs a regex that causes the system to hang for a long time.</li>
 							</ul>
 							<p><center>--------</center> </p>
+							<h2>Unit 5: An Introduction to Testing</h2>
+							<h3>My reflections about the unit:</h3>
+							<p>The testing is no wonder one of the most important components of the software development lifecycle. Python offers a lot of testing tools to test the source code, but it takes practice to write test cases and use these tools. Even though we were introduced to the testing libraries that Python offers, thanks to the examples in the core book, for the first time we get the opportunity to see how they can be used by examples and possibly, to get some hands-on experience. I am planning to use some of the tools and write some test cases for the passcode checker program I wrote in the previous unit.</p>
+							<p><center>--------</center> </p>
+							<h3>Notes from the team meeting:</h3>
+							<p>In this week’s meeting we worked on the activity diagram in a collaborative way. Before coming to the meeting, Ola prepared a draft activity diagram. However, in fact, it used to cover two activities (reporting vulnerabilities and requesting to delete own personal information). So, we thought that each activity diagram should cover only one scenario and we developed an activity diagram only for submitting vulnerability use case. Since this is the base use case of our system, it would be enough to have this activity diagram only, but it is still open to discussion if we should add more supporting activity diagrams that would support our design.</p>
+							<p><center>--------</center> </p>
+							<h3>Portfolio Component:</h3>
+							<p><i>The Cyclomatic Complexity is commonly considered in modules on testing the validity of code design today. However, in your opinion, should it be? Does it remain relevant today? Specific to the focus of this module, is it relevant in our quest to develop secure software? Justify all opinions which support your argument and share your responses with your team.</i></p>
+							<p>From my point of view, Cyclomatic Complexity (CC) is still relevant today, at least to some extent. However, it is not a good course of action to solely rely on this metric to measure the complexity of a source code and it should be used in conjunction with other metrics which takes the complexity of the individual branches and the complexity of the conditions themselves. Because the number of decision points is only one aspect of the complexity, however, the aforementioned aspects might have an important impact on the runtime of the program. However, from my personal point of view, CC still gives an idea about the overall complexity and high CC might be an indication that the code should be refactored.</p>
+							<p><center>--------</center> </p>
+							<h3>Key takeaways:</h3>
+							<ul>
+								<li>A <b>testable system</b> is a system which displays its faults and doesn’t hide them.</li>
+								<li><b>Validation</b> is an assessment of the ability of a software to fulfill customers’ needs, whereas <b>verification</b> compares the end product with the specifications defined.</li>
+								<li>The later a defect in a piece of software is found, the more costly the subsequences get.</li>
+								<li>The <b>input data space</b> refers to the values which may be input by the user of a system.</li>
+								<li><b>Heap-based buffer overflow</b> happens when the memory space reserved for a program is exceeded. On the other hand, <b>stack-based buffer overflow</b> happens when the memory space used for user input of applications is exceeded.</li>
+								<li>Documenting the test results is an important step in testing. It helps to ensure that everyone is fully aware which tests were carried out and avoids wrong assumptions that a test was carried out by someone else.</li>
+								<li><b>Modified Condition/Decision Coverage</b> aims to test only important combination of conditions (not all of them) and reduce the testing costs.</li>
+								<li><b>Flake8</b> and <b>Pylama</b> are Python-specific linters.</li>
+								<li><b>Testability</b> is the degree of with which a software system exposes its faults.</li>
+								<li><b>Functionality testing</b> involves testing the software to verify its functionality. Types of functional testing: whitebox testing, blackbox testing.</li>
+								<li><b>Performance testing</b> measures system's performance in terms of responsiveness and robustness. Types of performance testing: Load testing, stress testing and scalability testing.</li>
+								<li><b>Security testing</b> measures the system’s security.</li>
+								<li><b>Usability testing</b> courses on the user-friendliness of the user interface.</li>
+								<li><b>Installation testing</b> tests and verifies the installation steps of the software.</li>
+								<li><b>Accessibility testing</b> measures the degree of usability by the users with disability.</li>
+								<li>Being able to isolate and control the components of the software that is being tested is important.</li>
+								<li>Test cases can be created <b>inheriting from unittest’s test case class</b>.</li>
+								<li><b>nose2</b> automatically detects the test cases that are in the folder that it is run from.</li>
+								<li>The <b>code coverage</b> is the degree to which the source code is covered by tests.</li>
+								<li>Three approaches to writing integration tests: <b>Bottom-up, Top-down, Big-bang</b>.</li>
+								<li><b>Test-driven Development</b> is an agile approach to software development in which code is written to satisfy a test case and new factions are added as a test case.</li>
+							</ul>
+							<p><center>--------</center> </p>
 							<h3>References:</h3>
 							<p>
 								Aiello, J., Wheeler, S. & Koon, S. (2020) What Is Powershell? Available from: https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7 [Accessed 6 December 2020].<br />
