@@ -281,6 +281,47 @@
 								<li><b>Test-driven Development</b> is an agile approach to software development in which code is written to satisfy a test case and new factions are added as a test case.</li>
 							</ul>
 							<p><center>--------</center> </p>
+							<h2>Unit 6: Using Linters to Support Python Testing</h2>
+							<h3>My reflections about the unit:</h3>
+							<p>Even though I and our team focused on the project design document this week (it was due this week) I also found this week’s topics (which is actually the continuation from the last week) in the core book very interesting. I believe that the discussion about the performance of the software and the performance testing and measurement tools that Python supports will come in handy in the future. From my point of view, understanding the concept of Big-O notation is very important to appreciate the impact of design decisions on the performance of a software. </p>
+							<p>Debugging was also among the topics that was elaborated on in the core book. I am already aware of the power of print statement for debugging but the specific techniques introduced in the book opened new horizons to me. I am especially looking forward to using the logging library of Python. In some of my past projects I designed a logging function, but I never knew the powerful logging library of Python.</p>
+							<p><center>--------</center> </p>
+							<h3>Notes from the team meeting:</h3>
+							<p>Since the design proposal was due this week, we had three meetings. We designed one more activity diagram and worked on the design document and submitted it. We had a very beneficial and constructive discussion on the specifics of the application and took our tutor’s feedback into consideration and made necessary amendments. We will begin working on the source code of the project next week.</p>
+							<p><center>--------</center> </p>
+							<h3>Portfolio Component:</h3>
+							<p><i>1. Run styleLint.py in Codio. What happens when the code is run? Can you modify this code for a more favourable outcome? What amendments have you made to the code?</i><br />
+								As one can clearly see, the source code lacks indentation in the first version:<br />
+							<p style="text-align:center;"><img src="images/m3u6_11.png" alt="First version of the code" height="200"><br />
+							I added correct indentation and also added a print function to the end of the code to make it easier to see that it works properly:<br />
+							<p style="text-align:center;"><img src="images/m3u6_12.png" alt="Corrected version of the code" height="220"></p>
+							<p><i>2. Run flake8  on metricTest.py. Can you correct each of the errors returned by flake8? What amendments have you made to the code?</i><br />
+								flake8 returned a number of indentation errors and missing whitespaces. I corrected them all to get a clean flake8 output.</p>
+							<p><center>--------</center> </p>
+							<h3>Key takeaways:</h3>
+							<ul>
+								<li><b>Performance Engineering Life Cycle (PELC)</b> parallels the steps in SDLC within the context of performance.</li>
+								<li><b>Stress testing</b> simulates peak workloads to measure the performance of a system under this workload.</li>
+								<li><b>Profiling tools</b> generate statistics about functions.</li>
+								<li>Performance complexity is usually represented by <b>Big-O notation</b>.</li>
+								<li><b>timeit</b> module allows programmers to measure the time taken to execute small chunks of code (a function, an expression, etc.)</li>
+								<li><b>Deterministic profiling</b> means that all function calls, function returns, and exception events are monitored, and precise timings are made for the intervals between these events. </li>
+								<li><b>Statistical profiling</b> randomly samples the instruction pointer and deduces where time is being spent.</li>
+								<li>The profile and cProfile modules provide support for deterministic profiling in the Python standard library. </li>
+								<li>Line profiler profiles the source code line by line and produces more granular statistics.</li>
+								<li>Memory profiler profiles lines by memory consumption.</li>
+								<li>Each container in Python has a specific use case where it performs better than the others. In order to to increase the performance of the program, appropriate type of container (e.g. list, dictionary, tuple, etc.) should be used./li>
+								<li><b>deque</b> (double ended queue) is a list which supports appends and pops from the both ends of the list. It also supports rotation of elements.</li>
+								<li><b>OrderedDict</b> is a dict that remembers the order of insertion of entries.</li>
+								<li><b>Counter</b> is a subclass of dictionary to keep a count of washable objects. The objects are stored as keys and counts are stored as values.</li>
+								<li><b>namedtuple</b> behaves like a class with fixed fields. It is indexable.</li>
+								<li><b>Bloom filter</b> is a probabilistic data structure which reports true negatives with certainty and true positives with a pre-defined error rate.</li>
+								<li>Since Python is a dynamically typed language, type-related exceptions are common due to programmers assuming a type to be something.</li>
+								<li><b>print()</b> can be a really useful debugging tool.</li>
+								<li><b>Steps of debugging the code</b>: (1) Analyze the code (2) Come up with some assumptions about the cause of the bug (3) Test each assumption (4) Repeat until you find the cause of the bug or discard the assumptions and start over.  </li>
+								<li><b>logging</b> module is Python’s standard library for logging.</li>
+							</ul>
+							<p><center>--------</center> </p>
 							<h3>References:</h3>
 							<p>
 								Aiello, J., Wheeler, S. & Koon, S. (2020) What Is Powershell? Available from: https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7 [Accessed 6 December 2020].<br />

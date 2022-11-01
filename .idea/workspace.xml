@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 3 Unit 4 update.">
+      <change afterPath="$PROJECT_DIR$/module3/images/m3u6_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module3/images/m3u6_12.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module3/reflections.html" beforeDir="false" afterPath="$PROJECT_DIR$/module3/reflections.html" afterDir="false" />
     </list>
