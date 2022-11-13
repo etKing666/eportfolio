@@ -343,13 +343,47 @@
 								<li>A proxy is a server that performs a number of functions on behalf of a nominated or protected device.</li>
 							</ul>
 							<p><center>--------</center> </p>
+							<h2>Unit 8: Cryptography and Its Use in Operating Systems</h2>
+							<h3>My reflections about the unit:</h3>
+							<p>In my opinion, Cryptography is one of the most interested topics in this module and also in computer science. With protection of information being the focus of modern systems, it will continue to remain relevant in coming years. Hence, learning about the different cryptography methods was very interesting to me. I developed a simple program to encrypt and decrypt a message using base64 algorithm. In the future, I am willing to discover more complex and robust algorithms.</p>
+							<p>In this week’s forum discussion, we were supposed to review TrueCrypt and also present an ontology depicting the weaknesses of TrueCrypt. Since I had a hard time understanding the concept of ontologies and applying it to this context, I couldn’t come up with a satisfactory ontology. This is certainly an area in which I should improve myself.</p>
+							<p><center>--------</center> </p>
+							<h3>Notes from the team meeting:</h3>
+							<p>Since we rescheduled last week’s meeting to Tuesday, we had two meetings this week. On Tuesday, we installed Django and talked about the general structure of the web application that we will develop, according to the design document. Then, we assigned tasks to each member of the group. As the first step, we agreed on focusing on the design first. Therefore, the first tasks only included the designing of homepage, forms, lists, etc. I was tasked to design the pages that General Public will interact with: report vulnerability page, request for deletion of personal information page and finally, view verified vulnerabilities page. Since we had the idea of designing this app as a compilation of microservices, I thought it would be a good idea to have all these three as an app, so I created an app called “report” within our Django project. Then, I went on to create pages. For styling, I created a static folder and relied mostly on bootstrap but I also added a stylesheet of my own. Considering we will have a base layout which would be extended to all the pages, I only focused on the content. Here is how “report a vulnerability” page looks like at the moment:</p>
+							<p style="text-align:center;"><img src="images/m3u8_report.png" alt="Report a vulnerability page" height="220"></p>
+							<p>On Sunday’s meeting, we discussed the current state of the project, assigned some new tasks to the team members and agreed to meet again on Wednesday. Until next meeting, I will work on connecting the Django app I have created to the database so that the input we get from the users can be committed to the database.</p>
+							<p><center>--------</center> </p>
+							<h3>Forum discussion: </h3>
+							<p><i>The (anonymous) TrueCrypt authors have said “Using TrueCrypt is not secure as it may contain unfixed security issues”. Does the cryptanalysis provided above prove or disprove this assumption? * Would you be prepared to recommend TrueCrypt to a friend as a secure storage environment? What caveats (if any) would you add?</i></p>
+							<p>TrueCrypt cryptanalysis by Junestam & Guigo (2014) evidently shows that there are a number of vulnerabilities ranging from high-severity to low-severity and informational ones. From my point of view, the most important vulnerabilities that TrueCrypt is susceptible to are:</p>
+							<ul>
+								<li>Volume Header key derivation algorithm</li>
+								<li>Sensitive information might be paged out from kernel stacks</li>
+							</ul>
+							<p>Because, an attacker can easily access the keys and decrypt the volume by performing a brute-force or a dictionary attack by exploiting these vulnerabilities. Even though, as demonstrated by Davies (2014), using a strong password with a salt of 2<sup>512</sup> increases the time required to carry out a brute force or a dictionary attack, the aforementioned vulnerabilities are still worrisome when considering the project is no longer maintained since 2014 and there are no recent studies which prove TrueCrypt is still a secure option.</p>
+							<p>As a result, I wouldn’t recommend TrueCrypt to a friend. However, if a friend of mine has to use it, I’d advise him/her to set a strong password in combination with a salt of 2<sup>512</sup>, as mentioned above, to decrease the possibility of a brute attack.</p>
+							<p>Here is an ontology I created for the vulnerabilities detected by the cryptanalysis (Junestam & Guigo, 2014) mentioned above:</p>
+							<p style="text-align:center;"><img src="images/m3u8_ontology.png" alt="Ontology of the vulnerabilities of TrueCrypt" height="220"></p>
+							<p><center>--------</center> </p>
+							<h3>Key takeaways:</h3>
+							<ul>
+								<li><b>Cryptography</b> is the science of concealing message and communication through coded messages.</li>
+								<li><b>Plain text</b> is the human-readable message.</li>
+								<li><b>Cipher text</b> is the output obtained after applying cryptography on plain text.</li>
+								<li>Basic characteristics of modern cryptography are: (1) It operates on bit sequences, (2) It uses mathematical algorithms and (3) It requires parties interested in secure communication channel.</li>
+								<li>An <b>ontology</b> is a way of naming the concepts, their properties and the relationships between them.</li>
+							</ul>
+							<p><center>--------</center> </p>
 							<h3>References:</h3>
 							<p>
+								Abbas, A., Rathje C. A. , Wienbrandt, L. & Schimmler,  M. (2012) Dictionary Attack on TrueCrypt with RIVYERA S3-5000, <i>2012 IEEE 18th International Conference on Parallel and Distributed Systems</i> 93-100. DOI: 10.1109/ICPADS.2012.23.<br />
 								Aiello, J., Wheeler, S. & Koon, S. (2020) What Is Powershell? Available from: https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7 [Accessed 6 December 2020].<br />
 								Casteren, W. V. (2017) The waterfall model and the agile methodologies: a comparison by project characteristics-short.<br />
+								Davies, A. (2014) <i>A Security Analysis of TrueCrypt: Detecting hidden volumes and operating systems</i>, University of London. Available from: http://www.ma.rhul.ac.uk/static/techrep/2014/RHUL-MA-2014-10.pdf [Accessed 11 November 2022]<br />
 								Hygger (2020) What is Scrum Process Lifecycle? Available from: https://hygger.io/blog/what-is-scrum-lifecycle/ [Accessed 30 September 2022].<br />
 								III, (N.D.) Facts + Statistics: Identity theft and cybercrime. Available from: https://www.iii.org/fact-statistic/facts-statistics-identity-theft-and-cybercrime [Accessed 25 September 2022].<br />
 								ISO (2018) ISO/IEC 27000:2018(en) Information technology — Security techniques — Information security management systems — Overview and vocabulary. Available from: https://www.iso.org/obp/ui/#iso:std:iso-iec:27000:ed-5:v1:en [Accessed 30 September 2022].<br />
+								Junestam, A & Guigo, N. (2014) Open Crypto Audit Project TrueCrypt Security Assessment. Available from:  https://opencryptoaudit.org/reports/iSec_Final_Open_Crypto_Audit_Project_TrueCrypt_Security_Assessment.pdf [Accessed 9 November 2022]<br />
 								Larson, E. & Kirk, A. (2018) Generating Evil Test Strings for Regular Expressions. <i>2016 IEEE International Conference on Software Testing, Verification and Validation (ICST)</i> 309-319. DOI: 10.1109/ICST.2016.29.<br />
 								NCSC (2019) Most Hacked Passwords revealed as UK Cyber survey exposes gaps in online security. Available from: https://www.ncsc.gov.uk/news/most-hacked-passwords-revealed-as-uk-cyber-survey-exposes-gaps-in-online-security [Accessed 04 October 2022].<br />
 								NIST (2017) Digital Identity Guidelines: Authentication and Lifecycle Management. DOI: https://doi.org/10.6028/NIST.SP.800-63b <br />
