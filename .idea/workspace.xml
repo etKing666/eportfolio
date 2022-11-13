@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 3 unit 6 update">
+    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 3 unit 7 update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module3/artefacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/module3/artefacts.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +40,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/files" />
       <recent name="$PROJECT_DIR$/module3/images" />
+      <recent name="$PROJECT_DIR$/files" />
       <recent name="$PROJECT_DIR$/module2/images" />
       <recent name="$PROJECT_DIR$/images" />
     </key>
@@ -73,13 +72,6 @@
       <workItem from="1665856556294" duration="971000" />
       <workItem from="1666791841368" duration="304000" />
       <workItem from="1667755701704" duration="2477000" />
-    </task>
-    <task id="LOCAL-00006" summary="Unit 6 update.">
-      <created>1658672199884</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1658672199884</updated>
     </task>
     <task id="LOCAL-00007" summary="Unit 6 update.">
       <created>1658672322679</created>
@@ -417,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667336074960</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Module 3 unit 7 update">
+      <created>1668359386622</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1668359386623</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,6 +455,7 @@
     <MESSAGE value="Module 3 Unit 3 update." />
     <MESSAGE value="Module 3 Unit 4 update." />
     <MESSAGE value="Module 3 unit 6 update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Module 3 unit 6 update" />
+    <MESSAGE value="Module 3 unit 7 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module 3 unit 7 update" />
   </component>
 </project>
