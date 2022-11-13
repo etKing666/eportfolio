@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 3 Unit 5 update.">
-      <change afterPath="$PROJECT_DIR$/module3/images/m3u8_ontology.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/images/m3u8_report.png" afterDir="false" />
+    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 3 unit 6 update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module3/reflections.html" beforeDir="false" afterPath="$PROJECT_DIR$/module3/reflections.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/artefacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/module3/artefacts.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +41,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/module3/images" />
       <recent name="$PROJECT_DIR$/files" />
+      <recent name="$PROJECT_DIR$/module3/images" />
       <recent name="$PROJECT_DIR$/module2/images" />
       <recent name="$PROJECT_DIR$/images" />
     </key>
