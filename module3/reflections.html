@@ -327,6 +327,19 @@
 							<p>Since the operating systems are the most important piece of software of the information systems, it is important to appreciate the features of it as well as to develop a better understanding of what is going on under the hood. This week we had the opportunity to look back through the history to see how the operating systems evolved over time. Moreover, key concepts like kernel, process, threads were touched upon. Even though there was nothing completely new to me, it is very helpful to revisit these topics within the context of secure software development. It was astonishing to me that the design principles for secure systems laid out by Saltzer & Schroeder (1975) still very much applies today.</p>
 							<p>I believe that the true power of Python lies in the modules supported in the Python Standard Library. Thanks to the e-portfolio activities and seminar preparation question, I discover and learn a new module almost every week. For instance, lately I had a hands-on experience with Python’s <i>re</i> module which provides regular expression operations. Likewise, this week, I explored the <i>cmd</i> module which provides a framework for writing line-oriented command interpreters. As a response to the Codio activities, I designed a <a href="https://github.com/etKing666/MSc_Module3/blob/main/CLI/CLI.py">CLI</a> which supports several basic operations using the cmd module. </p>
 							<p><center>--------</center> </p>
+							<h3>Portfolio Component: Developing an API for a Distributed Environment</h3>
+							<p><i>1. Run the API.py code. Take a screenshot of the terminal output. What command did you use to compile and run the code?</i><br />
+								Here’s the terminal output:<br />
+							<p style="text-align:center;"><img src="images/m3u7api1.png" alt="Terminal output" height="150"></p><br />
+							As you can also see from the screenshot, I used <b>python api.py</b> command to run the code.</p>
+							<p><i>2. Run the following command at the terminal prompt: <b>http://127.0.0.1:5000/user/Ann</b>. What happens when this command is run, and why?</i><br />
+								It displays the information for the user “Ann”. It is because this is a “get” request and “get” method defined in the source code prints the user information in the users dictionary to the screen.</p>
+							<p><i>3. Run the following command at the terminal prompt: <b>http://127.0.0.1:5000/user/Adam</b> What happens when this command is run, and why?</i><br />
+								It returns “user not found” error. Again, this is a “get” request and get method searches for the argument (Adam) in the user dictionary and since it cannot find it there, it returns this error.</p>
+							<p><i>4. What capability is achieved by the flask library?</i><br />
+								flask library provides necessary tools for a web application that runs on browser. </p>
+							<p>You can see the source code from <a href="https://github.com/etKing666/MSc_Module3/blob/main/api/api.py">here</a>. </p>
+							<p><center>--------</center> </p>
 							<h3>Notes from the team meeting:</h3>
 							<p>Due to unexpected developments, we had to shift this week’s meeting which was supposed to be held on Sunday to next week. In the next meeting, we will start to work on the development phase of our team project.</p>
 							<p><center>--------</center> </p>
