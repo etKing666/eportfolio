@@ -374,6 +374,45 @@
 								<li>An <b>ontology</b> is a way of naming the concepts, their properties and the relationships between them.</li>
 							</ul>
 							<p><center>--------</center> </p>
+							<h2>Unit 9: Developing an API for a Distributed Environment</h2>
+							<h3>My reflections about the unit:</h3>
+							<p>This week, we had a historical perspective of the evolution of secure software architectures. Now that I see how the architectures have evolved from the monolithic terminal server systems of 1970s to the modern, lightweight architectures; I can appreciate the power and advantages of Microservices better. This week’s reading also helped to develop a better understanding of the benefits of virtualization, containers and REST API which we are also using for our team project.</p>
+							<p><center>--------</center> </p>
+							<h3>Notes from the team meeting:</h3>
+							<p>Since the deadline is getting closer, we had two team meetings this week. On Wednesday, we met to discuss our progress so far, based on the tasks defined for each team member. I was tasked to create the models that would support the creation of public users, reporting vulnerabilities and also deleting the personal information of users on request. I came up with two tables - one for user information and one for the vulnerabilities. Here is how my initial model design looks like at the moment:</p>
+							<p style="text-align:center;"><img src="images/m3u9models.png" alt="My initial model design for the project" height="280"></p>
+							<p>I also coded the application logic in the views.py file so that every time a user fills in and submits the vulnerability reporting form, a new record is created in the tables. If the user already exists in the database (based on his/her email) user is not recored to the table to avoid duplicate users. Also, users have the option to remain anonymous by leaving the name, surname and email fields blank, as indicated on the screenshot of the reporting form (please refer to the screenshot shared last week). Here’s a snapshot of the Django admin page which displays how a sample vulnerability looks like:</p>
+							<p style="text-align:center;"><img src="images/m3u9djangoadmin.png" alt="A sample vulnerability report on Django admin" height="280"></p>
+							<p>On Sunday, we met again to put everything we did together. Most importantly, me and Aaron merged the tables we created to use the same tables for public user and operator operations. Mustafa did necessary changes in the code so that we overrode the Django default admin page to have just one login for admin and operator users. We agreed on working on the front-end design and and meeting again on next Wednesday.</p>
+							<p><center>--------</center> </p>
+							<h3>Key takeaways:</h3>
+							<ul>
+								<li>Types of distributed systems: Client/Server, Mobile Agents, Service Oriented Architecture (SOA), Microservices.</li>
+								<li><b>Client/Server architecture</b> involves a client who sends the requests and a server who has the resources and responds to the requests.</li>
+								<li>Limited bandwidth that could be used by the clients is the one of the most important challenges of Client/Server architecture.</li>
+								<li><b>Service-Oriented Architecture (SOA)</b> allows services to be loosely coupled, reusable and dynamically assembled according to changing business environment. SOA is usually used in huge enterprise applications which deal with a high number of requests.</li>
+								<li>In SOA, when client starts a request, the request is handled by a middleware called <b>Enterprise Service Bus (ESB)</b>.</li>
+								<li>The biggest problem with SOA is that it is difficult to modify: to add a small component, whole application might have to be redeployed. </li>
+								<li>The aim of the <b>microservices architecture</b> is to break the application into smaller and independent services. Each small service can be designed to be independent and function by their own.</li>
+								<li>In microservices architecture, no middleware is used. Instead, dump pipes are used to control the endpoints, reducing the decoupling between the services.</li>
+								<li>When designing the microservices, it is important to decide the correct size. The services should neither be too small or too big. </li>
+								<li><b>Virtualization</b> is the process of splitting up physical machine into several virtual components in which each can host a different software to run within. </li>
+								<li><b>Virtual Machines (VM)</b> provide an abstraction layer thanks to which VM is oblivious of the hardware that it is running on. Even though a guest VM is compromised attacker cannot penetrate to the host machine.</li>
+								<li><b>Hypervisor</b>, which is responsible for managing the VMs, create an overhead. Hence, container technologies emerged and gained prominence.</li>
+								<li><b>Containers</b> virtualize an underlying host’s OS and provide a resource-isolated runtime environment, leading to enhanced portability. </li>
+								<li>Since each service is located in its own container, they have to be scheduled by Cluster Manager or Cluster Scheduler.</li>
+								<li><b>REST API</b>, which makes use of http features, is the most suitable messaging exchange mechanism for microservices. It relies on http protocol and includes the following methods:</li>
+								<ul>
+									<li><b>GET</b> to provide reading access to a resource</li>
+									<li><b>POST</b> to renew an existing resource or create a new resource</li>
+									<li><b>PUT</b> to create a new resource</li>
+									<li><b>DELETE</b> to delete a resource</li>
+								</ul>
+								<li>In <b>Infrastructure-as-a-Service (IaaS)</b> or <b>Hardware-as-a-Service (HaaS)</b> models, each client is allowed to have their own software configuration on the hardware that Is virtualized.</li>
+								<li>In <b>Platform-as-a-Service (PaaS)</b> model, client only manages the applications that he/she installed and configured. Other software and the OS are preconfigured based on the service agreement. Thanks to this arrangement, clients do not have to worry about managing OS updates or security patches and spend his time on development of applications.</li>
+								<li><b>DevOps</b> is an approach in which operations and development engineers work together throughout the SDLC. When DevOps is employed, Agile development goals are achieved.</li>
+							</ul>
+							<p><center>--------</center> </p>
 							<h3>References:</h3>
 							<p>
 								Abbas, A., Rathje C. A. , Wienbrandt, L. & Schimmler,  M. (2012) Dictionary Attack on TrueCrypt with RIVYERA S3-5000, <i>2012 IEEE 18th International Conference on Parallel and Distributed Systems</i> 93-100. DOI: 10.1109/ICPADS.2012.23.<br />
