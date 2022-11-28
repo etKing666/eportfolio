@@ -426,6 +426,41 @@
 								<li><b>DevOps</b> is an approach in which operations and development engineers work together throughout the SDLC. When DevOps is employed, Agile development goals are achieved.</li>
 							</ul>
 							<p><center>--------</center> </p>
+							<h2>Unit 10: From Distributed Computing to Microarchitectures</h2>
+							<h3>My reflections about the unit:</h3>
+							<p>In this unit, we had the chance to examine the different type of architectures and their strengths and weaknesses. I especially find interesting how microservices were used in a real-life situation, like infectious disease prediction (Calderón-Gómez, et al. 2020). From my point of view, this unit proved very useful for me to develop an understanding of the purpose of the ontologies and how to prepare an ontology. In the end, I revised my ontology that I came up with in the initial post of the collaborative discussion to cover all weaknesses of TrueCrypt.</p>
+							<p><center>--------</center> </p>
+							<h3>Notes from the team meeting:</h3>
+							<p>This week we had two meetings and we worked on the finishing touches. We streamlined the design of the pages so that they look similar and added a few tweaks to complement the feature set. Going forward, Mustafa will add threads to the project so that we can display the concurrent data streams and Ola will work on the testing. </p>
+							<p><center>--------</center> </p>
+							<h3>Seminar preparation questions: </h3>
+							<p><i><b>1. Read the paper: S. Fiore et al. (2019). Making reference to page 117659 and the paragraph which begins, "Through an API or via web pages, ...", write a similar paragraph which is applicable for the system that you have designed and developed.</b></i></p>
+							<p>Through web pages and REST API, the NCTTS web application provides: i) authentication (sign in, create user accounts, delete user accounts), ii) authorization (operator role [can verify and escalate vulnerabilities, change the status of vulnerabilities] and admin role [can add/edit/delete user accounts], manage databases), iii) reporting (submit vulnerability reports, view fixed vulnerabilities) and iV) other features (request deletion of own accounts [public user], send updates to public users via email).</p>
+							<p><center>--------</center> </p>
+							<h3>Forum discussion: Summary post</h3>
+							<p>As demonstrated by Junestam & Guigo (2014), TrueCrypt is susceptible to a number of vulnerabilities, ranging from medium-severity to informational. In my opinion, “Volume Header key derivation algorithm” and “Sensitive information might be paged out from kernel stacks” are particularly worrisome. </p>
+							<p>Even though Davies (2014) suggests some solutions to some of the vulnerabilities of TrueCrypt, these suggestions only help to make it harder to exploit the vulnerabilities and do not make it secure. Most importantly, as Gianluca also agrees, TrueCrypt is not maintained since 2014 and from my point of view, this is a very important indication that it should not be relied on anymore. </p>
+							<p>Finally, here is an ontology that captures all vulnerabilities of Truecrypt:</p>
+							<p style="text-align:center;"><img src="images/m3u10_ontology.png" alt="Revised ontology of the vulnerabilities of TrueCrypt" height="280"></p>
+							<p><center>--------</center> </p>
+							<h3>Portfolio Component: Faceted data</h3>
+							<p><i>Read Schmitz et al (2016) article about faceted data. Do you think this is a good approach to protect systems from data leakage? What are the pros and cons?</i><br />
+								As demonstrated by Schmitz et al (2016), faceted data involves two types of data: private and public. For users with proper authorization, it displays the private data which is the real value. However, for users without proper authorization, it displays public data, protecting the real value. Therefore, I think it is a good approach for protection against data leakage. However, from my point of view, this is a more complicated approach to the other approaches and it increases the complexity of the program. </p>
+							<p><center>--------</center> </p>
+							<h3>Key takeaways:</h3>
+							<ul>
+								<li>Ontology-based information retrieval aims to improve the interface between data and the search request and make queries more efficient and user-friendly. </li>
+								<li><b>Ontology-to-database mapping</b> relates a relational DB schema to an ontology schema.</li>
+								<li><b>Database-to-ontology transformation</b> approaches assume that only a DB schema exists and produce the ontology from the relational database.</li>
+								<li>Monolithic architectures are difficult to scale and utilize, especially in case of distributed workforce, but since all components share a common memory and all of them are in the same place, it is usually faster.</li>
+								<li>Distributed systems offer many advantages including scalability, reliability and easy upgrades/updates. However, it is vulnerable to attacks (e.g. DoS or DDoS) since the resources are usually distributed. </li>
+								<li>In <b>active attacks</b>, the attacker modifies the data being transferred during the transmission or create false transmissions.</li>
+								<li>In <b>passive attacks</b>, user just observes, sniffs the network and monitor the data being transmitted.</li>
+								<li>The data security is provided by encryption and decryption techniques in distributed systems.</li>
+								<li>In Service-Oriented Architecture, Web Services Provider publish Web Services in Web Services Directory so that Web Services Client may find and use them (<b>Find-Bind-Execute paradigm</b>)</li>
+								<li>Four SOA standards (from the Open Group) are: <b>SOA RA (supports the achievement of SOA), OSIMM (facilitates incremental adoption of SOA), SGRM (used to tailor SOA governance) and SOA Ontology</b>.</li>
+							</ul>
+							<p><center>--------</center> </p>
 							<h3>References:</h3>
 							<p>
 								Abbas, A., Rathje C. A. , Wienbrandt, L. & Schimmler,  M. (2012) Dictionary Attack on TrueCrypt with RIVYERA S3-5000, <i>2012 IEEE 18th International Conference on Parallel and Distributed Systems</i> 93-100. DOI: 10.1109/ICPADS.2012.23.<br />
