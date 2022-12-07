@@ -461,6 +461,39 @@
 								<li>Four SOA standards (from the Open Group) are: <b>SOA RA (supports the achievement of SOA), OSIMM (facilitates incremental adoption of SOA), SGRM (used to tailor SOA governance) and SOA Ontology</b>.</li>
 							</ul>
 							<p><center>--------</center> </p>
+							<h2>Unit 11: Future trends in Secure Software Development</h2>
+							<h3>My reflections about the unit:</h3>
+							<p>In Unit 11, we had an opportunity to have a look into the future trends in the software development, with a special emphasis open the transformation from monolithic structures to microservices. The reading material provided a historical perspective on the evolution of architectures. It was especially interesting for me to get to know concepts like mobile edge computing and fog computing. This unit was not a reading-intensive one and the highlight of this week was the assignment submission. As a team, we were able to put together our coding output and submit it on time. You can read more about it in the team meeting notes.</p>
+							<p><center>--------</center> </p>
+							<h3>Notes from the team meeting:</h3>
+							<p>Since this was the last week before the submission, we had three meetings to work on the finishing touches. As always, each member has a different task and I took up the linters. I did a pylint scan on all the Python files in the apps and fixed the errors it detected and silenced the warnings. However, since Django framework sometimes follows other rules and conventions, silencing some errors was not possible.</p>
+							<p style="text-align:center;"><img src="images/m3u11_pylint.png" alt="Pylint scan results" height="350"></p>
+							<p>Finally, on Monday we met for the last time, tested our app together and uploaded it.</p>
+							<p style="text-align:center;"><img src="images/m3u11_app.png" alt="NCTTS App" height="350"></p>
+							<p><center>--------</center> </p>
+							<h3>Debate: Microservices and Microkernels</h3>
+							<h4>Microservices are definitely the future</h4>
+							<p>I strongly believe that the ultimate phase in the evolution of the architectural style for now, microservices (and microkernels) are the future. The benefits of microservices are countless, I’d like to emphasize the most important advantages this architectural style bring from my point of view.</p>
+							<p>First and foremost, Microservices promote the usability (Usman et al., 2022). In this approach, the design is granular and the whole system is broken down into smaller, stand-alone services which can be integrated into another system if needed. As a result of this, a software architect can easily curate a system by selecting appropriate services that are already developed and integrate them together, making sure that the individual services interact smoothly. In today’s world where time-to-market gains importance, this is a huge step forward. Moreover, thanks to this, software developers can benefit from the expertise of the software development, without “reinventing the steel”.</p>
+							<p>Another important advantage that microservices provide is the ability to isolate individual components from the rest of the system (Wang et al., 2021). This ability helps the developers to prevent an attack to a service from influencing the entire system negatively.</p>
+							<p>All in all, I think that, without a doubt, microservices is the state of the art in the software development and it brings a number of advantages to the table.</p>
+							<p><center>--------</center> </p>
+							<h3>Key takeaways:</h3>
+							<ul>
+								<li>Despite its advantages, cloud computing has several disadvantages, including latency and jitter.</li>
+								<li><b>Fog computing</b> provides computing, networking and storage services between the end devices and the traditional cloud services. </li>
+								<li>Fog computing is characterized by (1) low latency, (2) widespread geographical distribution, (3) mobility, (4) large number of nodes, (5) predominant role of wireless access, (6) heterogeneity, (7) presence of real time applications.</li>
+								<li><b>Mobile edge computing (MEC)</b> provides users with computing services at the edge of mobile networks. Low latency and broad bandwidth are the biggest advantages of MEC. </li>
+								<li><b>Mobile cloud computing</b> is a small cloud infrastructure which is deployed near mobile users which delegates resource-intensive tasks to remote entities. </li>
+								<li><b>Superfluid cloud</b> is a set of virtualization platforms with heterogeneous capabilities.</li>
+								<li>Edge paradigms are vulnerable to various types of threats including Denial of Service, man-in-the-middle, rouge gateway/data center, injection of information, etc.</li>
+								<li>Latency of security mechanisms is the biggest challenge to secure the edge paradigms. </li>
+								<li>Since various different types of communication technologies and protocols are used in edge paradigms, it is necessary for the administrators of these networks to understand and implement the security protocols of these technologies.</li>
+								<li>Due to the distributed architecture of edge paradigms, the impact of attacks usually remain local and does not impact whole ecosystem. However, some type of attacks (e.g. rouge infrastructure) that target the core infrastructure can have an impact on the all ecosystem.</li>
+								<li><b>Ownership</b> is an important factor in the security of edge paradigms. If a single company owns all the edge data centers in different locations, it is easier to secure the network. However, in this case, a successful attack on this single company can impact whole system.</li>
+								<li>A <b>cyber-physical system (CPS)</b> is an integration of computation with physical process whose behavior is defined by both computational and physical parts of the system.</li>
+							</ul>
+							<p><center>--------</center> </p>
 							<h3>References:</h3>
 							<p>
 								Abbas, A., Rathje C. A. , Wienbrandt, L. & Schimmler,  M. (2012) Dictionary Attack on TrueCrypt with RIVYERA S3-5000, <i>2012 IEEE 18th International Conference on Parallel and Distributed Systems</i> 93-100. DOI: 10.1109/ICPADS.2012.23.<br />
@@ -472,6 +505,7 @@
 								ISO (2018) ISO/IEC 27000:2018(en) Information technology — Security techniques — Information security management systems — Overview and vocabulary. Available from: https://www.iso.org/obp/ui/#iso:std:iso-iec:27000:ed-5:v1:en [Accessed 30 September 2022].<br />
 								Junestam, A & Guigo, N. (2014) Open Crypto Audit Project TrueCrypt Security Assessment. Available from:  https://opencryptoaudit.org/reports/iSec_Final_Open_Crypto_Audit_Project_TrueCrypt_Security_Assessment.pdf [Accessed 9 November 2022]<br />
 								Larson, E. & Kirk, A. (2018) Generating Evil Test Strings for Regular Expressions. <i>2016 IEEE International Conference on Software Testing, Verification and Validation (ICST)</i> 309-319. DOI: 10.1109/ICST.2016.29.<br />
+								Mougouei, D., Sani, F. M. & Almasi, M. M. (2013) S-Scrum: a Secure Methodology for Agile Development of Web Service. <i>World of Computer Science and Information Technology Journal (WCSIT)</i> 3(1): 15-19.<br />
 								NCSC (2019) Most Hacked Passwords revealed as UK Cyber survey exposes gaps in online security. Available from: https://www.ncsc.gov.uk/news/most-hacked-passwords-revealed-as-uk-cyber-survey-exposes-gaps-in-online-security [Accessed 04 October 2022].<br />
 								NIST (2017) Digital Identity Guidelines: Authentication and Lifecycle Management. DOI: https://doi.org/10.6028/NIST.SP.800-63b <br />
 								OWASP (2021). OWASP Top 10 - 2021. Available from: https://owasp.org/Top10/ [Accessed 25 September 2022].<br />
@@ -480,7 +514,9 @@
 								Royce, W. W. (1970) Managing the Development of Large Software Systems. <i>Proceedings, IEEE WESCON</i>, 1-9.<br />
 								Saltzer, J. H., Schroeder, M. D. (1975) The protection of information in computer systems <i>Proceedings of the IEEE</i> 63(9): 1278-1308.<br />
 								Sharma, A. & Bana, R. K. (2022) Identification and integration of security activities for secure agile development. <i>International Journal of Information Technology</i> 14(2): 1117-1130.<br />
-								Mougouei, D., Sani, F. M. & Almasi, M. M. (2013) S-Scrum: a Secure Methodology for Agile Development of Web Service. <i>World of Computer Science and Information Technology Journal (WCSIT)</i> 3(1): 15-19.<br />
+								Usman, M.,  Badampudi, D., Smith, C. & Nayak, H. (2022) An Ecosystem for the Large-Scale Reuse of Microservices in a Cloud-Native Context, <i>IEEE Software</i> 39(5): 68-75. DOI: 10.1109/MS.2022.3167447.<br />
+								Wang, Y., Kadiyala, H. & Rubin, J. (2021) Promises and challenges of microservices: an exploratory study. <i>Empirical Software Engineering: an International Journal<i> 26(4). DOI: s10.1007/s10664-020-09910-y<br />
+
 							</p>
 						</section>
 					</div>
