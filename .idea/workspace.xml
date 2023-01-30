@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 3 Unit 10 update.">
+    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 3 unit 12 update">
+      <change afterPath="$PROJECT_DIR$/module4/artefacts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module4/images/kali.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module4/reflections.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module2/artefacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/module2/artefacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module3/artefacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/module3/artefacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module3/reflections.html" beforeDir="false" afterPath="$PROJECT_DIR$/module3/reflections.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +45,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module4/images" />
       <recent name="$PROJECT_DIR$/module3/images" />
       <recent name="$PROJECT_DIR$/files" />
       <recent name="$PROJECT_DIR$/module2/images" />
@@ -79,13 +82,7 @@
       <workItem from="1668965981030" duration="1718000" />
       <workItem from="1669636959849" duration="534000" />
       <workItem from="1670436561714" duration="1319000" />
-    </task>
-    <task id="LOCAL-00013" summary="Unit 10 update">
-      <created>1661583490100</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1661583490100</updated>
+      <workItem from="1675016878316" duration="3225000" />
     </task>
     <task id="LOCAL-00014" summary="Unit 10 update">
       <created>1661584273061</created>
@@ -423,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669637192264</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Module 3 unit 12 update">
+      <created>1670791676256</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1670791676257</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,7 +445,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit" />
     <MESSAGE value="Unit 8 update." />
     <MESSAGE value="Unit 6 update." />
     <MESSAGE value="Unit 8 update" />
@@ -466,6 +469,7 @@
     <MESSAGE value="Module 3 unit 8 update" />
     <MESSAGE value="Module 3 unit 9 update" />
     <MESSAGE value="Module 3 Unit 10 update." />
-    <option name="LAST_COMMIT_MESSAGE" value="Module 3 Unit 10 update." />
+    <MESSAGE value="Module 3 unit 12 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module 3 unit 12 update" />
   </component>
 </project>
