@@ -55,17 +55,89 @@
 								<p>To begin with, Network Security is not a topic I am familiar with, so, I am excited and motivated to take this opportunity to learn one of the fundamental topics of computer science. </p>
 								<p>I was fascinated to trace back the history of information systems security to 1960s in this unit’s lecturecast. I also had the opportunity to familiarize with important concepts like CIA(+N) and cyber kill chain. I must admit that, especially while reading the core book, at times I felt lost, largely due to gaps in my knowledge (such as intricate details about OSI) but I am pretty confident that over time I will be able to fill these gaps by engaging with the module content. For starters, following the advice from the core book, I installed Kali Linux on a virtual machine (VirtualBox) on my intel-based Mac (I am yet to figure out how I can get it working on my M1-based iMac though). I am planning to explore the various tools it offers and follow the examples in the book to get a hands-on experience. </p>
 								<p style="text-align:center;"><img src="images/kali.jpeg" alt="Kali Linux installation on my MacBook (on VirtualBox)" height="300"><br /></p>
+								<p style="text-align:center;">Kali Linux installation on my MacBook (on VirtualBox)<br /></p>
 								<p><center>--------</center> </p>
 								<h3>Key takeaways:</h3>
 								<ul>
-									<li>Objects are user-defined data types that has two components: <b>attributes</b> and <b>behaviours</b>.</li>
-									<li><b>Shallow copy</b> copies the contents of the objects and references to embedded objects. On the other hand, <b>deep copy</b> copies the contents of the objects as well ass all the embedded objects.</li>
-									<li>The <b>encapsulation</b> is "the distinction between the inside and the outside of the object" (Jocque, 2016: 345).</li>
-									<li><b>Version Control Systems (VCS)</b> can be classified as <b>Centralized Version Control Systems (CVCS)</b> and <b>Distributed Version Control Systems (DVCS)</b>. Git is an example of DVCS.</li>
+									<li>The main concepts of Information Security Management (ISM) are <b>CIA+N</b>: Confidentiality, Integrity, and Availability + Non-repudiation </li>
+									<li><b>Recovery Time Objective (RTO)</b> is concerned with how quickly a system should be recovered.</li>
+									<li><b>Recovery Point Objective (RPO)</b> is concerned with how much data can be lost.</li>
+									<li><b>Principles for the Protection of Data</b> (Saltzer and Schroeder, 1975): (1) Economy of mechanism, (2) Least privilege, (3) Open design (e.g. not security through obscurity), (4) Fail-safe defaults (e.g. deny first), (5) Separation of privilege (e.g. 2FA), (6) The least common mechanism, (7) Complete mediation (e.g. checks at regular intervals), (8) Psychological acceptability, (9) Work factor, (10) Compromise recordings (e.g. auditing and logging).</li>
+									<li>Every vulnerability assessment (or pen-test) should start with a discovery phase. This phase involves personal information discovery (PID), literature search (to gather information about the operating system, middleware and applications deployed) and comparing the information gathered against vulnerability databases to find vulnerabilities for the software in question.</li>
+									<li>Two important approaches to security assessment (among others) are <b>static analysis</b> and <b>dynamic testing</b>.</li>
+									<li>Static analysis includes <b>design review</b>, <b>configuration review</b> and <b>static code analysis</b>. It is an effective way to identify vulnerabilities in a system, but it is costly and it can produce false positives.</li>
+									<li>Dynamic testing includes <b>network infrastructure testing</b>, <b>web application testing</b>, <b>web service testing</b> and <b>internet-based social engineering</b>. In this case, testing is carried out from the perspective of an attacker.</li>
+									<li>Four steps of <b>best practice Network Security Assessment Methodology</b>: (1) Reconnaissance, (2) Vulnerability scanning, (3) Investigation of vulnerabilities, (4) Exploitation of vulnerabilitie</li>
+								</ul>
+								<p><center>--------</center> </p>
+								<h2>Unit 2: Advanced Persistent Threats: Applying the Cyber Kill Chain Model to a Case Study</h2>
+								<h3>My reflections about the unit:</h3>
+								<p>This unit focused on the cyber kill chain model and the SolarWinds exploit, and the basics of penetration testing and threat modeling. I had a hard time applying cyber kill chain model to the SolarWinds hack, especially the exploitation and the installation phases were not clear to me based on the information provided on the referred sources. I was not able to come up with a mitigation and required tools for each of the steps. Even though I was a little bit discouraged by that, in fact it was still a very good opportunity to familiarize myself with the cyber kill chain model. </p>
+								<p>I also carried out the literature review for the potential vulnerabilities with the website I chose last week. Compared to last week, I feel much more confident because I feel like it is all coming together and I am much more familiar with the potential vulnerabilities, attack patterns and the tools that I can use. I am already looking forward for the last week during which I will perform a basic scan of the website.</p>
+								<h5>Reflections on Vulnerability Analysis – Literature Review Activity:</h5>
+								<p>I chose an e-commerce website (https://buymenow.org.uk) and I started off the literature review by searching for specific vulnerabilities of e-commerce websites. However, it turned out that finding such vulnerabilities right away on the the vulnerability databases such as NIST or CVE.org was not possible. Because when searching for vulnerabilities on these websites, you have to enter specific vulnerability type that you are looking for. In order to overcome this challenge, I have carried out a broad literature review which included reputable software, news and research websites and came up with a shortlist of the most common vulnerabilities of e-commerce websites, such as XSS, e-skimming and SQL injections. Then, when I went back to the vulnerability databases and searched for the exact terms (like XSS) I was able to see the specific vulnerabilities that were identified. Also, the number of search results was a good indicator of the severity of the vulnerability in question. </p>
+								<p>However, I found websites of reputable software companies or researchers more useful because they included much more information, real-life examples and the content was kept up to date. So, I skimmed a number of websites to find out the common vulnerabilities with websites and reviewed them carefully to identify which of these potential vulnerabilities would apply to the website in question.</p>
+								<p>Another important point to consider was that this website would also  be potentially vulnerable to the common vulnerabilities of websites and web applications. So, vulnerabilities identified by OWASP (2021) and other organizations would also be taken into consideration.</p>
+								<p>Since this will be the baseline for my final report, I think this literature review was very useful. I will continue from here to analyze my website against these vulnerabilities. You can see my shortlist of vulnerabilities <a href="../files/M4_SAR_Step_1.pdf">here</a></p>
+								<p><center>--------</center> </p>
+								<h3>Key takeaways:</h3>
+								<ul>
+									<li>Types of penetration testing: <b>Whitebox testing</b> and <b>blackbox testing</b>. </li>
+									<li>A typical pattern for penetration testing: <b>Initial engagement, scoping, testing, reporting and follow up</b>.</li>
+									<li>The assessment of the penetration testing report and selecting the solutions to be implemented is down to the risk owner and should not be outsourced to the test team.</li>
+									<li><b>STRIDE</b>: Spoofing, Tampering, Info Disclosure, Repudiation, Denial of Service and Elevation of Privilege.</li>
+									<li>An enterprise should use a <b>boundary firewall</b> to restrict inbound and outbound network traffic. When an organization doesn’t control the network a device is connected to, a <b>software firewall</b> must be configured on the device.</li>
+									<li><u><b>Best practice</b></u>: Use separate accounts to perform administrative activities only and do not use the admin account for activities that might expose administrative privileges to attackers (e.g. emailing or web browsing or other standard user activities)</li>
+									<li><u><b>Best practice</b></u>: If possible, avoid using SMS for MFA. But it is still far better than not having a MFA in place.</li>
+									<li>For optimum security, all released updates should be applied within 14 days (at maximum).</li>
+									<li>When using cloud, the responsibility of applying security requirement and controls vary depending on the cloud service model: <br />
+									<table>
+										<tr>
+											<th>Requirement</th>
+											<th>IaaS</th>
+											<th>PaaS</th>
+											<th>SaaS</th>
+										</tr>
+										<tr>
+											<td>Firewalls</td>
+											<td>User/Provider</td>
+											<td>Provider (sometimes user)</td>
+											<td>Provider</td>
+										</tr>
+										<tr>
+											<td>Secure configuration</td>
+											<td>User/Provider</td>
+											<td>User/Provider</td>
+											<td>User/Provider</td>
+										</tr>
+										<tr>
+											<td>User access control</td>
+											<td>User</td>
+											<td>User</td>
+											<td>User</td>
+										</tr>
+										<tr>
+											<td>Malware protection</td>
+											<td>User/Provider</td>
+											<td>Provider (sometimes user)</td>
+											<td>Provider</td>
+										</tr>
+										<tr>
+											<td>Security update management</td>
+											<td>User/Provider</td>
+											<td>User/Provider</td>
+											<td>Provider</td>
+										</tr>
+									</table>
+									<p><div style="text-align: center;">Table 1: Responsibility matrix depending on the cloud service model (NCSC, 2021)</div></p></li>
 								</ul>
 								<p><center>--------</center> </p>
 								<h3>References:</h3>
-								<p></p>
+								<p>
+									National Cyber Security Centre (2021) Cyber Essentials: Requirements for IT infrastructure. Available from: https://www.ncsc.gov.uk/files/Cyber-Essentials-Requirements-for-IT-infrastructure-3-0.pdf [Accessed 04 February 2023].<br />
+									OWASP (2021). OWASP Top 10 - 2021. Available from: https://owasp.org/Top10/ [Accessed 05 February 2022].<br />
+									Saltzer, J. H., Schroeder, M. D. (1975) The protection of information in computer systems <i>Proceedings of the IEEE</i> 63(9): 1278-1308.<br />
+								</p>
 							</section>
 
 					</div>
