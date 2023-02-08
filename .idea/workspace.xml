@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 4 unit 1 update">
-      <change afterPath="$PROJECT_DIR$/files/M4_SAR_Step_1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module4/images/Solar Winds Breach Final.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module4/images/Solar Winds Breach Initial.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module4/artefacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/module4/artefacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module4/reflections.html" beforeDir="false" afterPath="$PROJECT_DIR$/module4/reflections.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +43,9 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module4/images" />
       <recent name="$PROJECT_DIR$/files" />
       <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$/module4/images" />
       <recent name="$PROJECT_DIR$/module3/images" />
       <recent name="$PROJECT_DIR$/module2/images" />
     </key>
@@ -84,6 +83,7 @@
       <workItem from="1675016878316" duration="4100000" />
       <workItem from="1675110450368" duration="20000" />
       <workItem from="1675579632488" duration="2718000" />
+      <workItem from="1675666039848" duration="2614000" />
     </task>
     <task id="LOCAL-00015" summary="Unit 10 update">
       <created>1661584436085</created>
