@@ -132,6 +132,49 @@
 									<p><div style="text-align: center;">Table 1: Responsibility matrix depending on the cloud service model (NCSC, 2021)</div></p></li>
 								</ul>
 								<p><center>--------</center> </p>
+								<h2>Unit 3: Vulnerability Assessments</h2>
+								<h3>My reflections about the unit:</h3>
+								<p>This week, I was excited to receive some detailed information about vulnerability assessments and penetration testing and also to get the opportunity to have a practical experience using some basic tools. In the previous weeks, I was a little bit nervous because I was not sure about the tools I should use or the methodology I should follow. However, this week’s content scanning activity, and the assignment helped me to have a more clear picture about it. I am planning to spend more time exploring more advanced scanning tools during the weeks ahead and also do some more research and reading to be able to interpret the outcome of the scans accurately. </p>
+								<h5>Reflections on Vulnerability Analysis – Scanning Activity:</h5>
+								<p>Since this was the first time I used these scanning tools, it took me some time to figure out how to use them. However, since each of them can be used in a similar way and offer a help content which includes some useful information like the usage of the tool as well as the various flags that can be used with it, I was able to use the tools (at least with the base functionality) in no time.</p>
+								<p>What took more time was to figure out how to interpret the outcome of the tools. I had to make a research to make sense of the output of each tool and also to identify how I can mitigate the limitations of each. For instance, using traceroute I was able to identify all the hops but I was not able to get a response from one of the hops. After some research, I found out that I could use MTR to identify the packages lost at the hops. When I used the tool, I saw that more than 90% of the package was lost on that hop. </p>
+								<p>All in all, this was a very useful activity because it helped me to develop an understanding of how I can make use of the various scanning tools. It will also help me prepare my final report as the outcome of the scans will lay the foundation of the vulnerability assessment. </p>
+								<p><center>--------</center> </p>
+								<h3>Key takeaways:</h3>
+								<ul>
+									<li>Whereas <b>Traceroute</b> tracks the path of an IP package the source to the destination, <b>MTR</b> also shows the percentage of packages lost (if any).</li>
+									<li><b>Transmission Control Protocol (TCP)</b> provides connection-oriented reliable data delivery, duplicate data suppression, congestion control and flow control.</li>
+									<li><b>User Datagram Protocol (UDP)</b> provides connectionless, unreliable, best-effort service. Applications using UDP have to provide their own end-to-end integrity, flow controlled congestion control (if desired). Usually UDP is used by applications that need fast transport mechanism and can tolerate loss of data.</li>
+									<li>In a <b>subnet mask</b>, bits with one indicate positions ascribed to the subnet number, whereas bits with zero indicate those ascribed to the original network number.</li>
+									<li><b>Types of subnettting</b>: <b>Static</b> (fixed length subnet masks or FLSM) and <b>variable length</b> subnetting (variable length subnet masks or VLSM).</li>
+									<li>In static subnetting, all subnets use the same subnet mask, wasting more IP addresses, especially in small networks. In variable-length subnetting, each subnet uses a different subnet mask (VLSM), wasting fewer IP addresses. <u>VLSM is the defacto standard today</u>.</li>
+									<li>A <b>multihomed host</b> is a host that is connected to multiple networks or subnets.</li>
+									<li>Methods of delivery in the IP protocol are <b>unicast, broadcast, multicast</b>, and <b>any cast</b>.</li>
+									<li>Different types of <b>broadcast</b> addresses: <b>Limited broadcast address</b> (255.255.255.255, all bits one, directed to all hosts on the local subnet), <b>network-directed broadcast address</b> (valid network number, host number is all ones, directed to all hosts on a network), <b>subnet-directed broadcast address</b> (valid network and subnet number, host number is all ones, directed to all hosts in a subnet), <b>all-subnets-directed broadcast address</b> (valid subnetted network number, host number is all ones, directed to all hosts on all subnets).</li>
+									<li><b>Multicasting</b> allows selecting destination groups, by defining host groups so that the packages are only sent to the members of the host group. </li>
+									<li><b>Anycast</b> allows single IP address to be shared by multiple servers/devices in a network.</li>
+									<li><b>Supernetting</b> is the process of combining multiple networks into a single entry.</li>
+									<li><b>CIDR</b> routes based on the higher order bits of the IP address (not the class of the network number, hence classless).</li>
+									<li>The maximum length of an IP datagram is 65,535 octets.</li>
+									<li>IP can provide fragmentation and reassembly of datagrams, however, if a fragment gets lost, the complete datagram is considered lost. Since IP doesn’t provide ay acknowledgement mechanism, the remaining fragments are discarded by the destination host.</li>
+									<li><b>Internet Control Message Protocol (ICMP)</b> is used when a router or a destination host must inform the source host about errors in datagram processing. ICMP messages are sent in IP diagrams. Ping and Traceroute are to popular applications based on ICMP.</li>
+									<li><b>Internet Group Management Protocol (IGMP)</b> allows hosts to participate in IP multicasts.</li>
+									<li><b>Address Resolution Protocol (ARP)</b> is a network-specific standard protocol which responsible for converting the higher-level protocol addresses (IP addresses) to physical network addresses.</li>
+									<li><b>Reverse Address Resolution Protocol (RARP)</b> is used when a network host doesn’t know its IP address. In this case physical address is the known parameter and UP address is the queried parameter. A RARP server must exist in the network to respond to this request.</li>
+									<li><b>Bootstrap Protocol (BOOTP)</b> allows a client workstation to initialize with a minimal IP and request its IP address, gateway address and the address of a name server from a BOOTP server.</li>
+									<li><b>Dynamic Host Configuration Protocol (DHCP)</b> is used to automatically providing IP addresses and other related configuration information such as the subnet mask and default gateway. A DHCP server satisfies DGCP requests.</li>
+									<li>A <b>port</b> is a 16-bit number used by host-to-host protocol to identify to which higher-level protocol or application program (process) it must deliver incoming messages.</li>
+									<li>Two types of ports: <b>Well-known</b> and <b>ephemeral</b> ports.</li>
+									<li><b>Well-known ports</b> are controlled and assigned by the Internet Assigned Number Authority (IANA) and on most systems can only be used by system processes or by programs executed by privileged users. Well-known ports allow clients to find servers without configuration information. </li>
+									<li><b>Ephemeral ports</b> can be used by ordinary user-developed programs on most systems and for as long as it is needed. The port number is contained in the UDP/TCP datagrams.</li>
+									<li>A <b>socket</b>  is a special type of file handle which is used by a process to request network services from the operating system.</li>
+									<li>A <b>socket address</b> is comprised of: < protocol, local-address, local port ></li>
+									<li>An <b>association</b> is comprised of: < protocol, local-address, local port, foreign-address, foreign-port ></li>
+									<li>Because datagrams are usually directed to certain processes instead of the whole system, applications sending datagrams to a host need to specify a target that is more specific than an IP address. UDP and TCP provide this by using ports.</li>
+									<li>TCP uses <b>window principle</b> at the byte-level to ensure reliability. </li>
+									<li>Types of IP routing: <b>Static routing</b> and <b>dynamic routing</b></li>
+								</ul>
+								<p><center>--------</center> </p>
 								<h3>References:</h3>
 								<p>
 									National Cyber Security Centre (2021) Cyber Essentials: Requirements for IT infrastructure. Available from: https://www.ncsc.gov.uk/files/Cyber-Essentials-Requirements-for-IT-infrastructure-3-0.pdf [Accessed 04 February 2023].<br />
