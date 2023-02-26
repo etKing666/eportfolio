@@ -188,10 +188,33 @@
 									<li><u><b>Best practice</b></u>: Disable Telnet, FTP, VNC, and other maintenance protocols that lack transport security through encryption.</li>
 								</ul>
 								<p><center>--------</center> </p>
+								<h2>Unit 5: Logging, Forensics and Future Trends</h2>
+								<h3>My reflections about the unit:</h3>
+								<p>Logging and forensics were the central themes of this week. Even though I was already well-informed about Windows logging system, I was not aware about how it differs from Linux logging system. I had a chance to explore where the logs were stored in my Linux machine. From my point of view, one of the most important activities of this unit was the case study in which we were expected to review a reporting template. It did not help only to prepare the final assignment but also to contemplate on the industry standards for an assessment reporting template. </p>
+								<h5>Reflections on the Case Study (Reviewing an Assessment Reporting Template):</h5>
+								<p>Before beginning this activity, I was not fully aware of the NCSC requirements (NCSC, 2022) of a vulnerability assessment report. So, I had to make a brief research on it. Once I found them out on the NCSC website, I was able to compare the sample report against these requirements without a problem. Since we are expected to prepare the Executive Summary section of a vulnerability assessment report, I think this activity was very useful because it provided me an opportunity to take a critical look at the report and raise my awareness against of the NCSC requirements. </p>
+								<p><center>--------</center> </p>
+								<h3>Key takeaways:</h3>
+								<ul>
+									<li><u><b>Best practice</b></u>: In order to verify the authenticity of the ISO file downloaded from Kali Linux website, always check the SHA-256 checksum value of the ISO file and compare it against the the checksum published by Kali developers.</li>
+									<li><b>setuid</b> and <b>setgid</b> bits are particularly important for the files/directories because it may allow an outsider to run a program with super-user right</li>
+									<li>All log messages consist of a timestamp, hostname and an application field and some also a status message.</li>
+									<li><b>logrotate</b> is a key log management utility - it is used to manage the number of instances of each log to keep, when to create a new log file, when and how to archive old logs, and even whether to email logs to another destination.</li>
+									<li><b>Security Information Event Management (SIEM)</b> aims to provide an application that can pull together all sources of security alerts and events into one place.</li>
+									<li><b>ELK</b> includes Elasticsearch, Logstash, Cabana and other applications.</li>
+									<li>Four steps of Forensic Process according to NIST: (1) Collection, (2) Examination, (3) Analysis, and (4) Reporting.</li>
+									<li><b>IPSec</b> was designed to provide CIA (Confidentiality, Integrity and Availability) by using a two-part solution: <b>Authentication Header (AH)</b> and the <b>Encapsulating Security Payload (ESP)</b>.</li>
+									<li><b>DNSSEC</b> doesn’t encrypt DNS messages - it is a cryptographic authentication mechanism aimed to assure the integrity of DNS responses.</li>
+									<li><b>Secure Shell (SSH)</b> provides a secure tunnel that allows remote login and also a variety of protocols to be run over it. It uses a client-server model. It uses cryptographic keys to encrypt the network connection and can either authenticate via public-private key pairs or via simple passwords.</li>
+									<li><b>HTTPS</b> uses either SSL/ TLS (secure socket layer/ transport layer security) to encrypt the layers below the application protocol layer.</li>
+									<li>All secure protocols rely on </b>public key infrastructure (PKI)</b> either to exchange session or secure keys. PKI allows keys or certificates to be exchanged while maintaining confidentiality, integrity and availability. It does this by utilising a system of public keys and private keys.</li>
+								</ul>
+								<p><center>--------</center> </p>
 								<h3>References:</h3>
 								<p>
 									Bandos, T. (2022) The Five Steps of Incident Response. Available from: https://digitalguardian.com/blog/five-steps-incident-response [Accessed 18 February 2023]<br />
-									National Cyber Security Centre (2021) Cyber Essentials: Requirements for IT infrastructure. Available from: https://www.ncsc.gov.uk/files/Cyber-Essentials-Requirements-for-IT-infrastructure-3-0.pdf [Accessed 04 February 2023].<br />
+									NCSC (2021) Cyber Essentials: Requirements for IT infrastructure. Available from: https://www.ncsc.gov.uk/files/Cyber-Essentials-Requirements-for-IT-infrastructure-3-0.pdf [Accessed 04 February 2023].<br />
+									NCSC (2022) Penetration Testing: Advice on how to get the most from penetration testing. Available from: https://www.ncsc.gov.uk/guidance/penetration-testing [Accessed 25 February 2023]<br />
 									OWASP (2021). OWASP Top 10 - 2021. Available from: https://owasp.org/Top10/ [Accessed 05 February 2022].<br />
 									Saltzer, J. H., Schroeder, M. D. (1975) The protection of information in computer systems <i>Proceedings of the IEEE</i> 63(9): 1278-1308.<br />
 								</p>
