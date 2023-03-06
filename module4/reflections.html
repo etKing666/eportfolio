@@ -49,6 +49,26 @@
 									<h1>Network Security</h1>
 									<p>My reflections on the units included within the module.</p>
 								</header>
+								<section style="border:black; border-width:5px; border-style:solid;">
+									<h2 style="text-align:center;">Module reflections</h2>
+									<p><b>What?</b></p>
+									<p>Before starting this module, I only had a rough idea about vulnerability analysis and penetration testing and I was not able to tell the difference between the two. Likewise, I was not familiar with the threat modelling frameworks like STRIDE (Microsoft, 2022) or DREAD (Howard & LeBlanc, 2004: 93-94). </p>
+									<p>Even though I sometimes used ping to check if a website was available, I was not aware of how ping or other similar tools like traceroute or mtr fit within the wider context of ICMP protocol and TCP/IP suite. I did not know any of the tools that are used or protocols like ICMP that play a crucial role in the TCP/IP suite. Even though I was already knowledgeable about various Linux distros and used some of them, I did not use Kali Linux at all until I started this module.</p>
+									<p>Having said all these, largely due to my knowledge gap, I was pretty anxious when I started the module and my anxiety only increased when I heard that much of my fellow classmates were familiar with the theme of this unit and even some of them were security professionals.</p>
+									<p><b>So what?</b></p>
+									<p>Throughout the module, I had the opportunity to get a hands-on experience with Kali Linux distro as well as various tools such as nmap, traceroute, and OWASP ZAP. Figuring out how to use these tools were one thing, but for me, the most challenging part was to how to interpret the outcome of the tools. It took me a lot of research and practice to make sense of it all, but in the end, it helped me to gain my confidence and valuable information about the basic techniques of vulnerability assessment. Especially, the <a href="../files/M4_SAR_Step_2.pdf">scanning activity</a> helped a lot in this respect.</p>
+									<p>I saw a huge benefit of interactive seminars in the Solar Winds Breach Case Study in which we were expected to apply the Cyber Kill Chain (Hutchins et al., 2011) model to the breach. As I demonstrated in this <a href="artefacts.html">module’s artefacts</a> on my e-portfolio, even though I had a difficult time applying the model to the case study, after watching the seminar and reviewing the work of my peers, I had a better understanding of how the module could be applied and had a more successful second iteration. Similarly, the collaborative discussions included in the module helped me to have a look at a subject area from different angles and learn from my peers.</p>
+									<p>As far as the assignments are concerned, without a doubt, I can affirm that these were the most challenging of them all so far in my studies. Especially I was quite discouraged after receiving only a pass from my first assignment in which we were expected to prepare a baseline analysis document. However, the feedback I received from my tutor helped me to identify my weaknesses and work on the second assessment in a more informed manner. For instance, I was not able to frame the issue into a broad threat modelling framework, but drawing on the feedback I received, I was able to use the STRIDE framework to streamline my findings. </p>
+									<p>It was very enlightening for me to see how things can get very technical quickly when carrying out a vulnerability assessment. However, in a business environment, it is important to produce a report that is understandable by all stakeholders including the C-level executives which might not be coming from an IT background. I found it quite demanding to find the right balance when writing the executive summary of my report, but eventually I believe that I came up with a report which conveys the right message, without going into deep technical details but, at the same time, without missing any essential information. </p>
+									<p><b>Now what?</b></p>
+									<p>Having added valuable tools for vulnerability analysis to my arsenal, I intend to spend more time exploring and practicing the analysis tools in order to get the hang of them. I believe that this will help not only in my studies, but also assist me to assess the potential vulnerabilities and design secure systems and in my professional career.</p>
+									<p>Now that I have a raised awareness towards different threat modelling frameworks, I will be able to apply them in the projects that I will be a part of. This way, I think it will be easier for all stakeholders to make sense of my findings and conclusions.</p>
+									<p>It is no secret that IT security and business world are intertwined with each other. So, I think writing business-oriented reports is one of the most valuable I have gained from this module, and I think it will prove useful for me in my future career as I now know that it is highly likely that business executives do not have an IT background and it would be inappropriate and discouraging to present them a report full of technical details.</p>
+									<p><b>References:</b></p>
+									<p>Howard, M. & LeBlanc, D. (2004) <i>Writing secure code.</i> 2nd ed. Sebastopol: Microsoft Press.</p>
+									<p>Hutchins, E. M., Cloppert, M. J. & Amin, R. M. (2011) Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains. <i>Leading Issues in Information Warfare & Security Research.</i> 1: 78-104.</p>
+									<p>Microsoft (2022) Microsoft Threat Modeling Tool. Available from: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats#stride-model [Accessed 1 March 2023].</p>
+								</section>
 								</p>
 								<h2>Unit 1: History of Network Security, Vulnerabilities and Approaches</h2>
 								<h3>My reflections about the unit:</h3>
@@ -210,13 +230,35 @@
 									<li>All secure protocols rely on </b>public key infrastructure (PKI)</b> either to exchange session or secure keys. PKI allows keys or certificates to be exchanged while maintaining confidentiality, integrity and availability. It does this by utilising a system of public keys and private keys.</li>
 								</ul>
 								<p><center>--------</center> </p>
+								<h2>Unit 6: The Great Debate: The Future of the Internet</h2>
+								<h3>My reflections about the unit:</h3>
+								<p>There are obvious limitations of today’s internet infrastructure which has been around for decades and this week we had a chance to explore some of the suggested architectures like Named Data Networking (NDN), Content Aware Searching Retrieval and Stream (COAST), MobilityFirst or Software-Defined Networking (SDN). It was quite interesting for me to see how content-aware delivery or named data networking could be an alternative to today’s infrastructure which seems to need an overhaul due to changing characteristics and demands.</p>
+								<p><center>--------</center> </p>
+								<h3>Key takeaways:</h3>
+								<ul>
+									<li>Some of the suggestions to overcome the limitations of the current host-centric IP networks include:
+									<ul>
+										<li>Named Data Networking (NDN)</li>
+										<li>Content Aware Searching Retrieval and Stream (COAST)</li>
+										<li>MobilityFirst</li>
+										<li>Expressive Internet Architecture (XIA) </li>
+										<li>Scalability, Control, and Isolation on Next Generation Network (SCION)</li>
+									</ul></li>
+									<li>While these innovative approaches bring solutions to certain security issues (such as DDoS), they bring variety new issues due to their novel approach.</li>
+									<li><b>Software-defined networking (SDN)</b> is a next generation, hardware independent paradigm in which networking devices from any vendors could be controlled through SDN. SDN has two prime components: <b>SDN controller</b> is responsible for the management of entire network, and <b>networking switches</b> are responsible for operating based on the instructions deployed through SDN controller.</li>
+									<li>SDN consists of three layers: (1) <b>Infrastructure/Data Layer</b>: It comprises of network devices and its main function is to forward packets according to assigned rules/policies. (2) <b>Control Layer</b>: This layer consists of a controller which controls the overall SDN functions. It is responsible for managing the entire traffic flow and takes decisions on routing, flow forwarding and packet dropping through programming. (3) <b>Application Layer</b>: It is responsible for handling software related business and security applications.</li>
+								</ul>
+								<p style="text-align:center;"><img src="images/SDN.jpeg" alt="Layers in SDN" height="300"><br /></p>
+								<p style="text-align:center;">Layers in SDN (Rawat & Reddy, 2017)<br /></p>
+								<p><center>--------</center> </p>
 								<h3>References:</h3>
 								<p>
 									Bandos, T. (2022) The Five Steps of Incident Response. Available from: https://digitalguardian.com/blog/five-steps-incident-response [Accessed 18 February 2023]<br />
 									NCSC (2021) Cyber Essentials: Requirements for IT infrastructure. Available from: https://www.ncsc.gov.uk/files/Cyber-Essentials-Requirements-for-IT-infrastructure-3-0.pdf [Accessed 04 February 2023].<br />
 									NCSC (2022) Penetration Testing: Advice on how to get the most from penetration testing. Available from: https://www.ncsc.gov.uk/guidance/penetration-testing [Accessed 25 February 2023]<br />
 									OWASP (2021). OWASP Top 10 - 2021. Available from: https://owasp.org/Top10/ [Accessed 05 February 2022].<br />
-									Saltzer, J. H., Schroeder, M. D. (1975) The protection of information in computer systems <i>Proceedings of the IEEE</i> 63(9): 1278-1308.<br />
+									Rawat, D. B. & Reddy, S. R. (2017) Software Defined Networking Architecture, Security and Energy Efficiency: A Survey. </i>IEEE Communications Surveys & Tutorials</i> 19(1): 325-346.<br />
+									Saltzer, J. H. & Schroeder, M. D. (1975) The protection of information in computer systems <i>Proceedings of the IEEE</i> 63(9): 1278-1308.<br />
 								</p>
 							</section>
 
