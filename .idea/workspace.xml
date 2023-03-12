@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 4 unit 5 update">
-      <change afterPath="$PROJECT_DIR$/module4/images/SDN.jpeg" afterDir="false" />
+    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 4 unit 6 update">
+      <change afterPath="$PROJECT_DIR$/module5/artefacts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5/images/2013 Yahoo Breach.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5/images/SDN.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5/images/Solar Winds Breach Final.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5/images/Solar Winds Breach Initial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5/images/kali.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5/reflections.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module4/artefacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/module4/artefacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module4/reflections.html" beforeDir="false" afterPath="$PROJECT_DIR$/module4/reflections.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +49,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/module4/images" />
       <recent name="$PROJECT_DIR$/files" />
+      <recent name="$PROJECT_DIR$/module4/images" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/module3/images" />
       <recent name="$PROJECT_DIR$/module2/images" />
@@ -87,14 +93,8 @@
       <workItem from="1676808705854" duration="2646000" />
       <workItem from="1676987900632" duration="400000" />
       <workItem from="1677397820668" duration="1441000" />
-      <workItem from="1678052741240" duration="2519000" />
-    </task>
-    <task id="LOCAL-00020" summary="Unit 11 update">
-      <created>1661882548923</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1661882548923</updated>
+      <workItem from="1678052741240" duration="3365000" />
+      <workItem from="1678615708529" duration="3849000" />
     </task>
     <task id="LOCAL-00021" summary="Unit 11 update">
       <created>1662101295954</created>
@@ -432,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677398643177</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Module 4 unit 6 update">
+      <created>1678101428964</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1678101428965</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,7 +457,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Unit 10 update" />
     <MESSAGE value="Unit 12 update.&#10;References are corrected." />
     <MESSAGE value="Unit 12 update.&#10;Summary post added.&#10;Reflective peace revised." />
     <MESSAGE value="An artefact added." />
@@ -475,6 +481,7 @@
     <MESSAGE value="Module 4 unit 3 update" />
     <MESSAGE value="Module 4 unit 4 update" />
     <MESSAGE value="Module 4 unit 5 update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Module 4 unit 5 update" />
+    <MESSAGE value="Module 4 unit 6 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module 4 unit 6 update" />
   </component>
 </project>
