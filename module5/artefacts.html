@@ -73,11 +73,32 @@
 								<p>In their case study in which they studied the adoption of Industry 4.0 in Slovakia and Poland, Snieška et al. (2020) point out that level of awareness and perception of risks vary between the countries, but in general, Slovakia lags behind the many of the Western European countries due to negligence of Industry 4.0 for a long time, which affirms the competence and technical risks that are mentioned in the case study.</p>
 								<p>Note: Refer to the bottom of the page for references.</p>
 								<p><center>--------</center> </p>
+								<h2>Seminar Preparation: Threat Modelling Exercises (Unit 2):</h2>
+								<h3>Overview: </h3>
+								<p><b>Instructions:</b> Read Shostack (2018) chapters 3 – 5 (that cover STRIDE and DREAD, Attack Trees and Attack libraries) and then create a threat model based on one of the following scenarios:</p>
+								<p>
+								<ul>
+									<li>A large international airport based in the United States of America.</li>
+									<li>A large international bank based in the UK.</li>
+									<li>A large nuclear power station in France.</li>
+								</ul>
+								</p>
+								<p>You should use the Threat Modelling Manifesto, the OWASP Threat Modelling Cookbook and the ATT&CK libraries to inform your model design. Be prepared to share and discuss your designs at the seminar session this week.</p>
+								<p>I chose the "large international bank based in the UK" scenario for the exercise and started off by designing a simple data flow diagram:</p>
+								<p style="text-align:center;"><img src="images/M5U2_Data_flow" alt="Data flow diagram for a large international bank" height="400"><br /></p>
+								<p style="text-align:center;">Data flow diagram for a large international bank<br /></p>
+								<p>Even though this diagram is a rudimentary one and can be developed further, I think it consists of the basic components including the entities, data flows and the trust boundaries.</p>
+								<p>Then, in the second step, I applied the STRIDE model to identify the potential threats to the bank:</p>
+								<p style="text-align:center;"><img src="images/M5U2_STRIDE.png" alt="The application of STRIDE model to identify potential threats" height="400"><br /></p>
+								<p style="text-align:center;">The application of STRIDE model to identify potential threats<br /></p>
+								<p>I used MITRE ATT&CK libraries as well as my own knowledge and experience to populate the table. I had the opportunity to present my work in the seminar and the tutor advised be to incorporate the DREAD model as well and also to include mitigations to the threats identified. The feedback made perfect sense to me, and I intend to continue developing this model when I have the opportunity.</p>
+								<p><center>--------</center> </p>
 								<h3>References:</h3>
 								<p>Amazon Web Services (N.D.) Shared Responsibility Model. Available from: https://aws.amazon.com/compliance/shared-responsibility-model/ [Accessed 7 March 2023]<br />
 									Colicchia, C., Creazza, A. & Noé, C. (2017) Literature review on the ‘Smart Factory’ concept using bibliometric tools. <i>International Journal of Production Research</i> 55(22): 6572-6591. DOI: https://doi-org.uniessexlib.idm.oclc.org/10.1080/00207543.2017.1326643<br />
 									Kovaite, K. & Stankeviciene, J. (2019) ‘Risks of Digitalisation of Business Models’ <i>Contemporary Issues In Business, Management And Economics Engineering’2019</i>. Vilnius Gediminas Technical University, Vilnius, 9-10 May. Vilnius: Vilnius Gediminas Technical University. 380-387. DOI: https://doi.org/10.3846/cibmee.2019.039<br />
 									Microsoft (N.D.) What is Microsoft 365? Available from: https://support.microsoft.com/en-us/office/what-is-microsoft-365-847caf12-2589-452c-8aca-1c009797678b [Accessed 7 March 2023]<br />
+									Shostack, A. (2014) <i>Threat Modeling: Design for Security.</i> Indianapolis: John Wiley & Sons<br />
 									Snieška, V., Navickas, V., Havierniková, K., Okręglicka, M., & Gajda, W. (2020) Technical, information and innovation risks of industry 4.0 in small and medium-sized enterprises – case of Slovakia and Poland. <i>Journal of Business Economics and Management</i> 21(5): 1269-1284. DOI: https://doi.org/10.3846/jbem.2020.12279<br />
 								</p>
 							</section>

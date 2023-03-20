@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 4 unit 6 update">
-      <change afterPath="$PROJECT_DIR$/module5/artefacts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module5/images/2013 Yahoo Breach.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module5/images/SDN.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module5/images/Solar Winds Breach Final.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module5/images/Solar Winds Breach Initial.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module5/images/kali.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module5/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module5/reflections.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5/images/M5U2_Data_flow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5/images/M5U2_STRIDE.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module4/artefacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/module4/artefacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module5/artefacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/module5/artefacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module5/reflections.html" beforeDir="false" afterPath="$PROJECT_DIR$/module5/reflections.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +44,22 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module5/images" />
       <recent name="$PROJECT_DIR$/files" />
       <recent name="$PROJECT_DIR$/module4/images" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/module3/images" />
-      <recent name="$PROJECT_DIR$/module2/images" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="artefacts.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/eportfolio/module5/artefacts.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.artefacts.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
