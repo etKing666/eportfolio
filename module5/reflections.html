@@ -109,26 +109,55 @@
 									<li><b>Risk ranking</b> can be quantitative, semi-quantitative or qualitative</li>
 									<li>7Rs and 4Ts of risk management:
 										<ul>
-											<li>Recognition or identification of risks</li>
-											<li>Ranking or evaluation of risks</li>
-											<li>Responding to significant risks
+											<li>    Recognition or identification of risks</li>
+											<li>    Ranking or evaluation of risks</li>
+											<li>    Responding to significant risks
 												<ul>
-													<li>Tolerate</li>
-													<li>Treat</li>
-													<li>Transfer</li>
-													<li>Terminate</li>
+													<li>    Tolerate</li>
+													<li>    Treat</li>
+													<li>    Transfer</li>
+													<li>    Terminate</li>
 												</ul>
 											</li>
-											<li>Resourcing controls</li>
-											<li>Reaction planning </li>
-											<li>Reporting and monitoring risk performance</li>
-											<li>Reviewing the risk management framework </li>
+											<li>    Resourcing controls</li>
+											<li>    Reaction planning </li>
+											<li>    Reporting and monitoring risk performance</li>
+											<li>    Reviewing the risk management framework </li>
 										</ul>
 									</li>
 									<li>According to <b>FAIR</b> model, risk (financial lost) is defined by <b>Loss Event Frequency (LEF)</b> and <b>Loss Magnitude (LM)</b>.</li>
 									<li><b>Loss Event Frequency</b> is the frequency that a threat agent will inflict harm on an information asset within a given timeframe.</li>
 									<li><b>Loss Magnitude</b> is categorized as either a Primary Loss (PL) or Secondary Loss (SL). </li>
 									<li>Primary Loss represents the direct losses from assets and threats whilst Secondary Loss represents secondary consequential losses such as negative organizational and external environment after effects.<u>Secondary loss events can occur only if primary loss events have occurred beforehand</u>.</li>
+								</ul>
+								<p><center>--------</center> </p>
+								<h2>Unit 3: Introduction to Threat Modelling and Management</h2>
+								<h3>My reflections about the unit:</h3>
+								<p><center>--------</center> </p>
+								<p>My focus this week was to finish the first assignment which included a risk assessment of a small business that wants to undergo a digital transformation. Even though there were a number of business-oriented approaches out there (e.g., PASTA), I came to a conclusion that these approaches were too complex and inappropriate for such a small business. In the end, I decided to use a custom 5-step approach which included STRIDE and DREAD together to identify all the risks in a quantitative manner and also used MITRE ATT&CK library to come identify possible threats and mitigations. I think this was a great exercise on enumerating threats and using he MITRE ATT&CK library which is extensive and informative at the same time. However, the real challenge was to incorporate the business objectives to the risk assessment process. During the. assessment I identified the explicit and implied business objectives and mapped them to the threats identified. This allowed me to see the impact the threats could make on the business objectives. </p>
+								<p><center>--------</center> </p>
+								<h3>Key takeaways:</h3>
+								<ul>
+									<li>Any successful attack has three steps: (1) Diagnose the system to identify some attack, (2) Gain the necessary access, and (3) Execute the attack. Defenders has an advantage: To protect a system, blocking only one of these steps will be enough. However, blocking a step in multiple ways or blocking multiple steps will be more efficient (I.e. defense in depth).</li>
+									<li>Assets can always be a target of an attack throughout the SDLC, so, <b>entire life cycle should ve secured</b>.</li>
+									<li>In order to get the best result out of threat modeling, <b>it should be performed early in the development cycle</b>. It will be far costlier to fix an issue identified later on.</li>
+									<li><b>LINDDUN (Linkability, Identifiability, Non-Repudiation, Detectability, Disclosure of Information, Unawareness, Non-Compliance)</b> is a 6-step threat modeling method which focuses  on privacy concerns.</li>
+									<li><b>Common Vulnerability Scoring System (CVSS)</b> is a numerical scoring system which reflects the severity of a vulnerability and it is often used in combination with other modeling methods. The downside of CVSS is that the scoring algorithm is somewhat vague.</li>
+									<li><b>Persona non Grata (PnG)</b> focuses on the motivations and skills of human attackers and relies on archetypes of users/attackers. It is easy to adopt, but usually detects only certain threat types.</li>
+									<li><b>Security Cards</b> is a brainstorming technique which helps analysts to identify unusal and complex attacks with a deck of cards.</li>
+									<li><b>Hybrid Threat Modeling Method (hTMM)</b> consists of a combination of SQUARE (Security Quality Requirements Engineering Method), Security Cards, and PnG activities. </li>
+									<li><b>Quantitative Threat Modeling Method</b> brings the Attack Trees, STRIDE, and CVSS methods together. It consists of building attack trees for each threat categories of STRIDE and then CVSS scores are applied for each component in the tree.</li>
+									<li>The <b>Operationally Critical Threat, Asset, and Vulnerability Evaluation (OCTAVE)</b> focuses on assessing organizational risks rather than technological risks. It is a 3-step method which is created for large organizations.</li>
+									<li>The Microsoft Threat Modelling process consists of 6 steps:
+										<ul>
+											<li>    1. Identify assets</li>
+											<li>    2. Create an architecture overview</li>
+											<li>    3. Decompose the application</li>
+											<li>    4. Identify the threats</li>
+											<li>    5. Document the threats</li>
+											<li>    6. Rate the threats</li>
+										</ul>
+									</li>
 								</ul>
 								<p><center>--------</center> </p>
 								<h3>References:</h3>

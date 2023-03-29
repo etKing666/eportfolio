@@ -76,7 +76,6 @@
 								<h2>Seminar Preparation: Threat Modelling Exercises (Unit 2):</h2>
 								<h3>Overview: </h3>
 								<p><b>Instructions:</b> Read Shostack (2018) chapters 3 – 5 (that cover STRIDE and DREAD, Attack Trees and Attack libraries) and then create a threat model based on one of the following scenarios:</p>
-								<p>
 								<ul>
 									<li>A large international airport based in the United States of America.</li>
 									<li>A large international bank based in the UK.</li>
@@ -84,6 +83,7 @@
 								</ul>
 								</p>
 								<p>You should use the Threat Modelling Manifesto, the OWASP Threat Modelling Cookbook and the ATT&CK libraries to inform your model design. Be prepared to share and discuss your designs at the seminar session this week.</p>
+								<h3>My answer:</h3>
 								<p>I chose the "large international bank based in the UK" scenario for the exercise and started off by designing a simple data flow diagram:</p>
 								<p style="text-align:center;"><img src="images/M5U2_Data_flow" alt="Data flow diagram for a large international bank" height="400"><br /></p>
 								<p style="text-align:center;">Data flow diagram for a large international bank<br /></p>
@@ -92,6 +92,37 @@
 								<p style="text-align:center;"><img src="images/M5U2_STRIDE.png" alt="The application of STRIDE model to identify potential threats" height="400"><br /></p>
 								<p style="text-align:center;">The application of STRIDE model to identify potential threats<br /></p>
 								<p>I used MITRE ATT&CK libraries as well as my own knowledge and experience to populate the table. I had the opportunity to present my work in the seminar and the tutor advised be to incorporate the DREAD model as well and also to include mitigations to the threats identified. The feedback made perfect sense to me, and I intend to continue developing this model when I have the opportunity.</p>
+								<p><center>--------</center> </p>
+								<h2>E-Portfolio Exercise: Security Standards (Unit 3):</h2>
+								<h3>Overview: </h3>
+								<p><b>Instructions:</b> Review the following standards and answer the questions below: GDPR, PSI DSS, HIPAA.</p>
+								<ol>
+									<li>Which of the standards discussed in the sources above would apply to the organisation discussed in the assessment? For example, a company providing services to anyone living in Europe or a European-based company or public body would most likely be subject to GDPR. A company handling online payments would most likely need to meet PCI-DSS standards.</li>
+									<li>Evaluate the company against the appropriate standards and decide how would you check if standards were being met?</li>
+									<li>What would your recommendations be to meet those standards?</li>
+									<li>What assumptions have you made?</li>
+								</ol>
+								<h3>My answer:</h3>
+								<p>I reviewed the shared links about GDPR, PCI DSS and HIPAA and answered the questions for the current state and the digitalized business as well.</p>
+								<p><b>Current state of business</b>: In my opinion, GDPR applies to the current state of business to some extent, as customers are able to correspond with the business and I assume that the business is sending emails to customers time to time, to inform them about the status of their orders or about the new products in stock. So, it is important to comply with the GDPR requirements about the customer consent and data retention. Since the company doesn’t accept online payments, PCI DSS does not apply to it. The company doesn’t operate in the health insurance industry, therefore, HIPAA is not applicable to it.</p>
+								<p><b>Digitalised business</b>: Since the company is providing services to its online clientele, GDPR applies to it. The digitalised business also relies on a e-commerce website to offer its products and collects online payments, PCI DSS is applicable too. For the same reasons outlined above, HIPAA is not applicable to the business.</p>
+								<p><center>--------</center> </p>
+								<h2>Assignment 1: Risk Identification Report (Unit 3):</h2>
+								<h3>Overview: </h3>
+								<p><b>Instructions:</b></p>
+								<p>Pampered Pets are a bricks-and-mortar business, based in a leafy suburb of Hashington-on-the-Water. It employs 4 staff; Alice the owner/ manager; Cathy the shop manager; Andrea the store assistant and Harry the warehouse manager. 90% of their business is carried out face to face, with people coming into the store to buy items. A small percentage of clients will email their orders – once these are ready the staff email the clients who then travel to the store to pick up goods and pay. Recently Harry has started to use an old, networked computer (with a spreadsheet package) to keep track of warehouse deliveries and item locations. The front desk uses a computer for all sales and purchases so that transactions are recorded digitally – this makes VAT and Tax submissions easier. The main shop has a wireless gateway and hub that both computers are connected to. In addition, all the staff use the wireless connection for various apps on their smart phones.</p>
+								<p>The business is most famous for the quality of its pet foods – using the highest quality ingredients from local suppliers, with many items being prepared and packed in-house. This has a number of advantages including easy and regular quality checks of ingredients and a guaranteed supply chain – if necessary, employees could get into their cars and drive 10 minutes to the suppliers (mostly local farms) to pick up the ingredients by hand.</p>
+								<p>Cathy, cognisant of the influence and benefits of the Internet, has retained the services of a consultancy (you) to research the best way to grow the business. The report should investigate all reasonable threats AND address the following three questions:
+									<ul>
+										<li>Could an online presence grow the business by up to 50%?</li>
+										<li>Could changing to an international supply chain reduce costs by up to 24%?</li>
+										<li>Could the business lose up to 33% of its existing customers if the business doesn’t provide some online features?</li>
+									</ul>
+								</p>
+								<p>Orla O’dour (eccentric Irish billionaire) decides to buy a share in the company and advises Cathy that the business should be digitalised to improve internal business processes and to expand the reach of the business internationally – and she is willing to fund the transformation.</p>
+								<h3>My answer:</h3>
+								<p>Even though there are other business-oriented approaches like PASTA, because they are too complicated and the business in question is a simple one, I chose to adopt a custom 5-step approach in which I analysed the business objectives, drew the data flow diagram of the business, analysed the threats using STRIDE and DREAD and in the end, came up with mitigations and recommendations. I used MITRE ATT&CK library to enumerate the threats and mitigations so that it is aligned with business standards and when needed, one can refer to the library for detailed information. I carried out a risk assessment of both the current state and the digitalised business and also came up with some recommended steps for the digitalisation process of the business.</p>
+								<p>You can read my Risk Assessment Report <a href="../files/M5U3_Risk Identification Report v1.1.pdf">here</a>.</p>
 								<p><center>--------</center> </p>
 								<h3>References:</h3>
 								<p>Amazon Web Services (N.D.) Shared Responsibility Model. Available from: https://aws.amazon.com/compliance/shared-responsibility-model/ [Accessed 7 March 2023]<br />
