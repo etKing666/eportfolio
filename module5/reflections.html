@@ -133,7 +133,6 @@
 								<p><center>--------</center> </p>
 								<h2>Unit 3: Introduction to Threat Modelling and Management</h2>
 								<h3>My reflections about the unit:</h3>
-								<p><center>--------</center> </p>
 								<p>My focus this week was to finish the first assignment which included a risk assessment of a small business that wants to undergo a digital transformation. Even though there were a number of business-oriented approaches out there (e.g., PASTA), I came to a conclusion that these approaches were too complex and inappropriate for such a small business. In the end, I decided to use a custom 5-step approach which included STRIDE and DREAD together to identify all the risks in a quantitative manner and also used MITRE ATT&CK library to come identify possible threats and mitigations. I think this was a great exercise on enumerating threats and using he MITRE ATT&CK library which is extensive and informative at the same time. However, the real challenge was to incorporate the business objectives to the risk assessment process. During the. assessment I identified the explicit and implied business objectives and mapped them to the threats identified. This allowed me to see the impact the threats could make on the business objectives. </p>
 								<p><center>--------</center> </p>
 								<h3>Key takeaways:</h3>
@@ -160,11 +159,34 @@
 									</li>
 								</ul>
 								<p><center>--------</center> </p>
+								<h2>Unit 4: Security Standards, Frameworks and Disaster Recovery</h2>
+								<h3>My reflections about the unit:</h3>
+								<p>This week I especially found the discussion about CVSS scoring system (Spring et al., 2021) quite interesting. I think CVSS scoring system is a highly subjective one which can change according the the experience level and perception of each person, so it is pretty challenging to keep the consistency. Besides, as the authors point out, some organizations might have different priorities, therefore the standard equal weighting might not be useful for them. For example, for a cloud business, availability might be more important, whereas for a banking institution, the most important aspect might be integrity.</p>
+								<p>The reading list, the seminar (which took place earlier to to tight schedule) and the optional activities prove very useful to develop a better understanding of the basic concepts of disaster recovery, available options, and the disaster recovery planning.</p>
+								<p><center>--------</center> </p>
+								<h3>Key takeaways:</h3>
+								<ul>
+									<li><b>Recovery Time Objective (RTO)</b> defines the time to recover IT infrastructure in case of a disaster. </li>
+									<li><b>Recovery Point Objective (RPO)</b> defines the maximum amount of data that a business can afford to lose.</li>
+									<li>An optimal <b>disaster recovery planning</b> should take (1) initial cost, (2) cost of data transfers, (3) cost of data storage, (4) software licensing fees, (5) organizations’s data needs, and (6) organization’s disaster recovery objectives.</li>
+									<li>Geographical separation of primary and backup sites is an important concept in a DRP.</li>
+									<li><b>Failover</b> is what happens when switched from the failed primary to secondary.</li>
+									<li><b>Failback</b> is what happens when the switch is made back from secondary to primary.</li>
+									<li><b>Access management in cloud</b> requires three capabilities: (1) Ability tı identify and authenticate users, (2) the ability to assign users access rights, and (3) the ability to create and enforce access control policies for resources.</li>
+									<li>Initial root account provided by cloud service providers (CSP) shouldn’t be used for routine tasks as compromising this account can give root access to the attacker. <b><u>Best practice</u></b>: Use root account only for creating users and roles.</li>
+									<li>MFA should be used to reduce the likelihood of credential compromise.</li>
+									<li><u><b>Best practice</b></u>: <b>Bastion hosts</b> can be used to further secure the privileged user access to the operating systems an applications running in cloud. Bastion host determines which apps and systems a privileged user can access an what operations the privileged users can perform on these resources.</li>
+									<li>If the encryption keys are managed by the customer (instead of default key management system -KMS- offered by the CSP), the keys should never be stored in the cloud.</li>
+									<li>IT security framework is “a series of documented processes that define policies and procedures around the implementation and ongoing management of information security controls” (Kirvan & Granneman, 2021).</li>
+								</ul>
+								<p><center>--------</center> </p>
 								<h3>References:</h3>
 								<p>
 									Airmic (2010) A structured approach to Enterprise Risk Management (ERM) and the requirements of ISO 31000. Available from: https://www.ferma.eu/app/uploads/2011/10/a-structured-approach-to-erm.pdf [Accessed 20 March 2023]<br />
 									ISO (2009) ISO Guide 73:2009(en) Risk management - Vocabulary. Available from: https://www.iso.org/obp/ui/#iso:std:iso:guide:73:ed-1:v1:en [Accessed 20 March 2023]<br />
+									Kirvan, P. & Granneman, J. (2021) Top 10 IT security frameworks and standards explained. Available from: https://www.techtarget.com/searchsecurity/tip/IT-security-frameworks-and-standards-Choosing-the-right-one [Accessed 29 March 2023]<br />
 									Shostack, A. (2014) <i>Threat Modeling: Design for Security.</i> Indianapolis: John Wiley & Sons<br />
+									Spring, J., Hatleback, E., Householder, A., Manion, A. & Shick, D. (2021) Time to Change the CVSS? <i>IEEE Security & Privacy</i> 19(2): 74-78. DOI: 10.1109/MSEC.2020.3044475.<br />
 									Stoneburner, G., Goguean, A. & Feringa, A. (2002) <i>Risk Management Guide for Information Technology Systems.</i> Gaithersburg: NIST.<br />
 								</p>
 							</section>

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 5 Unit 2 update.">
-      <change afterPath="$PROJECT_DIR$/files/M5U3_Risk Identification Report v1.1.pdf" afterDir="false" />
+    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 5 Unit 3 update.">
+      <change afterPath="$PROJECT_DIR$/module5/images/M5U4_DR1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5/images/M5U4_DR2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module5/images/M5U4_DR3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module5/artefacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/module5/artefacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module5/reflections.html" beforeDir="false" afterPath="$PROJECT_DIR$/module5/reflections.html" afterDir="false" />
@@ -99,14 +101,9 @@
       <workItem from="1677397820668" duration="1441000" />
       <workItem from="1678052741240" duration="3365000" />
       <workItem from="1678615708529" duration="3849000" />
-      <workItem from="1680108776220" duration="1538000" />
-    </task>
-    <task id="LOCAL-00022" summary="Unit 12 update.&#10;References are corrected.">
-      <created>1662324971757</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1662324971757</updated>
+      <workItem from="1680108776220" duration="2414000" />
+      <workItem from="1680111462184" duration="439000" />
+      <workItem from="1680556840983" duration="2995000" />
     </task>
     <task id="LOCAL-00023" summary="Unit 12 update.&#10;References are corrected.">
       <created>1662325077865</created>
@@ -444,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679273497330</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Module 5 Unit 3 update.">
+      <created>1680110750267</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1680110750268</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +466,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Unit 12 update.&#10;Summary post added.&#10;Reflective peace revised." />
     <MESSAGE value="An artefact added." />
     <MESSAGE value="Module 2 start date is updated." />
     <MESSAGE value="Error corrected in the reflective piece." />
@@ -487,6 +490,7 @@
     <MESSAGE value="Module 4 unit 5 update" />
     <MESSAGE value="Module 4 unit 6 update" />
     <MESSAGE value="Module 5 Unit 2 update." />
-    <option name="LAST_COMMIT_MESSAGE" value="Module 5 Unit 2 update." />
+    <MESSAGE value="Module 5 Unit 3 update." />
+    <option name="LAST_COMMIT_MESSAGE" value="Module 5 Unit 3 update." />
   </component>
 </project>
