@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="application screenshots">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module5/treegenerator/json file.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +40,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module5/treegenerator" />
       <recent name="$PROJECT_DIR$/module5/tree-generator" />
       <recent name="$PROJECT_DIR$/module5/images" />
       <recent name="$PROJECT_DIR$/files" />
       <recent name="$PROJECT_DIR$/module4/images" />
-      <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
   <component name="RunManager">
@@ -101,14 +100,7 @@
       <workItem from="1680111462184" duration="439000" />
       <workItem from="1680556840983" duration="3498000" />
       <workItem from="1681161296428" duration="458000" />
-      <workItem from="1681195793821" duration="2311000" />
-    </task>
-    <task id="LOCAL-00027" summary="Unit 12 update.&#10;Summary post added.&#10;Reflective peace revised.">
-      <created>1662376033479</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1662376033479</updated>
+      <workItem from="1681195793821" duration="3294000" />
     </task>
     <task id="LOCAL-00028" summary="An artefact added.">
       <created>1662381837897</created>
@@ -446,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681196125131</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="application screenshots">
+      <created>1681201743823</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1681201743823</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
