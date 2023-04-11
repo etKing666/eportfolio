@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 5 Unit 5 update.">
+    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="application screenshots">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module5/treegenerator/json file.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +41,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module5/tree-generator" />
       <recent name="$PROJECT_DIR$/module5/images" />
       <recent name="$PROJECT_DIR$/files" />
       <recent name="$PROJECT_DIR$/module4/images" />
       <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$/module3/images" />
     </key>
   </component>
   <component name="RunManager">
@@ -100,20 +101,7 @@
       <workItem from="1680111462184" duration="439000" />
       <workItem from="1680556840983" duration="3498000" />
       <workItem from="1681161296428" duration="458000" />
-    </task>
-    <task id="LOCAL-00025" summary="Unit 12 update.&#10;References are corrected.">
-      <created>1662330949829</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1662330949829</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Unit 12 update.&#10;References are corrected.">
-      <created>1662330991796</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1662330991796</updated>
+      <workItem from="1681195793821" duration="2311000" />
     </task>
     <task id="LOCAL-00027" summary="Unit 12 update.&#10;Summary post added.&#10;Reflective peace revised.">
       <created>1662376033479</created>
@@ -444,7 +432,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681161731565</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="application screenshots">
+      <created>1681196063122</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1681196063123</updated>
+    </task>
+    <task id="LOCAL-00075" summary="application screenshots">
+      <created>1681196125130</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1681196125131</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +464,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Error corrected in the reflective piece." />
     <MESSAGE value="Unit 11 update" />
     <MESSAGE value="Module 3 update" />
     <MESSAGE value="Made adjustments on the Figure 3." />
@@ -487,6 +488,7 @@
     <MESSAGE value="Module 5 Unit 3 update." />
     <MESSAGE value="Module 5 Unit 4 update." />
     <MESSAGE value="Module 5 Unit 5 update." />
-    <option name="LAST_COMMIT_MESSAGE" value="Module 5 Unit 5 update." />
+    <MESSAGE value="application screenshots" />
+    <option name="LAST_COMMIT_MESSAGE" value="application screenshots" />
   </component>
 </project>
