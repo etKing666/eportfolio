@@ -49,6 +49,30 @@
 									<h1>Information Security Management</h1>
 									<p>My reflections on the units included within the module.</p>
 								</header>
+								<section style="border:black; border-width:5px; border-style:solid;">
+									<h2 style="text-align:center;">Module reflections</h2>
+									<p><b>What?</b></p>
+									<p>As I had just finished Network Security module, I was quite knowledgeable about the threat modelling frameworks like STRIDE (Microsoft, 2022) or DREAD (Microsoft, 2023) before starting this module. However, I did not really have an opportunity to have a real threat modelling experience. Besides, even though I knew about the MITRE ATT&CK library (MITRE, 2022), it seemed so extensive to me, and I did not know how to find my way around the library and use it.</p>
+									<p>Even though I had a general idea about what Disaster Recovery (DR) is, I was not familiar with the possible DR solutions and how I could design one.</p>
+									<p>At the beginning of the module, I felt uneasy about the second assignment which involved developing a Python application which accepts a. json, .xml or .yaml file and convert it to an attack tree, because it had been months since I developed something using Python and I was not sure how I would visualise an attack tree.</p>
+									<p><b>So what?</b></p>
+									<p>This module, I felt like I really started to get my feet wet with threat modelling. In my opinion, the module content was very well structured to walk a student through the basics of threat modelling from simple exercises towards more complex assignments. To begin with, the reading about different threat modelling methodologies (Shevchenko et al., 2018) helped me to get an overview of the available methods. I found the work of Shostack (2014) and his step-by-step instructions very practical and easy to understand. After a couple of <a href="artefacts.html">small assignments</a> in the form of formative exercises or seminar preparations; I put everything together in the <a href="https://etking666.github.io/eportfolio/files/M5U3_Risk Identification Report v1.1.pdf">second assignment</a> by actually using what I learnt by enumerating threats using STRIDE, DREAD and MITRE ATT&CK library, suggesting mitigations and linking all of these with business objectives. This was a significant achievement for me, especially considering my rudimentary level of knowledge and experience at the beginning. In the second assignment, I extended the assessment by developing an <a href="https://github.com/etKing666/attack_tree">attack tree generator application</a> and generating an attack tree to demonstrate the threat model of the business before and after digitalisation. All in all, it was a fulfilling and satisfying journey for me, and I feel much more confident in threat modelling now.</p>
+									<p>From my point of view, the most important takeaway from the second assignment was that writing testable code is something that I have to keep in my mind from the very beginning. When I found out that it was not easy to write unit tests due to my unique way of developing the application (i.e., using global variables instead of passing variables or skipping ‘return’ statements because a return value was not really needed), I discovered the true value of the Test-Driven Development (Beck, 2002). Even if I did not fully implement the methodology, if I aimed at writing testable code at the beginning, I think that I would end up writing a more elegant code.</p>
+									<p>Additionally, the formative activities in Unit 4 helped me to discover the DR solutions such as cold standby, hot standby and warm standby and the role the cloud technologies play in DR (Alhazmi & Malaiya, 2013). It also helped me to contemplate about the advantages and disadvantages of each option. I eventually managed to <a href="https://www.canva.com/design/DAFeb2PkZS8/g54L0zm_Msy4FFLjxcyMwQ/edit?utm_content=DAFeb2PkZS8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">design a DR solution</a> for three different sets of requirements. This was a huge step forward for me, and I was delighted to see that I was able to appreciate different DR options and even design a solution.</p>
+									<p><b>Now what?</b></p>
+									<p>As my tutor recommended in his feedback to my first assignment, PASTA (UcedaVelez & Morana, 2015) is much more relevant for risk assessment of a business since it allows for easier alignment to business goals. Even though I felt like it was too comprehensive for the business in question, and we had a strict wordcount limit, after giving it a good thought, I was convinced that it would be the right decision to use this framework for such cases. So, in the future, I intend to read more about PASTA and explore the opportunities to use it.</p>
+									<p>Learning how to use MITRE ATT&CK library for enumerating threats and determining the mitigations was one of the biggest achievements of this module. Moving forward, in my future threat modelling practices, I will try to stick to the extensive and well-documented library provided so that the model is more aligned to the industry. </p>
+									<p>Finally, drawing on from my experience with developing the Attack Tree Generator application, I will certainly try to incorporate Test-Driven Development practices to my coding practices so that I can get the habit of writing testable software.</p>
+									<p><b>References:</b></p>
+									<p>Alhazmi, O. H., & Malaiya,  Y. K. 'Evaluating disaster recovery plans using the cloud' <i>2013 Proceedings Annual Reliability and Maintainability Symposium (RAMS)</i>. New York: IEEE. 1-6. DOI: 10.1109/RAMS.2013.6517700<br />
+									Beck, K. (2002) <i>Test Driven Development by Example.</i> Massachusetts: Addison-Wesley.<br />
+									Microsoft (2022) Microsoft Threat Modeling Tool. Available from: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats#stride-model [Accessed 13 April 2023].<br />
+									Microsoft (2023) Threat modeling for drivers. Available from: https://learn.microsoft.com/en-us/windows-hardware/drivers/driversecurity/threat-modeling-for-drivers [Accessed 17 April 2023].<br />
+									MITRE Corporation (2022) Enterprise Techniques. Available from: https://attack.mitre.org/techniques/enterprise/ [Accessed 17 April 2023].<br />
+									Shevchenko, N., Chick, T. A., O’Riordan, P., Scanlon, T. P., & Woody, C. (2018) Available from: https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=524448 [Accessed 17 April 2023].<br />
+									Shostack, A. (2014) <i>Threat Modeling: Designing for Security.</i> Indianapolis: John Wiley & Sons.<br />
+									UcedaVelez, T. & Morana, M. M. (2015) <i>Risk Centric Threat Modeling: Process for Attack Simulation and Threat Analysis.</i> New Jersey: Wiley Publishing.</p>
+								</section>
 								</p>
 								<h2>Unit 1: An Introduction to Security and Risk Management</h2>
 								<h3>My reflections about the unit:</h3>
@@ -193,6 +217,19 @@
 								<ul><b>ERM framework</b> is the procedure manual for how ERM will be conducted and it can be based on an existing framework like ISO 31000 and can be customized to suit the organization.</ul>
 								<ul>According to ISO, risk criteria is the terms of reference against which the significance of a risk is evaluated.</ul>
 								<ul><b>DevSecOps</b> is the integration of security into DevOps.</ul>
+								<p><center>--------</center> </p>
+								<h2>Unit 6: The Great Debate - What Will be the Most Influential Trend in ISM in the Next 5 Years?</h2>
+								<h3>My reflections about the unit:</h3>
+								<p>This unit was a short one with only one reading. The reading was related to the hard problems in the domain of security and it was interesting, but given that it was a powerpoint presentation it was not that informative but rather, thought-provoking. </p>
+								<p>Therefore, I took my time to finish off my second and third assignments. I found out that the biggest challenge for me related to the Attack Tree Generator Application was to write unit tests. Because I developed the application in some unique way (for example, instead of passing variables to functions, using global variables or sometimes not returning anything because it was not necessary for the application), I had a hard time writing test cases. Then, I realized the true value of the Test Driven Development methodology. If I kept in mind to write testable code while I was developing the application, even if I did not completely applied the methodology, it would lead me to write a more elegant and testable code.</p>
+								<p><center>--------</center> </p>
+								<h3>Key takeaways:</h3>
+								<ul>
+									<li>The biggest challenge for <b>secure collaboration</b> is to develop methods to express and enforce policies and requirements for handling data among users from different authority domains and for different use cases.</li>
+									<li><b>Predictive security metrics</b> may help assess a system to determine if the system in question preserves the security properties.</li>
+									<li>In a <b>privilege graph</b>, nodes represent privilege states. An attacker starts at a node and tries to make his/her way to an attack goal by transitioning to new privilege states.</li>
+									<li>The most important characteristics of <b>resilient architectures</b> is to deliver the required functionalities in the face of compromised components.</li>
+								</ul>
 								<p><center>--------</center> </p>
 								<h3>References:</h3>
 								<p>
