@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="application screenshots">
-      <change afterPath="$PROJECT_DIR$/files/M5U6_Executive Summary v1.0.pdf" afterDir="false" />
+    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 6 reflections &amp; artefacts and module-end reflections">
+      <change afterPath="$PROJECT_DIR$/module6/artefacts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module6/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module6/reflections.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module3/artefacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/module3/artefacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module5/artefacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/module5/artefacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module5/reflections.html" beforeDir="false" afterPath="$PROJECT_DIR$/module5/reflections.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module5/treegenerator/analyse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module5/treegenerator/folder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module5/treegenerator/fulltree.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module5/treegenerator/generate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module5/treegenerator/main.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module5/treegenerator/spoofing.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,15 +32,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/etkingetir/PhpstormProjects/eportfolio&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/etkingetir/PhpstormProjects/eportfolio",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -111,28 +111,8 @@
       <workItem from="1680556840983" duration="3498000" />
       <workItem from="1681161296428" duration="458000" />
       <workItem from="1681195793821" duration="4562000" />
-      <workItem from="1681649893492" duration="5013000" />
-    </task>
-    <task id="LOCAL-00030" summary="An artefact added.">
-      <created>1662382221095</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1662382221095</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Module 2 start date is updated.">
-      <created>1662382790140</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1662382790140</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Module 2 start date is updated.">
-      <created>1662382869856</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1662382869856</updated>
+      <workItem from="1681649893492" duration="8781000" />
+      <workItem from="1683751669364" duration="2697000" />
     </task>
     <task id="LOCAL-00033" summary="Error corrected in the reflective piece.">
       <created>1662409903849</created>
@@ -456,7 +436,28 @@
       <option name="project" value="LOCAL" />
       <updated>1681211429628</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Module 6 reflections &amp; artefacts and module-end reflections">
+      <created>1681730792399</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1681730792400</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Module 6 reflections &amp; artefacts and module-end reflections">
+      <created>1681757887422</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1681757887422</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Module 6 reflections &amp; artefacts and module-end reflections">
+      <created>1681758113802</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1681758113802</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,7 +475,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Unit 11 update" />
     <MESSAGE value="Module 3 update" />
     <MESSAGE value="Made adjustments on the Figure 3." />
     <MESSAGE value="Module 3 Unit 1 update." />
@@ -499,6 +499,7 @@
     <MESSAGE value="Module 5 Unit 4 update." />
     <MESSAGE value="Module 5 Unit 5 update." />
     <MESSAGE value="application screenshots" />
-    <option name="LAST_COMMIT_MESSAGE" value="application screenshots" />
+    <MESSAGE value="Module 6 reflections &amp; artefacts and module-end reflections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module 6 reflections &amp; artefacts and module-end reflections" />
   </component>
 </project>
