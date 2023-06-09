@@ -105,7 +105,7 @@
 								<h3>My reflections about the unit:</h3>
 								<p>This unit was all about the estimation methods and tools as well as risk assessment frameworks. We had a detailed information about estimation methods such as COCOMO, Function Points and so on. As part of the seminar preparations, I also developed a simple python application which allow the user to calculate the cost of the development of a software using basic COCOMO or Function Points methods. As the tutor pointed out during the seminar, even though COCOMO is basically based on LOC and therefore it is not a valid method anymore, it is still not completely obsolete as it provides a general idea about the project and may come in handy when used in combination with other estimation methods.</p>
 								<p><center>--------</center> </p>
-								<h2>Unit 4: User Experience</h2>
+								<h2>Unit 5: User Experience</h2>
 								<h3>My reflections about the unit:</h3>
 								<p>User experience (UX) is without a doubt one of the most important aspects of system development. This month, we had the chance to get valuable information about the basic concepts of UX such as CUE, Togg’s Principles or Fitt’s Law.  Even though the importance of UX seems obvious, there are many factors and layers that goes into it. That’s why this unit’s content was seminal and it helped me to raise my awareness towards the factors that should be taken into consideration in order to provide a quality user experience.</p>
 								<p><center>--------</center> </p>
@@ -124,9 +124,25 @@
 									<li><b>AARRR framework</b> relies on five metrics to determine the quality of work of an organization: Acquisition, Activation, Retention, Referral, and Revenue.</li>
 								</ul>
 								<p><center>--------</center> </p>
+								<h2>Unit 6: pytest and Test-Driven Development</h2>
+								<h3>My reflections about the unit:</h3>
+								<p>Testing (especially unit testing) is a topic I am already familiar with for a long time. I get the habit of using the python's built-in unit testing library unittest to test my code and so far it worked just fine for me. After reading about the advantages that pytest offers (Hillard, 2022) I was convinced that I should start using pytest instead of unittest. I especially liked the idea of using pytest fixtures and also it was very interesting for me to see how pytest reduces the boilerplate. The way ahead for me will definitely to get my feet wet with pytest starting from my next python project.</p>
+								<p><center>--------</center> </p>
+								<h3>Key takeaways: </h3>
+								<ul>
+									<li><b><u>Best practice</u></b>: “Each piece of behavior should be tested once -- and only once. Testing the same behavior more than once does not mean that your software is more likely to work. Tests need to be maintained too. If you make a small change to your code base and then twenty tests break, how do you know which functionality is broken? When only a single test fails, it's much easier to find the bug.” (Giacomelli, 2022)</li>
+									<li><b>Test pyramid</b>: Unit tests (50%), integration tests (30%), end-to-end tests (20%). In simple applications, it may be 40% unit tests, 40% integration tests and 20% end-to-end tests ("house" shape).</li>
+									<li><b>What to test?</b> You should always test the behaviour of the software so that you don't have to change the tests everytime there is a change in the code base.</li>
+									<li>When unit testing, focus should be on testing the functions and methods that are publicly exposed from a module/package.</li>
+									<li>Instead of the .setUp() and .tearDown() methods in unittest, pytest offers the <b>fixtures</b> to create test data. pytest fixtures are functions that can create data, test doubles, or initialize system state for the test suite.  </li>
+									<li><b>When to use fixtures</b>: If the tests rely on the same underlying test data, you can create text fixtures to avoid writing repetitive code.</li>
+								</ul>
+								<p><center>--------</center> </p>
 								<h3>References:</h3>
 								<p>
 									Engel, J., Jones, R. & Rice, B. (2020) Behavior Driven Development. Available from: https://behave.readthedocs.io/en/stable/philosophy.html [Accessed 8 May 2023].<br />
+									Giacomelli, J. (2022) Modern Test-Driven Development in Python. Available from: https://testdriven.io/blog/modern-tdd/ [Accessed 7 June 2023]<br />
+									Hillard, D. (2022) Effective Python Testing With Pytest. Available from: https://realpython.com/pytest-python-testing/  [Accessed 8 June 2023]<br />
 								</p>
 							</section>
 
