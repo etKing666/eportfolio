@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 6 unit 4 reflections &amp; artefacts.">
+    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 6 unit 5 reflections &amp; artefacts.">
       <change afterPath="$PROJECT_DIR$/module6/images/M6U5_CUE.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module6/artefacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/module6/artefacts.html" afterDir="false" />
@@ -118,13 +118,7 @@
       <workItem from="1684405439820" duration="1016000" />
       <workItem from="1685039321675" duration="3396000" />
       <workItem from="1685981634809" duration="579000" />
-    </task>
-    <task id="LOCAL-00037" summary="Module 3 update">
-      <created>1664093439310</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1664093439310</updated>
+      <workItem from="1685982216828" duration="119000" />
     </task>
     <task id="LOCAL-00038" summary="Module 3 update">
       <created>1664093520581</created>
@@ -462,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685042387598</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Module 6 unit 5 reflections &amp; artefacts.">
+      <created>1685982330315</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1685982330316</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +481,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Module 3 Unit 2 update." />
     <MESSAGE value="Module 3 Unit 2 update. Added team meeting notes." />
     <MESSAGE value="Module 3 Unit 3 update." />
     <MESSAGE value="Module 3 Unit 4 update." />
@@ -505,6 +505,7 @@
     <MESSAGE value="Module 6 unit 1 &amp; 2 reflections &amp; artefacts." />
     <MESSAGE value="Module 6 unit 3 reflections &amp; artefacts." />
     <MESSAGE value="Module 6 unit 4 reflections &amp; artefacts." />
-    <option name="LAST_COMMIT_MESSAGE" value="Module 6 unit 4 reflections &amp; artefacts." />
+    <MESSAGE value="Module 6 unit 5 reflections &amp; artefacts." />
+    <option name="LAST_COMMIT_MESSAGE" value="Module 6 unit 5 reflections &amp; artefacts." />
   </component>
 </project>

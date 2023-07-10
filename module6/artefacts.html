@@ -216,9 +216,40 @@
 								<p><b><i></i>4. How do you stop scope creep?</b></i></p>
 								<p>To stop scope creep, PM should create a vision and scope document at the beginning of the project and seek the approval of the client. Moving forward, every change request should be evaluated against this document and communicated with the client/project owner. They should also be discussed within the context of the triple constraint. Vision and scope document and triple constraint are very valuable tools to manage the expectations of the client as well as to stop scope creep.</p>
 								<p><center>--------</center> </p>
+								<h2>ePortfolio Activity: Reflection on Software Quality (Unit 10)</h2>
+								<p><b>Instructions:</b> Review the article by McCall et al. (1977).  Select a timelier academic article on software quality. Discuss, in 300 words, the major differences in relation to software quality between the two articles.</p>
+								<h3>My answer:</h3>
+								<p>Since Software-as-a-Service (SaaS) is all the rage nowadays, I selected a paper discussing the factors that affect SaaS quality and compared the identified factors against the McCall model (McCall et al., 1977) to determine if the model is still valid in the field of SaaS or if new factors should be introduced in the light of latest technological developments in SaaS.</p>
+								<p>In their paper discussing the factors influencing the quality of SaaS, Basiran & Yusof (2021) identify the five SaaS quality factors:</p>
+								<ul>
+									<li><b>Assurance</b>: The ability of the service provider to offer training on the product and transfer knowledge by answering the users’ questions.</li>
+									<li><b>Empathy</b>: The attention service providers pay to their users' problems.</li>
+									<li><b>Responsiveness</b>: How quickly the service providers respond to users’ requests, problems, or questions.</li>
+									<li><b>Reliability</b>: The degree to which the services offered are available when required.</li>
+									<li><b>Communication</b>: The effectiveness of the interaction between the service provider and users.</li>
+								</ul>
+								<p>When considering the software quality factors identified by McCall, it can be seen that the quality factors related to the product operation (Correctness, Efficiency, Integrity, Reliability and Usability) are covered by the factors above, even though it sometimes requires a broad interpretation of them. </p>
+								<p>When it comes to the product revision factors (Maintainability, Flexibility, Testability), I’d argue that reliability covers these to some extent, but not entirely. These may have been left out because these factors do not contribute much to the quality perceived by the users, despite their importance in producing robust software.</p>
+								<p>Finally, from my point of view, the most important shortcoming of the SaaS factors listed above is that they do not factor in the importance of the product transition factors (Portability, Re-usability, and Interoperability). Even though vendor lock-in in SaaS is not as big a problem as it is in IaaS, some users when users want to migrate from one platform to another, may face serious challenges. That’s why, these factors (especially portability) should definitely be part of the quality factors.</p>
+								<p>Note: Refer to the bottom of the page for references.</p>
+								<p>On the other hand, the authors suggest that the effectiveness of communication contributes significantly to the quality of the product. Moreover, they argue that when the software providers are willing to provide training and transfer knowledge, the users are able to use the product more efficiently, increasing the perceived quality. I believe that, given the nature of modern software development projects and in light of modern technologies, these two should be considered among the factors that determine the overall quality of software.</p>
+								<p><center>--------</center> </p>
+								<h2>Codio Activity: Using Linters to Achieve Python Code Quality (Unit 10)</h2>
+								<p><b>Instructions:</b> Run the <a href="https://github.com/etKing666/MSc_Module6/blob/main/code_with_lint.py">code given</a> against a variety of linters to test the code quality:</p>
+								<ul>
+									<li>pylint</li>
+									<li>pyflakes</li>
+									<li>pycodestyle</li>
+									<li>pydocstyle</li>
+								</ul>
+								<p>Compare the effectiveness of each tool in defining and identifying code quality. What can you conclude about the effectiveness of each approach?</p>
+								<h3>My answer:</h3>
+								<p>Pycodestyle and Pydocstyle are linters that are developed for specific purposes: Pycodestyle checks the code against style conventions in PEP 8 and Pydocstyle checks the code against doctoring conventions. So, one should not expect to identify the code smells or logical errors using these tools. On the other hand, with Pyflakes one can detect various errors in the code, but it doesn’t check the code against styling conventions. Finally, Pylint looks like a comprehensive solution which helps the developers to detect logical errors, code smells as well as discrepancies against Python styling conventions.</p>
+								<p><center>--------</center> </p>
 								<h3>References: </h3>
 								<p>Abeykoon et al. (2020) Data Engineering for HPC with Python. <i>2020 IEEE/ACM 9th Workshop on Python for High-Performance and Scientific Computing (PyHPC)</i>. Virtual Conference, 13 November. 13-21. DOI: 10.1109/PyHPC51966.2020.00007<br />
 									Anton, S.G. & Nucu, A.E.A. (2020) Enterprise Risk Management: A Literature Review and Agenda for Future Research. <i>Journal of Risk and Financial Management</i> 13(11). DOI: https://doi.org/10.3390/jrfm13110281<br />
+									Basiran, N.H., & Yusof, M.M. (2021). Measuring factors influencing quality of software-as-a-service. <i>Information Development.</i> DOI: https://doi-org.uniessexlib.idm.oclc.org/10.1177/02666669211056368<br />
 									Beck, K. & Andres, C. (2005) <i>Extreme Programming Explained</i>. 2nd ed. Boston: Addison-Wesley.<br />
 									Bunch, V. (2021) Will U.S. learn from a $1.7 trillion goof that would have paid for Biden’s infrastructure plan? Available from: https://www.inquirer.com/columnists/attytood/f-35-waste-pentagon-trillion-biden-infrastructure-20210401.html [Accessed 7 May 2023].<br />
 									Crump, J. (2014) Generating an Ordered Data Set from an OCR Text File. <i>Programming Historian</i> 2014(3). DOI: https://doi.org/10.46430/phen0036<br />
@@ -234,6 +265,7 @@
 									Lopiccolo, et al. (2021) A last-in first-out stack data structure implemented in DNA. <i>Nature Communications</i> 12(1): 4861. DOI: https://doi.org/10.1038/s41467-021-25023-6<br />
 									Losey, S. (2023) DoD delays key F-35 tests, lowering chance of 2023 production decision. Available from: https://www.defensenews.com/air/2023/01/24/dod-delays-key-f-35-tests-lowering-chance-of-2023-production-decision/  [Accessed 7 May 2023].<br />
 									Martin, J. (1991) <i>Rapid Application Development</i>. New York: Macmillan.<br />
+									McCall, J.A., Richards, P.K. & Walters, G.F. (1977) <i>Factors in Software Quality: Concept and Definitions of Software Quality.</i> Technical Report RADC-TR-77-369, Rome Air Development Center, New York.<br />
 									McRae, H. (1993) Comment: Taking the bull by the horns. Available from: https://www.independent.co.uk/news/business/comment-taking-the-bull-by-the-horns-1497198.html [Accessed 7 May 2023].<br />
 									Minge, M. & Thuring, M. (2018) Hedonic and Pragmatic Effects at Early Stages of User Experience. <i>International Journal of Human-Computer Studies</i> 109: 13-25.<br />
 									Verner, J.M., Brereton, O.P., Kitchenham, B.A., Turner, M. & Niazi, M. (2014) Risks and risk mitigation in global software development: A tertiary study. <i>Information and Software Technology</i> 56(1): 54-78. DOI: https://doi-org.uniessexlib.idm.oclc.org/10.1016/j.infsof.2013.06.005<br />
