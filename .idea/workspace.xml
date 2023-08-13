@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 6 unit 5 reflections &amp; artefacts.">
-      <change afterPath="$PROJECT_DIR$/module6/images/M6U5_CUE.png" afterDir="false" />
+    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 6 unit 10 reflections &amp; artefacts.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module6/artefacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/module6/artefacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module6/reflections.html" beforeDir="false" afterPath="$PROJECT_DIR$/module6/reflections.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,20 +116,7 @@
       <workItem from="1685039321675" duration="3396000" />
       <workItem from="1685981634809" duration="579000" />
       <workItem from="1685982216828" duration="119000" />
-    </task>
-    <task id="LOCAL-00038" summary="Module 3 update">
-      <created>1664093520581</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1664093520581</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Module 3 update">
-      <created>1664093695088</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1664093695088</updated>
+      <workItem from="1688977344321" duration="2186000" />
     </task>
     <task id="LOCAL-00040" summary="Module 3 Unit 1 update.">
       <created>1664307775449</created>
@@ -463,7 +447,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685982330316</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="Module 6 unit 10 reflections &amp; artefacts.">
+      <created>1688978805659</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1688978805660</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Module 6 unit 10 reflections &amp; artefacts.">
+      <created>1688978936659</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1688978936660</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -481,7 +479,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Module 3 Unit 2 update. Added team meeting notes." />
     <MESSAGE value="Module 3 Unit 3 update." />
     <MESSAGE value="Module 3 Unit 4 update." />
     <MESSAGE value="Module 3 unit 6 update" />
@@ -506,6 +503,7 @@
     <MESSAGE value="Module 6 unit 3 reflections &amp; artefacts." />
     <MESSAGE value="Module 6 unit 4 reflections &amp; artefacts." />
     <MESSAGE value="Module 6 unit 5 reflections &amp; artefacts." />
-    <option name="LAST_COMMIT_MESSAGE" value="Module 6 unit 5 reflections &amp; artefacts." />
+    <MESSAGE value="Module 6 unit 10 reflections &amp; artefacts." />
+    <option name="LAST_COMMIT_MESSAGE" value="Module 6 unit 10 reflections &amp; artefacts." />
   </component>
 </project>
