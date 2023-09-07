@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 7 unit 2 reflections &amp; artefacts.">
+    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 7 unit 4 reflections &amp; artefacts.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module7/artefacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/module7/artefacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module7/reflections.html" beforeDir="false" afterPath="$PROJECT_DIR$/module7/reflections.html" afterDir="false" />
@@ -23,6 +23,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2AzVcm9VYieCtzqv3XiThXJnFS2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -122,13 +125,9 @@
       <workItem from="1693123026974" duration="4509000" />
       <workItem from="1691958013899" duration="3402000" />
       <workItem from="1692486525743" duration="421000" />
-    </task>
-    <task id="LOCAL-00042" summary="Module 3 Unit 1 update.">
-      <created>1664313020889</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1664313020889</updated>
+      <workItem from="1693860300546" duration="987000" />
+      <workItem from="1693861468267" duration="81000" />
+      <workItem from="1694099313543" duration="925000" />
     </task>
     <task id="LOCAL-00043" summary="Module 3 Unit 2 update.">
       <created>1664516788356</created>
@@ -466,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692486929938</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Module 7 unit 4 reflections &amp; artefacts.">
+      <created>1693859733702</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1693859733703</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,7 +490,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Module 3 unit 6 update" />
     <MESSAGE value="Module 3 unit 7 update" />
     <MESSAGE value="Module 3 unit 8 update" />
     <MESSAGE value="Module 3 unit 9 update" />
@@ -509,6 +514,7 @@
     <MESSAGE value="Module 6 unit 10 reflections &amp; artefacts." />
     <MESSAGE value="Module 7 unit 1 reflections &amp; artefacts." />
     <MESSAGE value="Module 7 unit 2 reflections &amp; artefacts." />
-    <option name="LAST_COMMIT_MESSAGE" value="Module 7 unit 2 reflections &amp; artefacts." />
+    <MESSAGE value="Module 7 unit 4 reflections &amp; artefacts." />
+    <option name="LAST_COMMIT_MESSAGE" value="Module 7 unit 4 reflections &amp; artefacts." />
   </component>
 </project>
