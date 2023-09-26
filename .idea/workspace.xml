@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 7 unit 6 reflections &amp; artefacts.">
-      <change afterPath="$PROJECT_DIR$/files/M7U4 Literature Review Outline v1.0.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/M7U7_Literature Review v1.3.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module7/artefacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/module7/artefacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module7/reflections.html" beforeDir="false" afterPath="$PROJECT_DIR$/module7/reflections.html" afterDir="false" />
-    </list>
+    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 7 unit 7 reflections &amp; artefacts." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,7 +127,7 @@
       <workItem from="1694099313543" duration="1341000" />
       <workItem from="1694105950226" duration="626000" />
       <workItem from="1694477150901" duration="529000" />
-      <workItem from="1695590724355" duration="5305000" />
+      <workItem from="1695590724355" duration="6082000" />
     </task>
     <task id="LOCAL-00043" summary="Module 3 Unit 2 update.">
       <created>1664516788356</created>
@@ -478,7 +472,7 @@
       <option name="project" value="LOCAL" />
       <updated>1693859733703</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +490,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Module 3 unit 9 update" />
     <MESSAGE value="Module 3 Unit 10 update." />
     <MESSAGE value="Module 3 unit 12 update" />
     <MESSAGE value="Module 4 unit 1 update" />
@@ -521,6 +514,7 @@
     <MESSAGE value="Module 7 unit 4 reflections &amp; artefacts." />
     <MESSAGE value="Module 7 unit 5 reflections &amp; artefacts." />
     <MESSAGE value="Module 7 unit 6 reflections &amp; artefacts." />
-    <option name="LAST_COMMIT_MESSAGE" value="Module 7 unit 6 reflections &amp; artefacts." />
+    <MESSAGE value="Module 7 unit 7 reflections &amp; artefacts." />
+    <option name="LAST_COMMIT_MESSAGE" value="Module 7 unit 7 reflections &amp; artefacts." />
   </component>
 </project>
