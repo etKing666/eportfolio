@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 7 unit 7 reflections &amp; artefacts (fixed a broken link)">
+    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 7 unit 8 reflections &amp; artefacts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module7/artefacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/module7/artefacts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module7/reflections.html" beforeDir="false" afterPath="$PROJECT_DIR$/module7/reflections.html" afterDir="false" />
@@ -54,11 +54,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module7/Unit8" />
       <recent name="$PROJECT_DIR$/files" />
       <recent name="$PROJECT_DIR$/module6/images" />
       <recent name="$PROJECT_DIR$/module5/treegenerator" />
       <recent name="$PROJECT_DIR$/module5/tree-generator" />
-      <recent name="$PROJECT_DIR$/module5/images" />
     </key>
   </component>
   <component name="RunManager">
@@ -132,7 +132,8 @@
       <workItem from="1694105950226" duration="626000" />
       <workItem from="1694477150901" duration="529000" />
       <workItem from="1695590724355" duration="6219000" />
-      <workItem from="1695937191626" duration="1487000" />
+      <workItem from="1695937191626" duration="2377000" />
+      <workItem from="1696720982930" duration="1182000" />
     </task>
     <task id="LOCAL-00043" summary="Module 3 Unit 2 update.">
       <created>1664516788356</created>
@@ -477,7 +478,7 @@
       <option name="project" value="LOCAL" />
       <updated>1693859733703</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Module 3 unit 12 update" />
     <MESSAGE value="Module 4 unit 1 update" />
     <MESSAGE value="Module 4 unit 2 update" />
     <MESSAGE value="Module 4 unit 3 update" />
@@ -520,6 +520,7 @@
     <MESSAGE value="Module 7 unit 6 reflections &amp; artefacts." />
     <MESSAGE value="Module 7 unit 7 reflections &amp; artefacts." />
     <MESSAGE value="Module 7 unit 7 reflections &amp; artefacts (fixed a broken link)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Module 7 unit 7 reflections &amp; artefacts (fixed a broken link)" />
+    <MESSAGE value="Module 7 unit 8 reflections &amp; artefacts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module 7 unit 8 reflections &amp; artefacts" />
   </component>
 </project>
