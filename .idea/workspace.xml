@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 7 unit 10 and 11 reflections &amp; artefacts">
+    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 7 unit 12 reflections.">
+      <change afterPath="$PROJECT_DIR$/module7/images/matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module7/images/swot.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module6/artefacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/module6/artefacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module7/artefacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/module7/artefacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module7/reflections.html" beforeDir="false" afterPath="$PROJECT_DIR$/module7/reflections.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +57,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module7/images" />
       <recent name="$PROJECT_DIR$/files" />
       <recent name="$PROJECT_DIR$/module7/Unit9" />
       <recent name="$PROJECT_DIR$/module7/Unit8" />
       <recent name="$PROJECT_DIR$/module6/images" />
-      <recent name="$PROJECT_DIR$/module5/treegenerator" />
     </key>
   </component>
   <component name="RunManager">
@@ -133,6 +138,8 @@
       <workItem from="1695937191626" duration="2377000" />
       <workItem from="1696720982930" duration="2031000" />
       <workItem from="1697493893813" duration="3982000" />
+      <workItem from="1697660087642" duration="765000" />
+      <workItem from="1698447902762" duration="2922000" />
     </task>
     <task id="LOCAL-00043" summary="Module 3 Unit 2 update.">
       <created>1664516788356</created>
@@ -477,7 +484,7 @@
       <option name="project" value="LOCAL" />
       <updated>1693859733703</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +502,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Module 4 unit 3 update" />
     <MESSAGE value="Module 4 unit 4 update" />
     <MESSAGE value="Module 4 unit 5 update" />
     <MESSAGE value="Module 4 unit 6 update" />
@@ -520,6 +526,7 @@
     <MESSAGE value="Module 7 unit 8 reflections &amp; artefacts" />
     <MESSAGE value="Module 7 unit 9 reflections &amp; artefacts" />
     <MESSAGE value="Module 7 unit 10 and 11 reflections &amp; artefacts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Module 7 unit 10 and 11 reflections &amp; artefacts" />
+    <MESSAGE value="Module 7 unit 12 reflections." />
+    <option name="LAST_COMMIT_MESSAGE" value="Module 7 unit 12 reflections." />
   </component>
 </project>
