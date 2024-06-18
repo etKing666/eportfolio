@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 8 Unit 2 reflections &amp; artefacts.">
-      <change afterPath="$PROJECT_DIR$/files/PRU3_Formative activity.pdf" afterDir="false" />
+    <list default="true" id="a150b3e7-37a2-4bb1-83ab-7f4a580f6eb7" name="Changes" comment="Module 8 Units 4 and 5 reflections &amp; artefacts.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/artefacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/artefacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/reflections.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/reflections.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +17,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "etKing666"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="dab64a2e-597b-4e59-8ead-8e12469c2126" />
+        <option name="url" value="https://github.com/etKing666/eportfolio.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,22 +46,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/etkingetir/PhpstormProjects/eportfolio&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/etkingetir/PhpstormProjects/eportfolio",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -142,6 +154,7 @@
       <workItem from="1699655016437" duration="1601000" />
       <workItem from="1700431717684" duration="1124000" />
       <workItem from="1700862041858" duration="336000" />
+      <workItem from="1702339167461" duration="563000" />
     </task>
     <task id="LOCAL-00043" summary="Module 3 Unit 2 update.">
       <created>1664516788356</created>
@@ -486,7 +499,7 @@
       <option name="project" value="LOCAL" />
       <updated>1693859733703</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,7 +517,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Module 5 Unit 2 update." />
     <MESSAGE value="Module 5 Unit 3 update." />
     <MESSAGE value="Module 5 Unit 4 update." />
     <MESSAGE value="Module 5 Unit 5 update." />
@@ -529,6 +541,7 @@
     <MESSAGE value="Module 7 module-end reflections." />
     <MESSAGE value="Module 8 Unit 1 reflections." />
     <MESSAGE value="Module 8 Unit 2 reflections &amp; artefacts." />
-    <option name="LAST_COMMIT_MESSAGE" value="Module 8 Unit 2 reflections &amp; artefacts." />
+    <MESSAGE value="Module 8 Units 4 and 5 reflections &amp; artefacts." />
+    <option name="LAST_COMMIT_MESSAGE" value="Module 8 Units 4 and 5 reflections &amp; artefacts." />
   </component>
 </project>
